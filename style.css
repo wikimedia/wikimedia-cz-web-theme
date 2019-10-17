@@ -1036,13 +1036,13 @@ object {
 }
 
 .wmcz-programs-editathons {
-	background-color: green;
+	background-color: #339966;
 }
 .wmcz-programs-education {
-	background-color: blue;
+	background-color: #006699;
 }
 .wmcz-programs-multimedia {
-	background-color: red;
+	background-color: #990000;
 }
 .wmcz-program {
 	padding: 20px 20px 20px 60px;
