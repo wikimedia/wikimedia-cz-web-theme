@@ -1047,6 +1047,7 @@ object {
 .wmcz-program {
 	padding: 20px 20px 20px 60px;
 	color: white;
+	margin: 0 !important;
 }
 .wmcz-programs-headline {
 	text-align: center;
