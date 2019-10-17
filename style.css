@@ -669,7 +669,8 @@ a:hover, a:active {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	padding: 10px;
+	background-color: lightgrey;
 }
 
 .main-navigation ul li:hover > ul,
