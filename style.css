@@ -1071,8 +1071,9 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	transform: rotate(-90deg);
 	color: white;
 	text-decoration: none;
-	padding: 10px 90px 10px 90px;
+	padding: 10px 60px;
 	top: 40%;
+	right: -90px; /* Correction */
 }
 
 .wmcz-events {
