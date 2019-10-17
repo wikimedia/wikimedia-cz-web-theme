@@ -1007,12 +1007,14 @@ object {
 	padding-top: 2%;
 }
 
+/*
+Maybe we don't want this? --Urbanecm, 2019-10-17
 @media screen and (min-width: 1200px) {
 	#page {
 		padding-right: 200px;
 		padding-left: 200px;
 	}
-}
+}*/
 
 #page {
 	margin-right: auto;
