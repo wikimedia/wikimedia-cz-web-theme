@@ -396,7 +396,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9rem;
 	line-height: 1.5;
 }
