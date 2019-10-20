@@ -23,11 +23,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<div class="wmcz-support-us-outer-container">
-		<div class="wmcz-support-us-inner-container">
-			<a class="wmcz-support-us" href="https://wikimedia.cz/x/y/z">Podpořte nás</a>
-		</div>
-	</div>
+	<a class="wmcz-support-us" href="https://wikimedia.cz/x/y/z">Podpořte nás</a>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wmcz' ); ?></a>
 
 	<header id="masthead" class="site-header">

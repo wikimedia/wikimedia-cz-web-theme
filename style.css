@@ -1056,16 +1056,6 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-align: center;
 }
 
-.wmcz-support-us-outer-container {
-	position: relative;
-	
-}
-.wmcz-support-us-inner-container {
-	position: absolute;
-	width: 270px;
-	height: 200px;
-	right: 0;
-}
 .wmcz-support-us {
 	background-color: #339966;
 	position: fixed;
