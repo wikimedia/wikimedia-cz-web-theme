@@ -668,11 +668,6 @@ a:hover, a:active {
 	left: 100%;
 }
 
-.main-navigation ul ul a {
-	padding: 10px;
-	background-color: lightgrey;
-}
-
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
 	left: auto;
@@ -725,8 +720,20 @@ a:hover, a:active {
 	width: 50%;
 }
 
-.menu > li {
-	padding: 35px;
+.menu {
+	padding: 30px 0;
+}
+
+.menu li {
+	padding: 5px 35px;
+}
+
+.menu li li {
+	background-color: lightgrey;
+}
+
+.menu > li:hover {
+	background-color: lightgrey;
 }
 
 #primary-menu {
