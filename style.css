@@ -1063,6 +1063,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 }
 .wmcz-programs-headline {
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .wmcz-support-us {
