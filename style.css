@@ -1013,6 +1013,8 @@ object {
 #masthead {
 	display: flex;
 	padding-top: 10px;
+	padding-left: 50px;
+	text-transform: uppercase;
 }
 
 /*
