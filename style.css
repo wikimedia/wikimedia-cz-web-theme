@@ -1048,13 +1048,13 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	padding: initial;
 }
 
-.wmcz-programs-editathons {
+.wmcz-programs-green {
 	background-color: #339966;
 }
-.wmcz-programs-education {
+.wmcz-programs-blue {
 	background-color: #006699;
 }
-.wmcz-programs-multimedia {
+.wmcz-programs-red {
 	background-color: #990000;
 }
 .wmcz-program {
