@@ -17,6 +17,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<h1><?php wp_title('') ?></h1>
 			<div class="wmcz-posts">
 				<?php
 				if ( have_posts() ) :
