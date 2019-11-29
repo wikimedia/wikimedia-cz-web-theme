@@ -146,3 +146,17 @@ if ( ! function_exists( 'wmcz_post_thumbnail' ) ) :
 		endif; // End is_singular().
 	}
 endif;
+
+
+function wmcz_tags_classed() {
+	$tags = get_the_tags();
+	$htmls = [];
+	foreach ( $tags as $tag ) {
+		$htmls[] = printf(
+			'<a href="%s" rel="tag" class="tag-%s">%s</a>',
+			get_tag_link($tag->term_id),
+			esc_html( $tag->name ),
+			esc_html( $tag->name )
+		);
+	}
+}

@@ -1086,3 +1086,49 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 .wmcz-about {
 	padding: 10px 200px 100px 200px;
 }
+
+.wmcz-posts {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F2F2F2;
+	padding-top: 100px;
+}
+
+.wmcz-posts > article {
+	width: 25%;
+	margin: 40px;
+	background-color: white;
+	position: relative;
+}
+
+.wmcz-posts > article > header, .wmcz-posts > article > .entry-content, .wmcz-posts > article > .post-thumbnail {
+	padding-left: 20px;
+}
+
+.wmcz-posts > article > footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.wmcz-posts > article > footer > * {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.wmcz-posts > article > footer > .tag-edu {
+	color: white;
+	background-color: #006699;
+}
+
+.wmcz-posts > article > footer > .tag-multimedia {
+	color: white;
+	background-color: #990000;
+}
+
+.wmcz-posts > article > footer > .tag-wikidata {
+	color: white;
+	background-color: #339966;
+}
