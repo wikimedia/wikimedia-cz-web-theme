@@ -1087,10 +1087,13 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	padding: 10px 200px 100px 200px;
 }
 
+.wmcz-posts-container {
+	background-color: #F2F2F2;
+}
+
 .wmcz-posts {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #F2F2F2;
 }
 
 .wmcz-posts > article {
