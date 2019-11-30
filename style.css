@@ -1091,6 +1091,14 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	background-color: #F2F2F2;
 }
 
+.wmcz-posts-head {
+	display: flex;
+}
+
+.wmcz-posts-head > .search-form {
+	margin: auto 0 auto auto;
+}
+
 .wmcz-posts {
 	display: flex;
 	flex-wrap: wrap;

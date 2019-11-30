@@ -18,7 +18,10 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="wmcz-posts-container">
-				<h1><?php wp_title('') ?></h1>
+				<div class="wmcz-posts-head">
+					<h1><?php wp_title('') ?></h1>
+					<?php get_search_form() ?>
+				</div>
 				<div class="wmcz-posts">
 					<?php
 					if ( have_posts() ) :
