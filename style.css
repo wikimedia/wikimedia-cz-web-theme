@@ -1018,6 +1018,10 @@ object {
 	text-transform: uppercase;
 }
 
+.site-content {
+	background-color: #F2F2F2;
+}
+
 /*
 Maybe we don't want this? --Urbanecm, 2019-10-17
 @media screen and (min-width: 1200px) {
@@ -1040,6 +1044,9 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 /**
 * Mainpage content CSS
 **/
+.home .site-content {
+	background-color: white;
+}
 .wmcz-news {
 	background-color: #F3F3F3;
 	padding: 50px;
