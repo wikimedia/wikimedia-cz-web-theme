@@ -22,6 +22,15 @@ get_header();
 					<h1><?php wp_title('') ?></h1>
 					<?php get_search_form() ?>
 				</div>
+				<div class="wmcz-posts-topics">
+					<?php
+					$tags = get_tags();
+					if ( $tags ) :
+						foreach ( $tags as $tag ) : ?>
+							<a class="wmcz-post-topic tag-<?php echo $tag->name ?>" href="<?php echo esc_url( get_tag_link( $tag->term_id ) ); ?>" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a>
+						<?php endforeach; ?>
+					<?php endif; ?>
+				</div>
 				<div class="wmcz-posts">
 					<?php
 					if ( have_posts() ) :

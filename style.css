@@ -1106,6 +1106,24 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	margin: auto 0 auto auto;
 }
 
+.wmcz-posts-topics {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 40px;
+	padding: 0 40px;
+}
+
+.wmcz-post-topic::before {
+	content: '#';
+}
+
+.wmcz-post-topic {
+	text-decoration: none;
+	background-color: grey;
+	display: block;
+	padding: 20px;
+}
+
 .wmcz-posts {
 	display: flex;
 	flex-wrap: wrap;
@@ -1139,17 +1157,14 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	content: '#';
 }
 
-.wmcz-posts > article > footer > .tag-edu {
-	color: white;
+.tag-edu {
 	background-color: #006699;
 }
 
-.wmcz-posts > article > footer > .tag-multimedia {
-	color: white;
+.tag-multimedia {
 	background-color: #990000;
 }
 
-.wmcz-posts > article > footer > .tag-wikidata {
-	color: white;
+.tag-wikidata {
 	background-color: #339966;
 }
