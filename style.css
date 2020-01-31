@@ -1110,7 +1110,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-column-gap: 40px;
-	padding: 0 40px;
+	margin: 0 60px 0 40px;
 }
 
 .wmcz-post-topic::before {
@@ -1125,19 +1125,15 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 }
 
 .wmcz-posts {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 40px;
+	margin: 40px 60px 0 40px;
 }
 
 .wmcz-posts > article {
-	width: 25%;
-	margin: 40px;
 	background-color: white;
 	position: relative;
-}
-
-.wmcz-posts > article > header, .wmcz-posts > article > .entry-content, .wmcz-posts > article > .post-thumbnail {
-	padding-left: 20px;
 }
 
 .wmcz-posts > article > footer {
