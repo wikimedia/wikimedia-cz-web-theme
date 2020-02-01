@@ -1134,6 +1134,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 .wmcz-posts > article {
 	background-color: white;
 	position: relative;
+	padding: 10px;
 }
 
 .wmcz-posts > article > footer {
