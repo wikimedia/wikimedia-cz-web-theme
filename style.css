@@ -1074,7 +1074,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-transform: uppercase;
 }
 
-.wmcz-support-us {
+.wmcz-support-us, .wmcz-support-us:visited {
 	background-color: #990000;
 	position: fixed;
 	transform: rotate(-90deg);
