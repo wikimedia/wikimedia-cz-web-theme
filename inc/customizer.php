@@ -25,6 +25,16 @@ function wmcz_customize_register( $wp_customize ) {
 			'render_callback' => 'wmcz_customize_partial_blogdescription',
 		) );
 	}
+
+	$wp_customize->add_setting( 'donate-page', [
+		'default' => '',
+		'sanitize_callback' => 'absint',
+	] );
+	$wp_customize->add_control( 'donate-page', [
+		'label' => 'Donate page',
+		'type' => 'dropdown-pages',
+		'section' => 'title_tagline',
+	] );
 }
 add_action( 'customize_register', 'wmcz_customize_register' );
 
