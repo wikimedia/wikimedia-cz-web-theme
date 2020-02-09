@@ -63,6 +63,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	margin: 0pt;
+	padding: 0pt;
 }
 
 /* Sections
@@ -73,7 +75,8 @@ html {
  */
 
 body {
-	margin: 0;
+	margin: 0pt;
+	padding: 0pt;
 }
 
 /**
@@ -1059,13 +1062,11 @@ button:not(:first-of-type) {
 	padding-left: 50px;
 	text-transform: uppercase;
 }
-
-.site-content {
-	background-color: #F2F2F2;
+.site {
+	max-width: 1200pt;
+	padding: 0pt 30pt;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 1200pt;
-	padding: 50pt 30pt;
 }
 
 /*
@@ -1102,6 +1103,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 }
 .wmcz-programs-blue {
 	background-color: #006699;
+	color: white;
 }
 .wmcz-programs-red {
 	background-color: #990000;
@@ -1327,4 +1329,14 @@ ul.wp-block-latest-posts li > p > a::after {
 .wmcz-calendar-controls {
 	display: inline-flex;
 	margin-left: 20pt;
+}
+
+.image-cover {
+	margin: 0;
+}
+
+.image-cover img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
