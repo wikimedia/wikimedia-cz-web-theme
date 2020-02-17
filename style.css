@@ -1263,15 +1263,15 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	content: '#';
 }
 
-.wmcz-post-topic.tag-edu {
+a.tag-edu {
 	background-color: #006699;
 }
 
-.wmcz-post-topic.tag-multimedia {
+a.tag-multimedia {
 	background-color: #990000;
 }
 
-.wmcz-post-topic.tag-wikidata {
+a.tag-wikidata {
 	background-color: #339966;
 }
 
