@@ -755,17 +755,6 @@ a:hover, a:active {
 	float: right;
 }
 
-#footer-menu li {
-	list-style-type: none;
-	display: inline;
-	color: white;
-}
-
-#footer-menu a {
-	color: white;
-	font-weight: normal;
-}
-
 .site-branding {
 	padding-top: 25px;
 }
@@ -1091,10 +1080,6 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	height: 400px;
 }
 
-#footer-description {
-	color: white;
-}
-
 /**
 * Mainpage content CSS
 **/
@@ -1263,15 +1248,15 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	content: '#';
 }
 
-a.tag-edu {
+.tag-edu {
 	background-color: #006699;
 }
 
-a.tag-multimedia {
+.tag-multimedia {
 	background-color: #990000;
 }
 
-a.tag-wikidata {
+.tag-wikidata {
 	background-color: #339966;
 }
 
