@@ -17,6 +17,14 @@
 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="custom-logo-link" rel="home">
 		<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-logo" alt="Wikimedia ČR">
 	</a>
+
+	<?php
+	wp_nav_menu( array(
+		'theme_location' => 'footer-menu',
+		'menu_id'        => 'footer-menu',
+		'fallback_cb'    => false,
+	) );
+	?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
