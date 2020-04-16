@@ -25,6 +25,8 @@
 		'fallback_cb'    => false,
 	) );
 	?>
+
+	<p id="footer-description"><?php echo esc_html( get_theme_mod( 'footer-description' ) );?></p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

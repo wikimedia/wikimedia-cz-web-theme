@@ -35,6 +35,15 @@ function wmcz_customize_register( $wp_customize ) {
 		'type' => 'dropdown-pages',
 		'section' => 'title_tagline',
 	] );
+
+	$wp_customize->add_setting( 'footer-description', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'footer-description', [
+		'label' => 'Footer description',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
 }
 add_action( 'customize_register', 'wmcz_customize_register' );
 

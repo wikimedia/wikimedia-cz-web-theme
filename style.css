@@ -1093,6 +1093,10 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	height: 400px;
 }
 
+#footer-description {
+	color: white;
+}
+
 /**
 * Mainpage content CSS
 **/
