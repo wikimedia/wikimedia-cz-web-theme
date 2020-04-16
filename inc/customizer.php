@@ -36,11 +36,29 @@ function wmcz_customize_register( $wp_customize ) {
 		'section' => 'title_tagline',
 	] );
 
-	$wp_customize->add_setting( 'footer-description', [
+	$wp_customize->add_setting( 'address', [
 		'default' => '',
 	] );
-	$wp_customize->add_control( 'footer-description', [
-		'label' => 'Footer description',
+	$wp_customize->add_control( 'address', [
+		'label' => 'Address',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
+
+	$wp_customize->add_setting( 'email', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'email', [
+		'label' => 'Email address',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
+
+	$wp_customize->add_setting( 'phone', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'phone', [
+		'label' => 'Phone number',
 		'type' => 'text',
 		'section' => 'title_tagline'
 	] );

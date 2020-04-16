@@ -26,7 +26,16 @@
 	) );
 	?>
 
-	<p id="footer-description"><?php echo esc_html( get_theme_mod( 'footer-description' ) );?></p>
+	<div id="footer-description">
+		<p id="footer-address"><?php echo esc_html( get_theme_mod( 'address' ) ); ?></p>
+		<p id="footer-contact">
+			email: <a href="<?php echo esc_attr( get_theme_mod( 'email' ) ); ?>">
+				<?php echo esc_html( get_theme_mod( 'email' ) ); ?>
+			</a> | telefon: <a href="tel:<?php echo esc_attr( get_theme_mod( 'phone' ) ); ?>">
+				<?php echo esc_html( get_theme_mod( 'phone' ) ); ?>
+			</a>
+		</p>
+	</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
