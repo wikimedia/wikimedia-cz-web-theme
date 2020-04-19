@@ -45,6 +45,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 :root {
 	--wiki-red: #990000;
 	--wiki-green: #339966;
+	--wiki-blue: #006699;
 }
 
 /*--------------------------------------------------------------
@@ -75,8 +76,8 @@ html {
  */
 
 body {
-	margin: 0pt;
-	padding: 0pt;
+	margin: 0;
+	padding: 0;
 }
 
 /**
@@ -539,33 +540,43 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
+	border: 1pt solid;
+	border-color: #ccc;
+	border-radius: 0;
 	color: rgba(0, 0, 0, 0.8);
-	font-size: 12px;
-	font-size: 0.75rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
+	transition: 100ms ease-in;
+	background: white;	
+	padding: 10pt;
+	margin: 10pt 0pt;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	border-color: var(--wiki-green);
 }
 
-button:active, button:focus,
+button:active,
 input[type="button"]:active,
-input[type="button"]:focus,
 input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-	border-color: #aaa #bbb #bbb;
+input[type="submit"]:active {
+	background-color: var(--wiki-green);
+	color: white;
+	border: 1pt solid var(--wiki-green);
 }
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: none;
+}
+
 
 input[type="text"],
 input[type="email"],
@@ -585,7 +596,6 @@ input[type="color"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
-	border-radius: 3px;
 	padding: 3px;
 }
 
@@ -661,6 +671,7 @@ a:hover, a:active {
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	background-color: #eee;
 	float: left;
 	position: absolute;
 	top: 100%;
@@ -671,6 +682,7 @@ a:hover, a:active {
 .main-navigation ul ul ul {
 	left: -999em;
 	top: 0;
+	background-color: #666;
 }
 
 .main-navigation ul ul li {
@@ -684,7 +696,7 @@ a:hover, a:active {
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
-	left: auto;
+	left: 0;
 }
 
 .main-navigation li {
@@ -694,14 +706,19 @@ a:hover, a:active {
 
 .main-navigation a {
 	display: block;
+	font-weight: normal;
 	text-decoration: none;
 	color: black;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	float: right;
+	margin-right: 20px;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -876,7 +893,7 @@ a:hover, a:active {
 
 .post,
 .page {
-	margin: 0 0 1.5em;
+	margin: 0;
 }
 
 .updated:not(.published) {
@@ -941,6 +958,7 @@ object {
 
 .custom-logo {
 	width: 200px;
+	padding-left: 20px;
 }
 
 /* Make sure logo link wraps around logo image. */
@@ -1024,6 +1042,14 @@ object {
 * EXTRA CSS
 **/
 
+body {
+	background-color: #fafafa;
+}
+
+body.home {
+	background-color: #fff;
+}
+
 a {
 	color: var(--wiki-green);
 	font-weight: bold;
@@ -1035,19 +1061,13 @@ a:hover {
 	color: black;
 }
 
-button {
-	border: 2pt solid var(--wiki-green);
-	border-radius: 0;
-	background: white;	
-	padding: 10pt;
-	margin: 10pt 0pt;
-	font-size: 0.9rem;
-	font-weight: bold;
-	letter-spacing: 1px;
-}
-
 button:not(:first-of-type) {
 	margin-left: 10pt;	
+}
+
+button.active {
+	border: 2px solid var(--wiki-green);
+	font-weight: bold;
 }
 
 .sub-menu li {
@@ -1061,7 +1081,7 @@ button:not(:first-of-type) {
 }
 .site {
 	max-width: 1200pt;
-	padding: 0pt 30pt;
+	/* padding: 0pt 30pt; */
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -1083,9 +1103,26 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 /**
 * Mainpage content CSS
 **/
+
+.site-content {
+	padding: 20px;
+}
+
+
+@media(min-width: 760px) {
+	.site-content {
+		width: 85%;
+		margin: 10pt auto;
+		padding: 0;
+	}
+}
+
 .home .site-content {
 	padding: 0;
+	width: 100%;
 }
+
+	
 .wmcz-news {
 	background-color: #F3F3F3;
 	padding: 50pt 30pt;
@@ -1135,8 +1172,8 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2pt;
-	font-size: 100%;
-	margin: 40pt 0pt;
+	font-size: 0.8rem;
+	margin: 40pt 0pt 20pt;
 }
 
 .wmcz-program-figure {
@@ -1305,15 +1342,6 @@ ul.wp-block-latest-posts li > p > a {
 
 ul.wp-block-latest-posts li > p > a::after {
 	content: " >";
-}
-
-.block-wmcz-calendar h2 {
-	display: inline;
-}
-
-.wmcz-calendar-controls {
-	display: inline-flex;
-	margin-left: 20pt;
 }
 
 .image-cover {
