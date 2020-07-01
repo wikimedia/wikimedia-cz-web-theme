@@ -14,13 +14,16 @@
 
 get_header();
 ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="wmcz-posts-container">
 				<div class="wmcz-posts-head">
 					<h1><?php wp_title('') ?></h1>
 					<?php get_search_form() ?>
+					<div class="wmcz-archive">
+						<h3>Archive</h3>
+						<?php wp_custom_archive(); ?>
+					</div>
 				</div>
 				<div class="wmcz-posts-topics">
 					<?php
