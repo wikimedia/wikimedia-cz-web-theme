@@ -711,6 +711,7 @@ a:hover, a:active {
 	color: black;
 	font-size: 0.8rem;
 	letter-spacing: 1px;
+	padding: 10pt 30pt;
 }
 
 /* Small menu. */
@@ -756,12 +757,13 @@ a:hover, a:active {
 	padding: 30px 0;
 }
 
-.menu li {
+/* .menu li {
 	padding: 5px 35px;
-}
+} */
 
 .menu li li {
 	background-color: #eee;
+	border-top: 1px solid #ccc;
 }
 
 .menu > li:hover {
