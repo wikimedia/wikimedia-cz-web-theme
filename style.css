@@ -723,9 +723,7 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
+	
 	.main-navigation ul {
 		display: block;
 	}
@@ -1399,3 +1397,10 @@ ul.wp-block-latest-posts li > p > a::after {
 	  flex-basis: 100%;
 	}
   }
+
+.menu-toggle {
+	background-image: url("https://files.wikimedia.cz/hamburger.png");
+	border: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
