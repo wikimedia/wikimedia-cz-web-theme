@@ -766,6 +766,10 @@ a:hover, a:active {
 	border-top: 1px solid #ccc;
 }
 
+.menu li li:hover {
+	background-color: #ddd;
+}
+
 .menu > li:hover {
 	background-color: #eee;
 }
