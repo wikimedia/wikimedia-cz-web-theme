@@ -158,7 +158,7 @@ function wmcz_tags_classed() {
 		$htmls[] = printf(
 			'<a href="%s" rel="tag" class="tag-%s">%s</a>',
 			get_tag_link($tag->term_id),
-			esc_html( $tag->name ),
+			esc_html( str_replace( ' ', '-', $tag->name ) ),
 			esc_html( $tag->name )
 		);
 	}
