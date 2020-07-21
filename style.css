@@ -1257,7 +1257,12 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-column-gap: 40px;
-	grid-row-gap: 40px
+	grid-row-gap: 40px;
+	margin-bottom: 50pt;
+}
+
+.wmcz-posts div.entry-content {
+	margin: 0;
 }
 
 @media(min-width: 600px) {
@@ -1280,13 +1285,12 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-decoration: none;
 	background-color: grey;
 	display: block;
-	padding: 20px;
+	padding: 10pt;
 }
 
 .wmcz-posts > article {
-	background-color: white;
 	position: relative;
-	padding: 10px;
+	padding: 10pt;
 }
 
 .wmcz-posts > article > footer {
@@ -1296,7 +1300,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 
 .wmcz-posts > article > footer > * {
 	display: block;
-	padding: 20px;
+	padding: 10pt;
 	text-decoration: none;
 	width: 100%;
 }
@@ -1314,7 +1318,7 @@ a.tag-edu {
 	color: white;
 }
 
-a.tag-multimedia {
+a.tag-komunita-a-multimedia {
 	background-color: #990000;
 	color: white;
 }
@@ -1324,14 +1328,16 @@ a.tag-wikidata {
 	color: white;
 }
 
-a.tag-edu:hover, a.tag-multimedia:hover, a.tag-wikidata:hover {
+a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-wikidata:hover {
 	filter: brightness(80%);
 }
 
-a.wmcz-post-topic.tag-edu {
+a.wmcz-post-topic.tag-edu,
+a.wmcz-post-topic.tag-wikidata,
+a.wm-czpost-topc.tag-komunita-a-multimedia {
 	min-width: 100pt;
 	display: inline-block;
-	margin-bottom: 20pt;
+	margin: 0 10pt 20pt 0;
 }
 
 ul.wp-block-latest-posts {
@@ -1447,7 +1453,9 @@ article.post.type-post.status-publish.format-standard {
 }
 
 .entry-header, .entry-content {
-	padding: 10px;
+	padding: 10pt 10pt;
+	height: auto;
+	background-color: white;
 }
 
 .post-thumbnail {
