@@ -1341,7 +1341,7 @@ a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-wikidata:hover {
 
 a.wmcz-post-topic.tag-edu,
 a.wmcz-post-topic.tag-wikidata,
-a.wm-czpost-topc.tag-komunita-a-multimedia {
+a.wm-czpost-topic.tag-komunita-a-multimedia {
 	min-width: 100pt;
 	display: inline-block;
 	margin: 0 10pt 20pt 0;
