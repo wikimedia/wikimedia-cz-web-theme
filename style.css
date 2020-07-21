@@ -1241,7 +1241,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 
 .wmcz-about {
 	width: 83.333%;
-	margin: 100pt auto;
+	margin: 50pt auto;
 }
 
 .wmcz-posts-head {
@@ -1452,7 +1452,14 @@ article.post.type-post.status-publish.format-standard {
 	padding: 0;
 }
 
-.entry-header, .entry-content {
+
+.entry-content {
+	margin: 0;
+	padding: 0;
+}
+
+.wmcz-posts .entry-header,
+.wmcz-posts .entry-content {
 	padding: 10pt 10pt;
 	height: auto;
 	background-color: white;
@@ -1469,3 +1476,4 @@ img.size-post-thumbnail {
 	height: 100pt;
 	object-fit: cover;
 }
+
