@@ -1484,3 +1484,8 @@ img.size-post-thumbnail {
 	object-fit: cover;
 }
 
+article.post.type-post.status-publish.format-standard {
+	height: 100%;
+	display: inherit;
+	grid-template-rows: 1fr auto;
+}
