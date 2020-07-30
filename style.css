@@ -1320,17 +1320,17 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	font-size: 1.1rem;
 }
 
-a.tag-edu {
+a.tag-edu, .wmcz-tag-edu {
 	background-color: #006699;
 	color: white;
 }
 
-a.tag-komunita-a-multimedia {
+a.tag-komunita-a-multimedia, .wmcz-tag-multimedia {
 	background-color: #990000;
 	color: white;
 }
 
-a.tag-wikidata {
+a.tag-wikidata, .wmcz-tag-wikidata {
 	background-color: #339966;
 	color: white;
 }
