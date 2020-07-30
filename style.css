@@ -678,6 +678,10 @@ a:hover, a:active {
 	padding: 10pt 30pt;
 }
 
+.main-navigation a:hover {
+	color: white;
+}
+
 /* Small menu. */
 
 .menu-toggle, .main-navigation.toggled ul {
@@ -729,7 +733,7 @@ a:hover, a:active {
 }
 
 .menu>li:hover {
-	background-color: #eee;
+	background-color: #ddd;
 }
 
 #primary-menu {
