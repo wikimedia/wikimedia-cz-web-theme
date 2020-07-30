@@ -17,7 +17,7 @@
 </div><!-- #page -->
 
 <footer id="colophon" class="site-footer">
-	<div class="left">
+	<div class="contact">
 		<a href="<?php echo esc_url(home_url('/')); ?>" class="custom-logo-link" rel="home">
 			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-logo" alt="Wikimedia ČR">
 		</a>
@@ -31,17 +31,37 @@
 		?>
 
 		<div id="footer-description">
-			<p id="footer-address"><?php echo esc_html(get_theme_mod('address')); ?></p>
-			<p id="footer-contact">
+			<p class="footer-address"><?php echo esc_html(get_theme_mod('address')); ?></p>
+			<p class="footer-contact">
 				email: <a href="<?php echo esc_attr(get_theme_mod('email')); ?>">
 					<?php echo esc_html(get_theme_mod('email')); ?>
-				</a> | telefon: <a href="tel:<?php echo esc_attr(get_theme_mod('phone')); ?>">
+				</a>
+				<br>
+				telefon:
+				<a href="tel:<?php echo esc_attr(get_theme_mod('phone')); ?>">
 					<?php echo esc_html(get_theme_mod('phone')); ?>
 				</a>
 			</p>
+			</p>
+			<p class="footer-socials">
+				<a href="https://www.facebook.com/Wikimedia.CR/" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/wikimediacr/" class="fa fa-instagram"></a>
+				<a href="https://twitter.com/wikimedia_cr?lang=cs" class="fa fa-twitter"></a>
+			</p>
 		</div>
 	</div>
-	<div class="right">
+	<div class="sitemap">
+		<?php
+		wp_nav_menu(array(
+			'depth'			 => 1,
+		));
+		?>
+
+		<p>
+			<a href="https://wiki.wikimedia.cz/wiki/">Interní wiki</a>
+		</p>
+	</div>
+	<div class="wikiprojects">
 		<a href="https://cs.wikipedia.org/" hreflang="en">Wikipedie</a>
 		<a href="https://commons.wikimedia.org/wiki/Main_Page" hreflang="en">Wikimedia Commons</a>
 		<a href="https://www.mediawiki.org/wiki/MediaWiki" hreflang="en">MediaWiki</a>

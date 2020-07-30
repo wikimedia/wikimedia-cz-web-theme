@@ -1063,33 +1063,104 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	background-color: #2E2E2E;
 	color: white;
 	margin-top: 100pt;
-	padding: 30pt;
 }
 
-.site-footer .right a {
+.site-footer a {
+	color: white;
+}
+
+.site-footer a:hover {
+	color: #339966;
+}
+
+.site-footer .contact {
+	padding: 20pt;
+	/* float: left; */
+}
+
+.site-footer .contact {
+	padding: 20pt;
+	/* float: left; */
+}
+
+.site-footer .footer-socials {
+	font-size: 2rem;
+}
+
+
+.site-footer .footer-socials a{
+	padding-right: 1rem;
+}
+
+
+.site-footer .sitemap {
+	padding: 20pt;
+}
+
+.site-footer .sitemap ul.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.site-footer .sitemap li {
+	padding: 0;
+}
+
+.site-footer .sitemap li:hover {
+	background-color: transparent;
+}
+
+.site-footer .sitemap a {
+	color: white;
+}
+
+.site-footer .sitemap a:hover {
+	color: #339966;
+}
+
+.site-footer .wikiprojects{
+	padding: 20pt;
+	background-color: #339966;
+}
+
+.site-footer .wikiprojects a {
 	color: white;
 	padding-right: 1rem;
 	text-transform: uppercase;
 	line-height: 200%;
 }
 
-.site-footer .right a:hover {
-	color: #339966;
+.site-footer .wikiprojects a:hover {
+	color: #2e2e2e;
 }
 
 @media (min-width: 600px) {
-	.site-footer .left {
-		width: 50%;
-		float: left;
+	.site-footer {
+		display: flex;
 	}
-	.site-footer .right {
-		width: 50%;
-		float: right;
+	
+	.site-footer .contact {
+		width: 30%;
+		/* float: left; */
+		padding: 40pt 0pt 40pt 40pt;
+	}
+	
+	.site-footer .sitemap {
+		padding: 40pt 20pt;
+		width: 20%;
+	}
+	
+	.site-footer .wikiprojects {
 		text-align: right;
+		width: 50%;
+		/* float: right; */
+		text-align: right;
+		padding: 40pt 40pt 40pt 20pt;
 	}
-	.site-footer .right a {
-		padding-left: 0;
-		padding-right: 1rem;
+	.site-footer .wikiprojects a {
+		padding-left: 1rem;
+		padding-right: 0;
 	}
 }
 
