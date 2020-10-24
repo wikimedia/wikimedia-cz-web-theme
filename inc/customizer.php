@@ -62,6 +62,42 @@ function wmcz_customize_register( $wp_customize ) {
 		'type' => 'text',
 		'section' => 'title_tagline'
 	] );
+
+	$wp_customize->add_setting( 'facebook', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'facebook', [
+		'label' => 'Facebook profile',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
+
+	$wp_customize->add_setting( 'twitter', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'twitter', [
+		'label' => 'Twitter profile',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
+
+	$wp_customize->add_setting( 'instagram', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'instagram', [
+		'label' => 'Instagram profile',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
+
+	$wp_customize->add_setting( 'youtube', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'youtube', [
+		'label' => 'Youtube profile',
+		'type' => 'text',
+		'section' => 'title_tagline'
+	] );
 }
 add_action( 'customize_register', 'wmcz_customize_register' );
 

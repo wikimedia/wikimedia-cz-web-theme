@@ -44,9 +44,18 @@
 			</p>
 			</p>
 			<p class="footer-socials">
-				<a href="https://www.facebook.com/Wikimedia.CR/" class="fa fa-facebook"></a>
-				<a href="https://www.instagram.com/wikimediacr/" class="fa fa-instagram"></a>
-				<a href="https://twitter.com/wikimedia_cr?lang=cs" class="fa fa-twitter"></a>
+				<?php if (get_theme_mod('facebook') != ''): ?>
+				<a href="<?php echo esc_attr(get_theme_mod('facebook')); ?>" class="fa fa-facebook"></a>
+				<?php endif; ?>
+				<?php if (get_theme_mod('instagram') != ''): ?>
+				<a href="<?php echo esc_attr(get_theme_mod('youtube')); ?>" class="fa fa-instagram"></a>
+				<?php endif; ?>
+				<?php if (get_theme_mod('twitter') != ''): ?>
+				<a href="<?php echo esc_attr(get_theme_mod('twitter')); ?>" class="fa fa-twitter"></a>
+				<?php endif; ?>
+				<?php if (get_theme_mod('youtube') != ''): ?>
+				<a href="<?php echo esc_attr(get_theme_mod('youtube')); ?>" class="fa fa-youtube"></a>
+				<?php endif; ?>
 			</p>
 		</div>
 	</div>
