@@ -67,11 +67,11 @@
 		?>
 
 		<p>
-			<a href="https://wiki.wikimedia.cz/wiki/">Interní wiki</a>
+			<a href="https://wiki.wikimedia.cz/wiki/"><?php _e('Internal wiki', 'wmcz-theme'); ?></a>
 		</p>
 	</div>
 	<div class="wikiprojects">
-		<a href="https://cs.wikipedia.org/" hreflang="en">Wikipedie</a>
+		<a href="https://cs.wikipedia.org/" hreflang="en"><?php _e('Wikipedia', 'wmcz-theme'); ?></a>
 		<a href="https://commons.wikimedia.org/wiki/Main_Page" hreflang="en">Wikimedia Commons</a>
 		<a href="https://www.mediawiki.org/wiki/MediaWiki" hreflang="en">MediaWiki</a>
 		<a href="https://meta.wikimedia.org/wiki/Main_Page" hreflang="en">Meta-Wiki</a>

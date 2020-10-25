@@ -25,9 +25,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<?php if ( get_theme_mod('donate-page') != '' ): ?>
-	<a class="wmcz-support-us" href="<?php echo get_page_link(get_theme_mod('donate-page')); ?>">Podpořte nás</a>
+	<a class="wmcz-support-us" href="<?php echo get_page_link(get_theme_mod('donate-page')); ?>"><?php echo __('Support us', 'wmcz-theme'); ?></a>
 	<?php endif; ?>
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wmcz' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wmcz-theme' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">

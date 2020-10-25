@@ -29,7 +29,7 @@
 		the_excerpt( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'wmcz' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'wmcz-theme' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -40,7 +40,7 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wmcz' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wmcz-theme' ),
 			'after'  => '</div>',
 		) );
 		?>

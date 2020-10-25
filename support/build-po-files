@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+supported_languages="cs_CZ"
+root="`dirname \"$0\"`/.."
+cd $root
+wp i18n make-pot . i18n/wmcz-theme.pot
+
+cd i18n
+for lang in $supported_languages; do
+	in=wmcz-theme-$lang.po
+	if [ -f $in ]; then
+		msgmerge --backup=off --update wmcz-theme-$lang.po wmcz-theme.pot
+	else
+		msginit -o $in --locale=$lang --no-translator
+	fi
+done

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+root="`dirname \"$0\"`/.."
+
+cd $root/i18n
+for i in *.po; do
+	in=$i
+	out=$(echo $in | sed 's/\.po/.mo/g')
+	echo -n "Compiling $in..."
+	msgfmt -o $out $in
+	echo "ok"
+done

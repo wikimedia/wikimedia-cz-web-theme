@@ -20,9 +20,9 @@ if ( ! function_exists( 'wmcz_setup' ) ) :
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on WMCZ, use a find and replace
-		 * to change 'wmcz' to the name of your theme in all the template files.
+		 * to change 'wmcz-theme' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'wmcz', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'wmcz-theme', get_template_directory() . '/i18n' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -44,8 +44,8 @@ if ( ! function_exists( 'wmcz_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'wmcz' ),
-			'footer-menu' => esc_html__( 'Footer', 'wmcz' )
+			'menu-1' => esc_html__( 'Primary', 'wmcz-theme' ),
+			'footer-menu' => esc_html__( 'Footer', 'wmcz-theme' )
 		) );
 
 		/*
@@ -106,9 +106,9 @@ add_action( 'after_setup_theme', 'wmcz_content_width', 0 );
  */
 function wmcz_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'wmcz' ),
+		'name'          => esc_html__( 'Sidebar', 'wmcz-theme' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'wmcz' ),
+		'description'   => esc_html__( 'Add widgets here.', 'wmcz-theme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
