@@ -48,7 +48,7 @@
 				<a href="<?php echo esc_attr(get_theme_mod('facebook')); ?>" class="fa fa-facebook"></a>
 				<?php endif; ?>
 				<?php if (get_theme_mod('instagram') != ''): ?>
-				<a href="<?php echo esc_attr(get_theme_mod('youtube')); ?>" class="fa fa-instagram"></a>
+				<a href="<?php echo esc_attr(get_theme_mod('instagram')); ?>" class="fa fa-instagram"></a>
 				<?php endif; ?>
 				<?php if (get_theme_mod('twitter') != ''): ?>
 				<a href="<?php echo esc_attr(get_theme_mod('twitter')); ?>" class="fa fa-twitter"></a>
