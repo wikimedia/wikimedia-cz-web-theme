@@ -10,6 +10,9 @@ echo "#, fuzzy" >> /tmp/$$
 sed '1d;2d' i18n/wmcz-theme.pot >> /tmp/$$
 mv /tmp/$$ i18n/wmcz-theme.pot
 
+exit 0
+
+# This will regenerate lang-specific files, which is not desired since we're TWN-integrated
 cd i18n
 for lang in $supported_languages; do
 	in=wmcz-theme-$lang.po
