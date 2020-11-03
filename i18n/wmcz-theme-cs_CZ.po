@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
-"POT-Creation-Date: 2020-10-25T20:21:32+01:00\n"
+"POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
 "PO-Revision-Date: 2020-10-25T20:17:06+01:00\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -41,18 +41,7 @@ msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:22
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
-msgstr ""
-
-#: 404.php:31
-msgid "Most Used Categories"
-msgstr ""
-
-#. translators: %1$s: smiley
-#: 404.php:47
-msgid "Try looking in the monthly archives. %1$s"
+msgid "It looks like nothing was found at this location."
 msgstr ""
 
 #. translators: 1: title.
