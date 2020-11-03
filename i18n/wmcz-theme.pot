@@ -1,5 +1,6 @@
 # Copyright (C) 2020 Martin Urbanec
 # This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
