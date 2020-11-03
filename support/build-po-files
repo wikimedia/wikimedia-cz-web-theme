@@ -5,6 +5,10 @@ supported_languages="cs_CZ"
 root="`dirname \"$0\"`/.."
 cd $root
 wp i18n make-pot . i18n/wmcz-theme.pot
+sed -n '1p;2p' i18n/wmcz-theme.pot > /tmp/$$
+echo "#, fuzzy" >> /tmp/$$
+sed '1d;2d' i18n/wmcz-theme.pot >> /tmp/$$
+mv /tmp/$$ i18n/wmcz-theme.pot
 
 cd i18n
 for lang in $supported_languages; do
