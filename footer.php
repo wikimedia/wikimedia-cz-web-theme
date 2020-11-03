@@ -37,7 +37,7 @@
 					<?php echo esc_html(get_theme_mod('email')); ?>
 				</a>
 				<br>
-				<?php _e('telefon', 'wmcz-theme'); ?>:
+				<?php _e('phone', 'wmcz-theme'); ?>:
 				<a href="tel:<?php echo esc_attr(get_theme_mod('phone')); ?>">
 					<?php echo esc_html(get_theme_mod('phone')); ?>
 				</a>
