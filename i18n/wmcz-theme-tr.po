@@ -1,29 +1,21 @@
-# Translation of Theme to Czech (čeština)
+# Translation of Theme to Turkish (Türkçe)
 # Exported from translatewiki.net
 #
-# Author: Janbery
-# Author: Martin Urbanec
+# Author: MuratTheTurkish
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: WMCZ 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
-"POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
 "PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: cs_cz\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"X-Domain: wmcz\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme"
-msgstr "Šablona pro Wikimedia Česká republika"
+msgstr "Wikimedia Çek Cumhuriyeti teması"
 
 #. Author of the theme
 #, optional
@@ -32,191 +24,189 @@ msgstr "Martin Urbanec"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
+msgstr "Ups! Bu sayfa bulunamıyor."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "Görünüşe göre bu konumda hiçbir şey bulunamadı."
 
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "&ldquo;%1$s&rdquo; üzerinde bir düşünce"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1$s, &ldquo;%2$s&rdquo; üzerinde düşündü"
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr "Komentáře jsou uzavřeny."
+msgstr "Yorumlar kapalıdır."
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "e-posta"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "telefon"
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr "Interní wiki"
+msgstr "İç viki"
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr "Wikipedie"
+msgstr "Vikipedi"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wikimedia Commons"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta Viki"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "Vikitür"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "Vikikitap"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "Wikimania"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "Vikihaber"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "Vikisöz"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "Vikikaynak"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "Vikiversite"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "Vikisözlük"
 
 #: functions.php:47
 msgid "Primary"
-msgstr "Primární"
+msgstr "Birincil"
 
 #: functions.php:48
 msgid "Footer"
-msgstr "Patička"
+msgstr "Alt bilgi"
 
 #: functions.php:109
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Kenar çubuğu"
 
 #: functions.php:111
 msgid "Add widgets here."
-msgstr ""
+msgstr "Buraya widget'lar ekleyin."
 
 #: header.php:28
 msgid "Support us"
-msgstr "Podpořte nás"
+msgstr "Bizi destekleyin"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Přeskočit na obsah"
+msgstr "İçeriğe atla"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "%s tarihinde gönderildi"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "od %s"
+msgstr "%s tarafından"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 #, optional
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Zveřejněno v kategorii %1$s"
+msgstr "%1$s içinde gönderildi"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
 #, optional
 msgctxt "list item separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "%1$s etiketlendi"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">%s</span> başlığında bir yorum bırakın"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">%s</span> sayfasını düzenle"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Şunu için arama sonuçları: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Birşey Bulanamadı"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buraya başlayın</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "Maalesef arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı anahtar kelimelerle tekrar deneyin."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz. Belki aramak yardımcı olabilir."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Sayfalar:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">\"%s\"</span> sayfasına okumaya devam edin"
 

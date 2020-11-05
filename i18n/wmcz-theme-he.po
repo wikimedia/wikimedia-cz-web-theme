@@ -1,38 +1,30 @@
-# Translation of Theme to Czech (čeština)
+# Translation of Theme to Hebrew (עברית)
 # Exported from translatewiki.net
 #
-# Author: Janbery
-# Author: Martin Urbanec
+# Author: YaronSh
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: WMCZ 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
-"POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
 "PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: cs_cz\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"X-Domain: wmcz\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme"
-msgstr "Šablona pro Wikimedia Česká republika"
+msgstr ""
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr "Martin Urbanec"
+msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
+msgstr "אופס! לא ניתן למצוא את העמוד הזה."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -41,7 +33,7 @@ msgstr ""
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "מחשבה אחת על „%1$s”"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
@@ -50,11 +42,10 @@ msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr "Komentáře jsou uzavřeny."
+msgstr "ההערות סגורות."
 
 #: footer.php:36
 msgid "email"
@@ -66,11 +57,11 @@ msgstr ""
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr "Interní wiki"
+msgstr "ויקי פנימי"
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr "Wikipedie"
+msgstr "ויקיפדיה"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
@@ -118,57 +109,57 @@ msgstr ""
 
 #: functions.php:47
 msgid "Primary"
-msgstr "Primární"
+msgstr "ראשית"
 
 #: functions.php:48
 msgid "Footer"
-msgstr "Patička"
+msgstr "כותרת תחתונה"
 
 #: functions.php:109
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "סרגל צד"
 
 #: functions.php:111
 msgid "Add widgets here."
-msgstr ""
+msgstr "הוספת וידג׳ט לכאן."
 
 #: header.php:28
 msgid "Support us"
-msgstr "Podpořte nás"
+msgstr "לתמוך בנו"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Přeskočit na obsah"
+msgstr "דילוג לתוכן"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "פורסם ב־%s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "od %s"
+msgstr "על ידי %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 #, optional
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Zveřejněno v kategorii %1$s"
+msgstr "פורסם ב־%1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
 #, optional
 msgctxt "list item separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
@@ -189,11 +180,11 @@ msgstr ""
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "תוצאות לחיפוש אחר: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "לא נמצא דבר"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -212,11 +203,11 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "דפים:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
 

@@ -1,38 +1,30 @@
-# Translation of Theme to Czech (čeština)
+# Translation of Theme to Italian (italiano)
 # Exported from translatewiki.net
 #
-# Author: Janbery
-# Author: Martin Urbanec
+# Author: Beta16
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: WMCZ 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
-"POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
 "PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: cs_cz\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it_it\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"X-Domain: wmcz\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme"
-msgstr "Šablona pro Wikimedia Česká republika"
+msgstr ""
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr "Martin Urbanec"
+msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
+msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -50,15 +42,14 @@ msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr "Komentáře jsou uzavřeny."
+msgstr ""
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: footer.php:40
 msgid "phone"
@@ -66,67 +57,67 @@ msgstr ""
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr "Interní wiki"
+msgstr ""
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr "Wikipedie"
+msgstr "Wikipedia"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wikimedia Commons"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta-Wiki"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "Wikispecies"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "Wikibooks"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "Wikimania"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "Wikinotizie"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "Wikiquote"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "Wikisource"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "Wikiversità"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "Wikizionario"
 
 #: functions.php:47
 msgid "Primary"
-msgstr "Primární"
+msgstr ""
 
 #: functions.php:48
 msgid "Footer"
-msgstr "Patička"
+msgstr ""
 
 #: functions.php:109
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr ""
 
 #: functions.php:111
 msgid "Add widgets here."
@@ -134,11 +125,11 @@ msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr "Podpořte nás"
+msgstr ""
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Přeskočit na obsah"
+msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -150,18 +141,18 @@ msgstr ""
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "od %s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 #, optional
 msgid ", "
-msgstr ","
+msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Zveřejněno v kategorii %1$s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -212,7 +203,7 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Pagine:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
