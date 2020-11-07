@@ -7,7 +7,9 @@ cd $root/i18n
 for i in *.po; do
 	in=$i
 	out=$(echo $in | sed 's/\.po/.mo/g')
+	lang=$(echo $out | sed 's/.*-//g')
 	echo -n "Compiling $in..."
 	msgfmt -o $out $in
+	msgfmt -o $lang $in
 	echo "ok"
 done
