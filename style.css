@@ -1523,13 +1523,13 @@ article.post.type-post.status-publish.format-standard {
 	background-color: white;
 }
 
-.post-thumbnail {
+.wmcz-posts .post-thumbnail {
 	width: 100%;
 	height: 100pt;
 	display: block;
 }
 
-img.size-post-thumbnail {
+.wmcz-posts img.size-post-thumbnail {
 	width: 100%;
 	height: 100pt;
 	object-fit: cover;
