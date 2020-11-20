@@ -161,3 +161,31 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/**
+ * Custom code for image thumbnail
+ */
+function wmcz_modify_post_thumbnail_html($html, $post_id, $post_thumbnail_id, $size, $attr) {
+	if ( !function_exists( 'get_field' ) ) {
+		return $html;
+	}
+	$author = get_field('image_author', $post_thumbnail_id);
+	if ($author === null) {
+		return $html;
+	}
+	$license = get_field('image_license', $post_thumbnail_id);
+	$source = get_field('image_source', $post_thumbnail_id);
+	if ($source !== null) {
+		$author = '<a href="' . $source . '">' . $author . '</a>';
+	}
+	$attribution_line = __('Author', 'wmcz-theme') . ': ' . $author;
+	if ($license !== null) {
+		$attribution_line .= ', ' . $license;
+	}
+	$data = wp_get_attachment_image_src($post_thumbnail_id, $size);
+	if ($source !== null) {
+		$html = '<a href="' . $source . '">' . $html . '</a>';
+	}
+	return '<div class="wmcz-post-thumbnail" style="width: ' . $data[1] . 'px">' . $html . '<center class="wmcz-image-attribution">' .$attribution_line . '</center></div>';
+}
+add_filter( 'post_thumbnail_html', 'wmcz_modify_post_thumbnail_html', 10, 5 );
