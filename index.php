@@ -51,8 +51,6 @@ get_header();
 
 						endwhile;
 
-						the_posts_navigation();
-
 					else :
 
 						get_template_part( 'template-parts/content', 'none' );
@@ -60,6 +58,8 @@ get_header();
 					endif;
 					?>
 				</div>
+
+				<?php the_posts_navigation(); ?>
 			</div>
 
 		</main><!-- #main -->
