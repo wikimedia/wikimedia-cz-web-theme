@@ -1517,7 +1517,7 @@ article.post.type-post.status-publish.format-standard {
 	padding: 0;
 }
 
-.wmcz-posts .entry-header, .wmcz-posts .entry-content {
+.wmcz-posts .entry-header, .wmcz-posts .entry-content, .wmcz-posts .post {
 	padding: 10pt 10pt;
 	height: auto;
 	background-color: white;
