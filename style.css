@@ -1548,3 +1548,11 @@ article.post.type-post.status-publish.format-standard {
 article .post-thumbnail {
 	float: right;
 }
+
+article > .entry-header > .entry-title {
+	margin: 0;
+}
+
+article > .entry-header {
+	margin-bottom: 20px;
+}
