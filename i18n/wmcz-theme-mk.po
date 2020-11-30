@@ -5,17 +5,21 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
+"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: mk\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "Plural-Forms: nplurals=2; plural=(n == 1 || n%10 == 1) ? 0 : 1;\n"
 
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "Мрежно место WMCZ"
+
 #. Description of the theme
-msgid "Wikimedia Czech Republic theme"
-msgstr "Изглед на „Викимедија Чешка“"
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "Изгледот на Викимедија Чешка (WMCZ) за нејзиното мрежно место"
 
 #. Author of the theme
 #, optional
@@ -107,21 +111,25 @@ msgstr "Викиуниверзитет"
 msgid "Wiktionary"
 msgstr "Викиречник"
 
-#: functions.php:47
+#: functions.php:48
 msgid "Primary"
 msgstr "Главно"
 
-#: functions.php:48
+#: functions.php:49
 msgid "Footer"
 msgstr "Подножје"
 
-#: functions.php:109
+#: functions.php:110
 msgid "Sidebar"
 msgstr "Страничник"
 
-#: functions.php:111
+#: functions.php:112
 msgid "Add widgets here."
 msgstr "Тука додадете елементи."
+
+#: functions.php:181
+msgid "Author"
+msgstr "Автор"
 
 #: header.php:28
 msgid "Support us"

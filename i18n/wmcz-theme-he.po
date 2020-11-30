@@ -5,17 +5,21 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
+"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "האתר של ויקימדיה צ׳כיה (WMCZ)"
+
 #. Description of the theme
-msgid "Wikimedia Czech Republic theme"
-msgstr ""
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "ערכת העיצוב של ויקימדיה צ׳כיה, משמש את האתר של ויקימדיה צ׳כיה (WMCZ)"
 
 #. Author of the theme
 #, optional
@@ -28,7 +32,7 @@ msgstr "אופס! לא ניתן למצוא את העמוד הזה."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
 
 #. translators: 1: title.
 #: comments.php:35
@@ -40,8 +44,8 @@ msgstr "מחשבה אחת על „%1$s”"
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
 
 #: comments.php:66
 msgid "Comments are closed."
@@ -49,11 +53,11 @@ msgstr "ההערות סגורות."
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "דוא״ל"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "טלפון"
 
 #: footer.php:70
 msgid "Internal wiki"
@@ -65,63 +69,67 @@ msgstr "ויקיפדיה"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "ויקישיתוף"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "מדיה־ויקי"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "מטא־ויקי"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "ויקימינים"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "ויקיספר"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "ויקימניה"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "ויקיחדשות"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "ויקיציטוט"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "ויקיטקסט"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "ויקיברסיטה"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "ויקימילון"
 
-#: functions.php:47
+#: functions.php:48
 msgid "Primary"
 msgstr "ראשית"
 
-#: functions.php:48
+#: functions.php:49
 msgid "Footer"
 msgstr "כותרת תחתונה"
 
-#: functions.php:109
+#: functions.php:110
 msgid "Sidebar"
 msgstr "סרגל צד"
 
-#: functions.php:111
+#: functions.php:112
 msgid "Add widgets here."
 msgstr "הוספת וידג׳ט לכאן."
+
+#: functions.php:181
+msgid "Author"
+msgstr ""
 
 #: header.php:28
 msgid "Support us"
@@ -169,13 +177,13 @@ msgstr ""
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "לכתוב תגובה<span class=\"screen-reader-text\"> על %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -189,15 +197,15 @@ msgstr "לא נמצא דבר"
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "שום דבר לא תאם לביטויי החיפוש שלך. נא לנסות שוב עם מילות מפתח אחרות, עמך הסליחה."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "נראה כי לא הצלחנו למצוא את מבוקשך. חיפוש יוכל לסייע לך."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43

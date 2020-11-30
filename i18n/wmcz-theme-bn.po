@@ -1,25 +1,20 @@
-# Translation of Theme to Message documentation (Message documentation)
+# Translation of Theme to Bangla (বাংলা)
 # Exported from translatewiki.net
 #
-# Author: Robby
+# Author: আফতাবুজ্জামান
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: qqq\n"
+"Language: bn\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
-
-#. Theme URI of the theme
-#, ignored
-msgid "http://underscores.me/"
 msgstr ""
 
 #. Description of the theme
@@ -29,12 +24,7 @@ msgstr ""
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr ""
-
-#. Author URI of the theme
-#, ignored
-msgid "https://meta.wikimedia.org/wiki/User:Martin_Urbanec"
-msgstr ""
+msgstr "মার্টিন উর্বানেচ"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
@@ -55,6 +45,7 @@ msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:66
 msgid "Comments are closed."
@@ -62,75 +53,75 @@ msgstr ""
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "ইমেইল"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "ফোন"
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr ""
+msgstr "আভ্যন্তরীণ উইকি"
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr ""
+msgstr "উইকিপিডিয়া"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "উইকিমিডিয়া কমন্স"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "মিডিয়াউইকি"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "মেটা-উইকি"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "উইকিপ্রজাতি"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "উইকিবই"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "উইকিম্যানিয়া"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "উইকিসংবাদ"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "উইকিউক্তি"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "উইকিসংকলন"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "উইকিবিশ্ববিদ্যালয়"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "উইকিঅভিধান"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "প্রাথমিক"
 
 #: functions.php:49
 msgid "Footer"
-msgstr ""
+msgstr "পাদচরণ"
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr ""
+msgstr "পার্শ্বদন্ড"
 
 #: functions.php:112
 msgid "Add widgets here."
@@ -138,27 +129,27 @@ msgstr ""
 
 #: functions.php:181
 msgid "Author"
-msgstr "{{identical|Author}}"
+msgstr "লেখক"
 
 #: header.php:28
 msgid "Support us"
-msgstr ""
+msgstr "আমাদের সহায়তা করুন"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr ""
+msgstr "বিষয়বস্তুতে অগ্রসর হন"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "পোস্টের তারিখ %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "পোস্ট করেন %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -192,16 +183,16 @@ msgstr ""
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "সম্পাদনা করুন <span class=\"screen-reader-text\">%s</span>"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "এর জন্য অনুসন্ধানের ফলাফল: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "কোন কিছু পাওয়া যায়নি"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -220,11 +211,11 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "{{identical|Page}}"
+msgstr "পাতাসমূহ:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">\"%s\" </span>পড়া অব্যাহত রাখুন"
 

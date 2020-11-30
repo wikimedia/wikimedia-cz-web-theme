@@ -1,164 +1,156 @@
-# Translation of Theme to Message documentation (Message documentation)
+# Translation of Theme to Kurdish (Latin script) (kurdî (latînî)‎)
 # Exported from translatewiki.net
 #
-# Author: Robby
+# Author: Balyozxane
+# Author: Bikarhêner
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: qqq\n"
+"Language: ku-Latn\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
-
-#. Theme URI of the theme
-#, ignored
-msgid "http://underscores.me/"
-msgstr ""
+msgstr "Malpera WMCZê"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr ""
+msgstr "temaya Wîkîmedya Komara Çekê, ku li malpera WMCZê hatiye bikaranîn"
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
 
-#. Author URI of the theme
-#, ignored
-msgid "https://meta.wikimedia.org/wiki/User:Martin_Urbanec"
-msgstr ""
-
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Ha hoo! Ev rûpel peyda nebû."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "Wisa dixuye ku li vê derê ti tişt nehate dîtin."
 
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "Fikrekê li ser &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
+msgstr[1] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr ""
+msgstr "Şîrove hatine girtin."
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "ename"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "telefon"
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr ""
+msgstr "Wîkiya daxilî"
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wîkîpediya"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wîkîmedya Kommons"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta-Wîkî"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "Wîkîcure"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "Wîkîpirtûk"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "Wikimania"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "Wîkînûçe"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "Wîkîgotin"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "Wîkîçavkanî"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "Wîkîzanîngeh"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "Wîkîferheng"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "Sereke"
 
 #: functions.php:49
 msgid "Footer"
-msgstr ""
+msgstr "Binagahî"
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr ""
+msgstr "Kêlekbend"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr ""
+msgstr "Widgetan tevlî vir bike."
 
 #: functions.php:181
 msgid "Author"
-msgstr "{{identical|Author}}"
+msgstr "Xwedî"
 
 #: header.php:28
 msgid "Support us"
-msgstr ""
+msgstr "Piştgiriyê bide me"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr ""
+msgstr "Derbasî naverokê bibe"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Li ser %s hatiye weşandin"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "bi %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -169,7 +161,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Di %1$s de hatiye weşandin"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -181,50 +173,50 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "%1$s hate etîketkirin"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Şîroveyekê berde<span class=\"screen-reader-text\"> li ser %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">%s</span> biguherîne"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Li encaman bigere ji bo %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Tişt Nehat Dîtin"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Hazir î ku şandiya xwe ya yekem biweşînî? <a href=\"%1$s\">Ji vir dest pê bike</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "Bibore, lê ti tişt peyda nebû bi peyvên te yên lêgerînê. Ji kerema xwe bi peyvên cuda cardin biceribîne."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Wisa dixuye ku em nikarin tiştê tu lê dinêrî peyda bikin. Dibe ku lêgerîn alî te bike."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "{{identical|Page}}"
+msgstr "Rûpel:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Dewam bike xwendinê<span class=\"screen-reader-text\"> \"%s\"</span>"
 

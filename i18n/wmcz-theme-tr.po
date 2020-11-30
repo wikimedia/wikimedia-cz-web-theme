@@ -5,17 +5,21 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-05 12:37:24+0000\n"
-"X-POT-Import-Date: 2020-11-04 08:35:53+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
+"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMCZ web sitesi"
+
 #. Description of the theme
-msgid "Wikimedia Czech Republic theme"
-msgstr "Wikimedia Çek Cumhuriyeti teması"
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "WMCZ'nin web sitesinde kullanılan Wikimedia Çek Cumhuriyeti teması"
 
 #. Author of the theme
 #, optional
@@ -106,21 +110,25 @@ msgstr "Vikiversite"
 msgid "Wiktionary"
 msgstr "Vikisözlük"
 
-#: functions.php:47
+#: functions.php:48
 msgid "Primary"
 msgstr "Birincil"
 
-#: functions.php:48
+#: functions.php:49
 msgid "Footer"
 msgstr "Alt bilgi"
 
-#: functions.php:109
+#: functions.php:110
 msgid "Sidebar"
 msgstr "Kenar çubuğu"
 
-#: functions.php:111
+#: functions.php:112
 msgid "Add widgets here."
 msgstr "Buraya widget'lar ekleyin."
+
+#: functions.php:181
+msgid "Author"
+msgstr "Yazar"
 
 #: header.php:28
 msgid "Support us"

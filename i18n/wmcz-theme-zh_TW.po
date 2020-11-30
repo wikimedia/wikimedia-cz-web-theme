@@ -1,7 +1,7 @@
-# Translation of Theme to Message documentation (Message documentation)
+# Translation of Theme to Traditional Chinese (中文（繁體）‎)
 # Exported from translatewiki.net
 #
-# Author: Robby
+# Author: Kly
 msgid ""
 msgstr ""
 ""
@@ -9,156 +9,146 @@ msgstr ""
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: qqq\n"
+"Language: zh_tw\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
-
-#. Theme URI of the theme
-#, ignored
-msgid "http://underscores.me/"
-msgstr ""
+msgstr "WMCZ 網站"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr ""
+msgstr "捷克維基媒體主題，使用在 WMCZ 的網站"
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
 
-#. Author URI of the theme
-#, ignored
-msgid "https://meta.wikimedia.org/wiki/User:Martin_Urbanec"
-msgstr ""
-
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "哎呀！找不到頁面。"
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "看起來在此位置上查無事物。"
 
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "在&ldquo;%1$s&rdquo;的一個想法"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "在&ldquo;%2$s&rdquo; %1$s 個想法"
 
 #: comments.php:66
 msgid "Comments are closed."
-msgstr ""
+msgstr "評論已關閉。"
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "電子郵件"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "電話"
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr ""
+msgstr "內部 Wiki"
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr ""
+msgstr "維基百科"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "維基共享資源"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "元維基"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "維基物種"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "維基教科書"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "維基媒體國際會議"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "維基新聞"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "維基語錄"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "維基文庫"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "維基學院"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "維基詞典"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "首選"
 
 #: functions.php:49
 msgid "Footer"
-msgstr ""
+msgstr "頁尾"
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr ""
+msgstr "側邊欄"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr ""
+msgstr "在此添加小工具。"
 
 #: functions.php:181
 msgid "Author"
-msgstr "{{identical|Author}}"
+msgstr "作者"
 
 #: header.php:28
 msgid "Support us"
-msgstr ""
+msgstr "支援我們"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr ""
+msgstr "跳至內容"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "發布在%s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "由%s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -169,7 +159,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "發布於%1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -181,50 +171,50 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "已標記%1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "在<span class=\"screen-reader-text\">%s</span>留下評論"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "編輯<span class=\"screen-reader-text\">%s</span>"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "搜尋結果： %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "查無內容"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "您確定要發布您的第一篇貼文？<a href=\"%1$s\">在此開始</a>。"
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "很抱歉，但沒有符合您的搜尋條件。請用一些不同的關鍵字來重試看看。"
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "看起來我們找不到您要的內容。或許您可以利用搜尋。"
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "{{identical|Page}}"
+msgstr "頁面："
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "繼續閱讀<span class=\"screen-reader-text\">「%s」</span>"
 

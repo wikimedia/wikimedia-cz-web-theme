@@ -1,25 +1,21 @@
-# Translation of Theme to Message documentation (Message documentation)
+# Translation of Theme to Persian (فارسی)
 # Exported from translatewiki.net
 #
-# Author: Robby
+# Author: Berrely
+# Author: Jeeputer
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
+"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: qqq\n"
+"Language: fa\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
-
-#. Theme URI of the theme
-#, ignored
-msgid "http://underscores.me/"
 msgstr ""
 
 #. Description of the theme
@@ -29,11 +25,6 @@ msgstr ""
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr ""
-
-#. Author URI of the theme
-#, ignored
-msgid "https://meta.wikimedia.org/wiki/User:Martin_Urbanec"
 msgstr ""
 
 #: 404.php:18
@@ -62,11 +53,11 @@ msgstr ""
 
 #: footer.php:36
 msgid "email"
-msgstr ""
+msgstr "ایمیل"
 
 #: footer.php:40
 msgid "phone"
-msgstr ""
+msgstr "تلفن"
 
 #: footer.php:70
 msgid "Internal wiki"
@@ -74,51 +65,51 @@ msgstr ""
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr ""
+msgstr "ویکی‌پدیا"
 
 #: footer.php:75
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "ویکی‌انبار"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr ""
+msgstr "مدیاویکی"
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "فراویکی"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr ""
+msgstr "ویکی‌گونه"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr ""
+msgstr "ویکی‌کتاب"
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr ""
+msgstr "ویکی‌مانیا"
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr ""
+msgstr "ویکی‌خبر"
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr ""
+msgstr "ویکی‌گفتاورد"
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr ""
+msgstr "ویکی‌نبشته"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr ""
+msgstr "ویکی‌دانشگاه"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr ""
+msgstr "ویکی‌واژه"
 
 #: functions.php:48
 msgid "Primary"
@@ -138,7 +129,7 @@ msgstr ""
 
 #: functions.php:181
 msgid "Author"
-msgstr "{{identical|Author}}"
+msgstr "نویسنده"
 
 #: header.php:28
 msgid "Support us"
@@ -201,7 +192,7 @@ msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "چیزی یافت نشد"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -220,7 +211,7 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "{{identical|Page}}"
+msgstr "صفحه‌ها:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
