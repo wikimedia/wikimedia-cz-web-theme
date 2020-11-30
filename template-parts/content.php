@@ -54,6 +54,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php wmcz_entry_footer(); ?>
+		<!-- TODO: Actually include and properly format the footer here -->
+		<?php //wmcz_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
