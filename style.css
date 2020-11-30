@@ -1545,7 +1545,7 @@ article.post.type-post.status-publish.format-standard {
 	grid-template-rows: 1fr auto;
 }
 
-article .post-thumbnail {
+main > article > .post-thumbnail {
 	float: right;
 	margin-left: 20px;
 }
