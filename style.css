@@ -1544,3 +1544,7 @@ article.post.type-post.status-publish.format-standard {
 	display: inherit;
 	grid-template-rows: 1fr auto;
 }
+
+article .post-thumbnail {
+	float: right;
+}
