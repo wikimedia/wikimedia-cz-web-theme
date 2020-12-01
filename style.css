@@ -1557,3 +1557,8 @@ article > .entry-header > .entry-title {
 article > .entry-header {
 	margin-bottom: 20px;
 }
+
+.entry-meta {
+	font-weight: 700;
+	color: rgba(0,0,0,0.3);
+}
