@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
+"PO-Revision-Date: 2020-12-03 15:00:49+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -155,13 +155,13 @@ msgstr "Přeskočit na obsah"
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Zveřejněno na %s"
+msgstr "Zveřejněno dne %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "od %s"
+msgstr "uživatelem %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
