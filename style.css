@@ -598,6 +598,13 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 
+a, a:visited {
+	color: #339966;
+	font-weight: bold;
+	text-decoration: none;
+	transition: ease-in 50ms;
+}
+
 a:hover, a:focus, a:active {
 	color: midnightblue;
 }
@@ -1008,13 +1015,6 @@ body {
 
 body.home {
 	background-color: #fff;
-}
-
-a {
-	color: #339966;
-	font-weight: bold;
-	text-decoration: none;
-	transition: ease-in 50ms;
 }
 
 a:hover {
