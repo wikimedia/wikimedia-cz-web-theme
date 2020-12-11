@@ -1279,9 +1279,10 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-decoration: none;
 	padding: 10px 60px;
 	top: 40%;
-	right: -90px;
+	right: -105px;
 	/* Correction */
 	z-index: 3000;
+	text-transform: uppercase;
 }
 
 .wmcz-events {
