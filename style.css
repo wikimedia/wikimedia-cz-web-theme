@@ -624,8 +624,11 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
 	width: 100%;
+}
+
+.main-navigation > div {
+	float: right;
 }
 
 .main-navigation ul {
