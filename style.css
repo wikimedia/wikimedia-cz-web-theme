@@ -1271,6 +1271,12 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	height: 100%;
 }
 
+@media screen and (max-width: 764px) {
+	.wmcz-support-us {
+		display: none;
+	}
+} 
+
 .wmcz-support-us, .wmcz-support-us:visited {
 	background-color: #990000;
 	position: fixed;
