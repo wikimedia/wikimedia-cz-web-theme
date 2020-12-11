@@ -1574,3 +1574,7 @@ article > .entry-header {
 	font-weight: 700;
 	color: rgba(0,0,0,0.3);
 }
+
+.wp-block-image > figcaption {
+	text-align: center;
+}
