@@ -748,8 +748,10 @@ a:hover, a:active {
 	float: right;
 }
 
-.site-branding {
-	padding-top: 25px;
+@media screen and (min-width: 764px) {
+	.site-branding {
+		padding-top: 25px;
+	}
 }
 
 /*--------------------------------------------------------------
