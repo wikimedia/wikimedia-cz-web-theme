@@ -1285,6 +1285,11 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	text-transform: uppercase;
 }
 
+.wmcz-support-us:hover {
+	filter: brightness(80%);
+	color: white;
+}
+
 .wmcz-events {
 	padding: 50pt 30pt;
 }
