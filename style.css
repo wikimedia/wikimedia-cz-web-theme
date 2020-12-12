@@ -1502,9 +1502,6 @@ ul.wp-block-latest-posts li>p>a::after {
 }
 
 @media (min-width: 600px) {
-	.wmcz-programpage-header {
-		height: 300pt;
-	}
 	.wmcz-programpage-header .wp-block-column:nth-child(2) {
 		padding: 30pt 30pt 30pt 10pt;
 	}
