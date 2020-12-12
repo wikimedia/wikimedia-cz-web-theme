@@ -930,6 +930,10 @@ embed, iframe, object {
 	padding-left: 20px;
 }
 
+.custom-footer-logo {
+	width: 200px;
+}
+
 /* Make sure logo link wraps around logo image. */
 
 .custom-logo-link {

@@ -19,7 +19,7 @@
 <footer id="colophon" class="site-footer">
 	<div class="contact">
 		<a href="<?php echo esc_url(home_url('/')); ?>" class="custom-logo-link" rel="home">
-			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-logo" alt="Wikimedia ČR">
+			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-footer-logo" alt="Wikimedia ČR">
 		</a>
 
 		<?php
