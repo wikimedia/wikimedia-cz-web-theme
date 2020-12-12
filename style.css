@@ -1481,6 +1481,7 @@ ul.wp-block-latest-posts li>p>a::after {
 	padding: 0;
 	margin: 0pt auto 30pt;
 	font-size: 1.1rem;
+	overflow: hidden;
 }
 
 .wmcz-programpage-header figure {
@@ -1503,7 +1504,6 @@ ul.wp-block-latest-posts li>p>a::after {
 @media (min-width: 600px) {
 	.wmcz-programpage-header {
 		height: 300pt;
-		overflow: auto;
 	}
 	.wmcz-programpage-header .wp-block-column:nth-child(2) {
 		padding: 30pt 30pt 30pt 10pt;
