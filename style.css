@@ -1571,6 +1571,7 @@ article > .entry-header > .entry-title {
 
 article > .entry-header {
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .entry-meta {
