@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
+"PO-Revision-Date: 2020-12-17 14:30:23+0000\n"
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +35,7 @@ msgstr "Oups ! Cette page est introuvable."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "Il semble que rien na été trouvé à cet endroit."
+msgstr "Il semble que rien n’a été trouvé à cet endroit."
 
 #. translators: 1: title.
 #: comments.php:35
@@ -76,7 +76,7 @@ msgstr "Wikimedia Commons"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr "MédiaWiki"
+msgstr "MediaWiki"
 
 #: footer.php:77
 msgid "Meta-Wiki"
@@ -88,7 +88,7 @@ msgstr "Wikispecies"
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr "Wikibooks"
+msgstr "Wikilivres"
 
 #: footer.php:81
 msgid "Wikimania"
@@ -108,11 +108,11 @@ msgstr "Wikisource"
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr "Wikiversity"
+msgstr "Wikiversité"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr "Wiktionary"
+msgstr "Wiktionnaire"
 
 #: functions.php:48
 msgid "Primary"
@@ -191,7 +191,7 @@ msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour: %s"
+msgstr "Résultats de recherche pour : %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
@@ -214,7 +214,7 @@ msgstr "Il semble que vous ne pouvez pas trouver ce que vous cherchez. Peut-êtr
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Pages :"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
