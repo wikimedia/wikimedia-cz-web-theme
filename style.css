@@ -722,6 +722,18 @@ a:hover, a:active {
 		top: 20px;
 		right: 10px;
 	}
+
+	#primary-menu {
+		float: none;
+	}
+
+	.main-navigation.toggled ul {
+		float: none;
+	}
+
+	.main-navigation ul ul li {
+		left: 30px;
+	}
 }
 
 @media screen and (min-width: 37.5em) {
