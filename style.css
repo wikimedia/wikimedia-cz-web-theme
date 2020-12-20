@@ -639,32 +639,38 @@ a:hover, a:active {
 	width: 100%;
 }
 
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-	background-color: #eee;
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
+.sub-menu li {
+	margin-left: 0;
 }
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
-	background-color: #666;
-}
+@media screen and (min-width: 764px) {
+	.main-navigation ul ul {
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+		background-color: #eee;
+		float: left;
+		position: absolute;
+		top: 100%;
+		left: -999em;
+		z-index: 99999;
+	}
 
-.main-navigation ul ul li {
-	margin: 0;
-}
+	.main-navigation ul ul ul {
+		left: -999em;
+		top: 0;
+		background-color: #666;
+	}
 
-.main-navigation ul ul li:hover>ul, .main-navigation ul ul li.focus>ul {
-	left: 100%;
-}
+	.main-navigation ul ul li {
+		margin: 0;
+	}
 
-.main-navigation ul li:hover>ul, .main-navigation ul li.focus>ul {
-	left: 0;
+	.main-navigation ul ul li:hover>ul, .main-navigation ul ul li.focus>ul {
+		left: 100%;
+	}
+
+	.main-navigation ul li:hover>ul, .main-navigation ul li.focus>ul {
+		left: 0;
+	}
 }
 
 .main-navigation li {
@@ -695,6 +701,28 @@ a:hover, a:active {
 	margin-right: 20px;
 }
 
+/* Mobile menu CSS */
+@media screen and (max-width: 37.5em) {
+	#site-navigation {
+		width: auto;
+	}
+
+	.site-branding {
+		height: 80px;
+		width: 70%;
+	}
+
+	#masthead {
+		display: block;
+	}
+
+	.menu-toggle {
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
+}
+
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
@@ -704,6 +732,22 @@ a:hover, a:active {
 	}
 	.main-navigation li {
 		width: auto;
+	}
+	.menu li li {
+		background-color: #eee;
+		border-top: 1px solid #ccc;
+	}
+
+	.menu li li:hover {
+		background-color: #ddd;
+	}
+	
+	.menu>li:hover {
+		background-color: #ddd;
+	}
+
+	#masthead {
+		display: flex;
 	}
 }
 
@@ -730,19 +774,6 @@ a:hover, a:active {
 /* .menu li {
 	padding: 5px 35px;
 } */
-
-.menu li li {
-	background-color: #eee;
-	border-top: 1px solid #ccc;
-}
-
-.menu li li:hover {
-	background-color: #ddd;
-}
-
-.menu>li:hover {
-	background-color: #ddd;
-}
 
 #primary-menu {
 	float: right;
@@ -1044,12 +1075,7 @@ button.active {
 	font-weight: bold;
 }
 
-.sub-menu li {
-	margin-left: 0;
-}
-
 #masthead {
-	display: flex;
 	padding-top: 10px;
 	text-transform: uppercase;
 }
