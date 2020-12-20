@@ -714,6 +714,7 @@ a:hover, a:active {
 
 	#masthead {
 		display: block;
+		position: relative;
 	}
 
 	.menu-toggle {
