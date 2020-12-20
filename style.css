@@ -730,7 +730,7 @@ a:hover, a:active {
 	.main-navigation ul {
 		display: block;
 	}
-	.main-navigation li {
+	.main-navigation > div > ul > li {
 		width: auto;
 	}
 	.menu li li {
