@@ -693,6 +693,11 @@ a:hover, a:active {
 	color: white;
 }
 
+#masthead {
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
 /* Small menu. */
 
 .menu-toggle, .main-navigation.toggled ul {
@@ -715,6 +720,7 @@ a:hover, a:active {
 	#masthead {
 		display: block;
 		position: relative;
+		text-transform: none;
 	}
 
 	.menu-toggle {
@@ -725,10 +731,24 @@ a:hover, a:active {
 
 	#primary-menu {
 		float: none;
+		position: relative;
+		left: 30px;
+	}
+
+	.main-navigation a {
+		padding: 5px;
 	}
 
 	.main-navigation.toggled ul {
 		float: none;
+	}
+
+	.main-navigation ul > li > a {
+		font-weight: bold;
+	}
+
+	.sub-menu a {
+		font-weight: normal !important;
 	}
 
 	.main-navigation ul ul li {
@@ -1086,11 +1106,6 @@ button:not(:first-of-type) {
 button.active {
 	border: 2px solid var(--wiki-green);
 	font-weight: bold;
-}
-
-#masthead {
-	padding-top: 10px;
-	text-transform: uppercase;
 }
 
 .site {
