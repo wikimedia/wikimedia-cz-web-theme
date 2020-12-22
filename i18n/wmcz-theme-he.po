@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
+"PO-Revision-Date: 2020-12-22 13:14:53+0000\n"
 "X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,7 +129,7 @@ msgstr "הוספת וידג׳ט לכאן."
 
 #: functions.php:181
 msgid "Author"
-msgstr ""
+msgstr "מחבר או מחברת"
 
 #: header.php:28
 msgid "Support us"
@@ -172,7 +172,7 @@ msgstr ", "
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "נוסף התיוג %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
