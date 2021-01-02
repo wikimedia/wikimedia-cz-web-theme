@@ -21,7 +21,7 @@ get_header();
 					<h1><?php wp_title('') ?></h1>
 					<?php get_search_form() ?>
 					<div class="wmcz-archive">
-						<h3>Archive</h3>
+						<h3><?php _e('Archive', 'wmcz-theme'); ?></h3>
 						<?php wp_custom_archive(); ?>
 					</div>
 				</div>
@@ -33,7 +33,7 @@ get_header();
 							<a class="wmcz-post-topic tag-<?php echo str_replace(' ', '-', $tag->name); ?>" href="<?php echo esc_url( get_tag_link( $tag->term_id ) ); ?>" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a>
 						<?php endforeach; ?>
 					<?php endif; ?>
-					<a href="untagged" class="wmcz-post-topic tag-other">other</a>
+					<a href="untagged" class="wmcz-post-topic tag-other"><?php _e('other', 'wmcz-theme'); ?></a>
 				</div>
 				<div class="wmcz-posts">
 					<?php
