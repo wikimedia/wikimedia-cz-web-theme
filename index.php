@@ -33,6 +33,7 @@ get_header();
 							<a class="wmcz-post-topic tag-<?php echo str_replace(' ', '-', $tag->name); ?>" href="<?php echo esc_url( get_tag_link( $tag->term_id ) ); ?>" title="<?php echo esc_attr( $tag->name ); ?>"><?php echo esc_html( $tag->name ); ?></a>
 						<?php endforeach; ?>
 					<?php endif; ?>
+					<a href="untagged" class="wmcz-post-topic tag-other">other</a>
 				</div>
 				<div class="wmcz-posts">
 					<?php
