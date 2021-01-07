@@ -1628,6 +1628,7 @@ article > .entry-header > .entry-title {
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 10px;
 }
 
 article > .entry-header {
