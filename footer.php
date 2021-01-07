@@ -33,7 +33,7 @@
 		<div id="footer-description">
 			<p class="footer-address"><?php echo esc_html(get_theme_mod('address')); ?></p>
 			<p class="footer-contact">
-				<?php _e('email', 'wmcz-theme'); ?>: <a href="<?php echo esc_attr(get_theme_mod('email')); ?>">
+				<?php _e('email', 'wmcz-theme'); ?>: <a href="mailto:<?php echo esc_attr(get_theme_mod('email')); ?>">
 					<?php echo esc_html(get_theme_mod('email')); ?>
 				</a>
 				<br>
