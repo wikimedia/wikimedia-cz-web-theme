@@ -1,10 +1,8 @@
-# Translation of Theme to French (français)
+# Translation of Theme to Danish (dansk)
 # Exported from translatewiki.net
 #
-# Author: Florian COLLIN
-# Author: Gomoko
-# Author: Verdy p
-# Author: Wladek92
+# Author: IBDJ
+# Author: Saederup92
 msgid ""
 msgstr ""
 ""
@@ -12,63 +10,63 @@ msgstr ""
 "X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_fr\n"
+"Language: da\n"
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr "Site web WMCZ"
+msgstr ""
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr "Thème de Wikimédia de la République tchèque, utilisé sur le site web WMCZ"
+msgstr ""
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr "Martin Urbanec"
+msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups ! Cette page est introuvable."
+msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "Il semble que rien n’a été trouvé à cet endroit."
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Une pensée concernant « %1$s »"
+msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s pensée concernant « %2$s »"
-msgstr[1] "%1$s pensée concernant « %2$s »"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "Les commentaires sont fermés."
+msgstr ""
 
 #: footer.php:36
 msgid "email"
-msgstr "courriel"
+msgstr ""
 
 #: footer.php:40
 msgid "phone"
-msgstr "téléphone"
+msgstr ""
 
 #: footer.php:70
 msgid "Internal wiki"
-msgstr "Wiki interne"
+msgstr ""
 
 #: footer.php:74
 msgid "Wikipedia"
-msgstr "Wikipédia"
+msgstr ""
 
 #: footer.php:75
 msgid "Wikimedia Commons"
@@ -76,166 +74,166 @@ msgstr "Wikimedia Commons"
 
 #: footer.php:76
 msgid "MediaWiki"
-msgstr "MediaWiki"
+msgstr ""
 
 #: footer.php:77
 msgid "Meta-Wiki"
-msgstr "Méta-Wiki"
+msgstr "Meta-Wiki"
 
 #: footer.php:78
 msgid "Wikispecies"
-msgstr "Wikispecies"
+msgstr ""
 
 #: footer.php:79
 msgid "Wikibooks"
-msgstr "Wikilivres"
+msgstr ""
 
 #: footer.php:81
 msgid "Wikimania"
-msgstr "Wikimania"
+msgstr ""
 
 #: footer.php:82
 msgid "Wikinews"
-msgstr "Wikinews"
+msgstr ""
 
 #: footer.php:83
 msgid "Wikiquote"
-msgstr "Wikiquote"
+msgstr ""
 
 #: footer.php:84
 msgid "Wikisource"
-msgstr "Wikisource"
+msgstr ""
 
 #: footer.php:85
 msgid "Wikiversity"
-msgstr "Wikiversité"
+msgstr "Wikiversity"
 
 #: footer.php:86
 msgid "Wiktionary"
-msgstr "Wiktionnaire"
+msgstr ""
 
 #: functions.php:48
 msgid "Primary"
-msgstr "Principal"
+msgstr "Primær"
 
 #: functions.php:49
 msgid "Footer"
-msgstr "Pied de page"
+msgstr ""
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr "Barre latérale"
+msgstr ""
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "Ajouter des widgets ici."
+msgstr ""
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "Auteur"
+msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr "Soutenez-nous"
+msgstr "Støt os"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Aller au contenu"
+msgstr "Spring til indhold"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Publié le %s"
+msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "par %s"
+msgstr "af %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 #, optional
 msgid ", "
-msgstr ", "
+msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Publié dans %1$s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
 #, optional
 msgctxt "list item separator"
 msgid ", "
-msgstr ", "
+msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "Balisé %1$s"
+msgstr ""
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Laisser un commentaire <span class=\"screen-reader-text\">sur %s</span>"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
 
 #: index.php:24
 msgid "Archive"
-msgstr "Archiver"
+msgstr "Arkiv"
 
 #: index.php:36
 msgid "other"
-msgstr "autre"
+msgstr "andet"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour : %s"
+msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Rien trouvé"
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Prêt à publier votre premier article ? <a href=\"%1$s\">Faites vos débuts ici</a>."
+msgstr ""
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Désolé, mais rien n’a correspondu à vos termes de recherche. Veuillez essayer à nouveau avec des mots-clés différents."
+msgstr ""
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Il semble que vous ne pouvez pas trouver ce que vous cherchez. Peut-être la recherche pourrait vous aider."
+msgstr ""
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Sider:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuer à lire <span class=\"screen-reader-text\">« %s »</span>"
+msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "sans balise"
+msgstr "Uden label"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "Autres actualités"
+msgstr "Andre nyheder"
 

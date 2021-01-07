@@ -1,12 +1,13 @@
 # Translation of Theme to Simplified Chinese (中文（简体）‎)
 # Exported from translatewiki.net
 #
+# Author: Wuqianye
 # Author: 水獭很懒
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-12-22 13:14:53+0000\n"
-"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
+"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
+"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_cn\n"
@@ -35,18 +36,18 @@ msgid "It looks like nothing was found at this location."
 msgstr "似乎此位置没有任何可用的内容。"
 
 #. translators: 1: title.
-#: comments.php:35
+#: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
-#: comments.php:41
+#: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 
-#: comments.php:66
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "评论功能已关闭。"
 
@@ -126,7 +127,8 @@ msgstr "侧边栏"
 msgid "Add widgets here."
 msgstr "在此添加组件。"
 
-#: functions.php:181
+#: functions.php:180
+#: functions.php:202
 msgid "Author"
 msgstr "作者"
 
@@ -184,6 +186,14 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "编辑 <span class=\"screen-reader-text\">%s</span>"
 
+#: index.php:24
+msgid "Archive"
+msgstr "归档"
+
+#: index.php:36
+msgid "other"
+msgstr "其他"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
@@ -217,4 +227,12 @@ msgstr ""
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "上次进度：<span class=\"screen-reader-text\">%s</span>"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr ""
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "其他新闻"
 

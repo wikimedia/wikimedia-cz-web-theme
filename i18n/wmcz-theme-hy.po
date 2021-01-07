@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:55+0000\n"
-"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
+"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
+"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hy\n"
@@ -35,19 +35,19 @@ msgid "It looks like nothing was found at this location."
 msgstr ""
 
 #. translators: 1: title.
-#: comments.php:35
+#: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
-#: comments.php:41
+#: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:66
+#: comments.php:69
 msgid "Comments are closed."
 msgstr ""
 
@@ -127,7 +127,8 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: functions.php:181
+#: functions.php:180
+#: functions.php:202
 msgid "Author"
 msgstr "Հեղինակ"
 
@@ -185,6 +186,14 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
+#: index.php:24
+msgid "Archive"
+msgstr "Արխիվ"
+
+#: index.php:36
+msgid "other"
+msgstr ""
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
@@ -218,4 +227,12 @@ msgstr "Էջեր."
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr ""
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Այլ նորություններ"
 

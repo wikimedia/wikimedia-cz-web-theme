@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-11-30 16:20:56+0000\n"
-"X-POT-Import-Date: 2020-11-20 17:31:54+0000\n"
+"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
+"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_tw\n"
@@ -35,18 +35,18 @@ msgid "It looks like nothing was found at this location."
 msgstr "看起來在此位置上查無事物。"
 
 #. translators: 1: title.
-#: comments.php:35
+#: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "在&ldquo;%1$s&rdquo;的一個想法"
 
 #. translators: 1: comment count number, 2: title.
-#: comments.php:41
+#: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "在&ldquo;%2$s&rdquo; %1$s 個想法"
 
-#: comments.php:66
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "評論已關閉。"
 
@@ -126,7 +126,8 @@ msgstr "側邊欄"
 msgid "Add widgets here."
 msgstr "在此添加小工具。"
 
-#: functions.php:181
+#: functions.php:180
+#: functions.php:202
 msgid "Author"
 msgstr "作者"
 
@@ -184,6 +185,14 @@ msgstr "在<span class=\"screen-reader-text\">%s</span>留下評論"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "編輯<span class=\"screen-reader-text\">%s</span>"
 
+#: index.php:24
+msgid "Archive"
+msgstr "歸檔"
+
+#: index.php:36
+msgid "other"
+msgstr "其它"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
@@ -217,4 +226,12 @@ msgstr "頁面："
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "繼續閱讀<span class=\"screen-reader-text\">「%s」</span>"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "取消標記"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "其它新聞"
 
