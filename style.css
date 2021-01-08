@@ -710,8 +710,9 @@ a:hover, a:active {
 		float: none;
 	}
 
-	.main-navigation ul > li > a {
+	.main-navigation > div > ul > li > a {
 		font-weight: bold;
+		padding-top: 10px;
 	}
 
 	.sub-menu a {
