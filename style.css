@@ -1341,11 +1341,12 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	background-color: #990000;
 	position: fixed;
 	transform: rotate(-90deg);
+	transform-origin: right;
 	color: white;
 	text-decoration: none;
 	padding: 10px 60px;
-	top: 40%;
-	right: -105px;
+	top: 30%;
+	right: 20px;
 	/* Correction */
 	z-index: 3000;
 	text-transform: uppercase;
