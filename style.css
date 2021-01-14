@@ -1378,6 +1378,10 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	margin: 50pt auto;
 }
 
+.wmcz-about > div {
+	margin: 0 130px;
+}
+
 .wmcz-posts-head {
 	display: flex;
 	flex-wrap: wrap;
