@@ -1654,3 +1654,7 @@ article > .entry-header {
 .wmcz-columns-same-height {
 	height: 100%;
 }
+
+.wmcz-background-lightgrey {
+	background-color: var(--wiki-lightgrey);
+}
