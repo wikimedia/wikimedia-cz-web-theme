@@ -1657,4 +1657,9 @@ article > .entry-header {
 
 .wmcz-background-lightgrey {
 	background-color: var(--wiki-lightgrey);
+	padding: 0 10px;
+}
+
+.wmcz-center {
+	margin: auto;
 }
