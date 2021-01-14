@@ -1339,13 +1339,17 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 
 .wmcz-archive li {
 	display: inline-block;
-	padding: 20px;
+	padding: 5px 10px;
 	list-style-type: none;
 }
 
 .wmcz-about {
 	width: 83.333%;
 	margin: 50pt auto;
+}
+
+.wmcz-posts-topics {
+	padding-top: 20px;
 }
 
 @media screen and (min-width: 37.5em) {
