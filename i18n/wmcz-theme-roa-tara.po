@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
+"PO-Revision-Date: 2021-01-14 16:17:14+0000\n"
 "X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -188,11 +188,11 @@ msgstr "Cange <span class=\"screen-reader-text\">%s</span>"
 
 #: index.php:24
 msgid "Archive"
-msgstr ""
+msgstr "Archivije"
 
 #: index.php:36
 msgid "other"
-msgstr ""
+msgstr "otre"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -230,9 +230,9 @@ msgstr "Condinue 'a letture <span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "none taggate"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Otre nuvetà"
 
