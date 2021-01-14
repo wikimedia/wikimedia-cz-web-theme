@@ -1624,7 +1624,7 @@ article > .entry-header {
 
 .wmcz-columns-lightgrey > div {
 	background-color: var(--wiki-lightgrey);
-	padding: 0 10px;
+	padding: 0 20px;
 }
 
 .wmcz-columns-same-height {
@@ -1633,7 +1633,7 @@ article > .entry-header {
 
 .wmcz-background-lightgrey {
 	background-color: var(--wiki-lightgrey);
-	padding: 0 10px;
+	padding: 0 20px;
 }
 
 .wmcz-center {
