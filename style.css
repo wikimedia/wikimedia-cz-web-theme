@@ -1648,6 +1648,7 @@ article > .entry-header {
 
 .wmcz-columns-lightgrey > div {
 	background-color: var(--wiki-lightgrey);
+	padding: 0 10px;
 }
 
 .wmcz-columns-same-height {
