@@ -1152,13 +1152,27 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	padding-right: 1rem;
 }
 
-.site-footer .wikiprojects{
+.site-footer .wikiprojects {
 	background-color: #339966;
+	padding: 40px;
+}
+
+.site-footer .wikiprojects ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-footer .wikiprojects > ul > li {
+	display: inline-block;
+}
+
+.site-footer .wikiprojects > ul > li:not(:last-child):after {
+	content: " |";
 }
 
 .site-footer .wikiprojects a {
 	color: white;
-	padding-right: 1rem;
 	text-transform: uppercase;
 	line-height: 200%;
 }
@@ -1178,15 +1192,6 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 
 	.site-footer .wikiprojects {
 		width: 40%;
-	}
-
-	.site-footer .wikiprojects {
-		text-align: right;
-		padding: 40pt 40pt 40pt 20pt;
-	}
-	.site-footer .wikiprojects a {
-		padding-left: 1rem;
-		padding-right: 0;
 	}
 }
 
