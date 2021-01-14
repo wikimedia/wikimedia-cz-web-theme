@@ -1647,3 +1647,8 @@ article > .entry-header {
 .wmcz-columns-headline-same-height h2 {
 	height: 13%;
 }
+
+.wmcz-page-header {
+	font-size: 120%;
+	background-color: var(--wiki-lightgrey);
+}
