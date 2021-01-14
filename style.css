@@ -1645,3 +1645,7 @@ article > .entry-header {
 .wp-block-image > figcaption {
 	text-align: center;
 }
+
+.wmcz-columns-lightgrey > div {
+	background-color: var(--wiki-lightgrey);
+}
