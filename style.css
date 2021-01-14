@@ -1669,3 +1669,7 @@ article > .entry-header {
 .wmcz-center {
 	margin: auto;
 }
+
+.wmcz-columns-headline-same-height h2 {
+	height: 13%;
+}
