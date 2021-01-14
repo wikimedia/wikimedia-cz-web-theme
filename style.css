@@ -1124,8 +1124,6 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 .site-footer {
 	background-color: #2E2E2E;
 	color: white;
-	position: absolute;
-	bottom: 0px;
 }
 
 .site-footer a {
