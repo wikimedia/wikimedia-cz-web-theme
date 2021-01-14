@@ -1155,6 +1155,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 .site-footer .wikiprojects {
 	background-color: #339966;
 	padding: 40px;
+	text-align: right;
 }
 
 .site-footer .wikiprojects ul {
