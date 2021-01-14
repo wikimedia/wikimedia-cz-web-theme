@@ -1124,7 +1124,6 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 .site-footer {
 	background-color: #2E2E2E;
 	color: white;
-	margin-top: 100pt;
 }
 
 .site-footer a {
@@ -1135,54 +1134,25 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	color: #339966;
 }
 
-.site-footer .contact {
-	padding: 20pt;
-	/* float: left; */
+.site-footer .site-footer-column {
+	padding: 40px;
 }
 
 .site-footer .contact {
-	padding: 20pt;
-	/* float: left; */
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .site-footer .footer-socials {
 	font-size: 2rem;
+	margin: auto;
 }
 
-
-.site-footer .footer-socials a{
+.site-footer .footer-socials a {
 	padding-right: 1rem;
 }
 
-
-.site-footer .sitemap {
-	padding: 20pt;
-}
-
-.site-footer .sitemap ul.menu {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.site-footer .sitemap li {
-	padding: 0;
-}
-
-.site-footer .sitemap li:hover {
-	background-color: transparent;
-}
-
-.site-footer .sitemap a {
-	color: white;
-}
-
-.site-footer .sitemap a:hover {
-	color: #339966;
-}
-
 .site-footer .wikiprojects{
-	padding: 20pt;
 	background-color: #339966;
 }
 
@@ -1201,22 +1171,16 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	.site-footer {
 		display: flex;
 	}
-	
-	.site-footer .contact {
+
+	.site-footer .site-footer-column {
 		width: 30%;
-		/* float: left; */
-		padding: 40pt 0pt 40pt 40pt;
 	}
-	
-	.site-footer .sitemap {
-		padding: 40pt 20pt;
-		width: 20%;
-	}
-	
+
 	.site-footer .wikiprojects {
-		text-align: right;
-		width: 50%;
-		/* float: right; */
+		width: 40%;
+	}
+
+	.site-footer .wikiprojects {
 		text-align: right;
 		padding: 40pt 40pt 40pt 20pt;
 	}

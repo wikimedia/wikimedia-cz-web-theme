@@ -17,7 +17,7 @@
 </div><!-- #page -->
 
 <footer id="colophon" class="site-footer">
-	<div class="contact">
+	<div class="site-footer-column">
 		<a href="<?php echo esc_url(home_url('/')); ?>" class="custom-logo-link" rel="home">
 			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-footer-logo" alt="Wikimedia ČR">
 		</a>
@@ -31,18 +31,6 @@
 		?>
 
 		<div id="footer-description">
-			<p class="footer-address"><?php echo esc_html(get_theme_mod('address')); ?></p>
-			<p class="footer-contact">
-				<?php _e('email', 'wmcz-theme'); ?>: <a href="mailto:<?php echo esc_attr(get_theme_mod('email')); ?>">
-					<?php echo esc_html(get_theme_mod('email')); ?>
-				</a>
-				<br>
-				<?php _e('phone', 'wmcz-theme'); ?>:
-				<a href="tel:<?php echo esc_attr(get_theme_mod('phone')); ?>">
-					<?php echo esc_html(get_theme_mod('phone')); ?>
-				</a>
-			</p>
-			</p>
 			<p class="footer-socials">
 				<?php if (get_theme_mod('facebook') != ''): ?>
 				<a href="<?php echo esc_attr(get_theme_mod('facebook')); ?>" class="fa fa-facebook"></a>
@@ -59,15 +47,21 @@
 			</p>
 		</div>
 	</div>
-	<div class="sitemap">
-		<?php
-		wp_nav_menu(array(
-			'depth'			 => 1,
-		));
-		?>
+	<div class="site-footer-column contact">
+		<p>
+			Wikimedia Česká Republika<br />
+			<?php echo esc_html(get_theme_mod('address')); ?>
+		</p>
 
 		<p>
-			<a href="https://wiki.wikimedia.cz/wiki/"><?php _e('Internal wiki', 'wmcz-theme'); ?></a>
+		<?php _e('E-mail', 'wmcz-theme'); ?>:
+		<a href="mailto:<?php echo esc_attr(get_theme_mod('email')); ?>">
+			<?php echo esc_html(get_theme_mod('email')); ?>
+		</a><br />
+		<?php _e('Phone', 'wmcz-theme'); ?>:
+		<a href="tel:<?php echo esc_attr(get_theme_mod('phone')); ?>">
+			<?php echo esc_html(get_theme_mod('phone')); ?>
+		</a>
 		</p>
 	</div>
 	<div class="wikiprojects">
