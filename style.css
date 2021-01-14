@@ -1646,10 +1646,6 @@ article > .entry-header {
 	text-align: center;
 }
 
-.wmcz-column-lightgrey {
-	background-color: var(--wiki-lightgrey);
-}
-
 .wmcz-columns-lightgrey > div {
 	background-color: var(--wiki-lightgrey);
 }
