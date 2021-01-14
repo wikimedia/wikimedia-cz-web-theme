@@ -1652,3 +1652,7 @@ article > .entry-header {
 	font-size: 120%;
 	background-color: var(--wiki-lightgrey);
 }
+
+.wmcz-page-header > figure {
+	padding-right: 20px;
+}
