@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-01-02T01:02:19+01:00\n"
+"POT-Creation-Date: 2021-01-18T01:57:15+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: wmcz-theme\n"
@@ -60,63 +60,59 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:36
-msgid "email"
+#: footer.php:57
+msgid "E-mail"
 msgstr ""
 
-#: footer.php:40
-msgid "phone"
+#: footer.php:61
+msgid "Phone"
 msgstr ""
 
-#: footer.php:70
-msgid "Internal wiki"
-msgstr ""
-
-#: footer.php:74
+#: footer.php:69
 msgid "Wikipedia"
 msgstr ""
 
-#: footer.php:75
+#: footer.php:70
 msgid "Wikimedia Commons"
 msgstr ""
 
-#: footer.php:76
+#: footer.php:71
 msgid "MediaWiki"
 msgstr ""
 
-#: footer.php:77
+#: footer.php:72
 msgid "Meta-Wiki"
 msgstr ""
 
-#: footer.php:78
+#: footer.php:73
 msgid "Wikispecies"
 msgstr ""
 
-#: footer.php:79
+#: footer.php:74
 msgid "Wikibooks"
 msgstr ""
 
-#: footer.php:81
+#: footer.php:76
 msgid "Wikimania"
 msgstr ""
 
-#: footer.php:82
+#: footer.php:77
 msgid "Wikinews"
 msgstr ""
 
-#: footer.php:83
+#: footer.php:78
 msgid "Wikiquote"
 msgstr ""
 
-#: footer.php:84
+#: footer.php:79
 msgid "Wikisource"
 msgstr ""
 
-#: footer.php:85
+#: footer.php:80
 msgid "Wikiversity"
 msgstr ""
 
-#: footer.php:86
+#: footer.php:81
 msgid "Wiktionary"
 msgstr ""
 
