@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-14 16:17:14+0000\n"
-"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
+"PO-Revision-Date: 2021-01-18 16:07:39+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lb\n"
@@ -51,63 +51,59 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:36
-msgid "email"
-msgstr "E-Mail"
+#: footer.php:57
+msgid "E-mail"
+msgstr ""
 
-#: footer.php:40
-msgid "phone"
-msgstr "Telefon"
+#: footer.php:61
+msgid "Phone"
+msgstr ""
 
-#: footer.php:70
-msgid "Internal wiki"
-msgstr "Intern Wiki"
-
-#: footer.php:74
+#: footer.php:69
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: footer.php:75
+#: footer.php:70
 msgid "Wikimedia Commons"
 msgstr ""
 
-#: footer.php:76
+#: footer.php:71
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
-#: footer.php:77
+#: footer.php:72
 msgid "Meta-Wiki"
 msgstr ""
 
-#: footer.php:78
+#: footer.php:73
 msgid "Wikispecies"
 msgstr "Wikispecies"
 
-#: footer.php:79
+#: footer.php:74
 msgid "Wikibooks"
 msgstr ""
 
-#: footer.php:81
+#: footer.php:76
 msgid "Wikimania"
 msgstr "Wikimania"
 
-#: footer.php:82
+#: footer.php:77
 msgid "Wikinews"
 msgstr "Wikinews"
 
-#: footer.php:83
+#: footer.php:78
 msgid "Wikiquote"
 msgstr ""
 
-#: footer.php:84
+#: footer.php:79
 msgid "Wikisource"
 msgstr ""
 
-#: footer.php:85
+#: footer.php:80
 msgid "Wikiversity"
 msgstr "Wikiversity"
 
-#: footer.php:86
+#: footer.php:81
 msgid "Wiktionary"
 msgstr "Wiktionnaire"
 

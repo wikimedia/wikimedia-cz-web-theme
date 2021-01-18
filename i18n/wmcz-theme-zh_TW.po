@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
-"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
+"PO-Revision-Date: 2021-01-18 16:07:40+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_tw\n"
@@ -50,63 +50,59 @@ msgstr[0] "在&ldquo;%2$s&rdquo; %1$s 個想法"
 msgid "Comments are closed."
 msgstr "評論已關閉。"
 
-#: footer.php:36
-msgid "email"
-msgstr "電子郵件"
+#: footer.php:57
+msgid "E-mail"
+msgstr ""
 
-#: footer.php:40
-msgid "phone"
-msgstr "電話"
+#: footer.php:61
+msgid "Phone"
+msgstr ""
 
-#: footer.php:70
-msgid "Internal wiki"
-msgstr "內部 Wiki"
-
-#: footer.php:74
+#: footer.php:69
 msgid "Wikipedia"
 msgstr "維基百科"
 
-#: footer.php:75
+#: footer.php:70
 msgid "Wikimedia Commons"
 msgstr "維基共享資源"
 
-#: footer.php:76
+#: footer.php:71
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
-#: footer.php:77
+#: footer.php:72
 msgid "Meta-Wiki"
 msgstr "元維基"
 
-#: footer.php:78
+#: footer.php:73
 msgid "Wikispecies"
 msgstr "維基物種"
 
-#: footer.php:79
+#: footer.php:74
 msgid "Wikibooks"
 msgstr "維基教科書"
 
-#: footer.php:81
+#: footer.php:76
 msgid "Wikimania"
 msgstr "維基媒體國際會議"
 
-#: footer.php:82
+#: footer.php:77
 msgid "Wikinews"
 msgstr "維基新聞"
 
-#: footer.php:83
+#: footer.php:78
 msgid "Wikiquote"
 msgstr "維基語錄"
 
-#: footer.php:84
+#: footer.php:79
 msgid "Wikisource"
 msgstr "維基文庫"
 
-#: footer.php:85
+#: footer.php:80
 msgid "Wikiversity"
 msgstr "維基學院"
 
-#: footer.php:86
+#: footer.php:81
 msgid "Wiktionary"
 msgstr "維基詞典"
 

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
+"PO-Revision-Date: 2021-01-18 16:07:39+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: MediaWiki 1.36.0-alpha; Translate 2020-10-28\n"
 "X-Domain: wmcz\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
@@ -63,63 +63,59 @@ msgstr[2] ""
 msgid "Comments are closed."
 msgstr "Komentáře jsou uzavřeny."
 
-#: footer.php:36
-msgid "email"
-msgstr "e-mail"
+#: footer.php:57
+msgid "E-mail"
+msgstr ""
 
-#: footer.php:40
-msgid "phone"
-msgstr "telefon"
+#: footer.php:61
+msgid "Phone"
+msgstr ""
 
-#: footer.php:70
-msgid "Internal wiki"
-msgstr "Interní wiki"
-
-#: footer.php:74
+#: footer.php:69
 msgid "Wikipedia"
 msgstr "Wikipedie"
 
-#: footer.php:75
+#: footer.php:70
 msgid "Wikimedia Commons"
 msgstr "Wikimedia Commons"
 
-#: footer.php:76
+#: footer.php:71
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
-#: footer.php:77
+#: footer.php:72
 msgid "Meta-Wiki"
 msgstr "Meta-Wiki"
 
-#: footer.php:78
+#: footer.php:73
 msgid "Wikispecies"
 msgstr "Wikidruhy"
 
-#: footer.php:79
+#: footer.php:74
 msgid "Wikibooks"
 msgstr "Wikiknihy"
 
-#: footer.php:81
+#: footer.php:76
 msgid "Wikimania"
 msgstr "Wikimania"
 
-#: footer.php:82
+#: footer.php:77
 msgid "Wikinews"
 msgstr "Wikizprávy"
 
-#: footer.php:83
+#: footer.php:78
 msgid "Wikiquote"
 msgstr "Wikicitáty"
 
-#: footer.php:84
+#: footer.php:79
 msgid "Wikisource"
 msgstr "Wikizdroje"
 
-#: footer.php:85
+#: footer.php:80
 msgid "Wikiversity"
 msgstr "Wikiverzita"
 
-#: footer.php:86
+#: footer.php:81
 msgid "Wiktionary"
 msgstr "Wikislovník"
 

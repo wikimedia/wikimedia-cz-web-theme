@@ -1,12 +1,13 @@
 # Translation of Theme to Turkish (Türkçe)
 # Exported from translatewiki.net
 #
+# Author: Hedda
 # Author: MuratTheTurkish
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-07 14:36:05+0000\n"
-"X-POT-Import-Date: 2021-01-02 01:31:50+0000\n"
+"PO-Revision-Date: 2021-01-18 16:07:40+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
@@ -28,7 +29,7 @@ msgstr "Martin Urbanec"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ups! Bu sayfa bulunamıyor."
+msgstr "Hoop! Bu sayfa bulunamıyor."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -48,65 +49,61 @@ msgstr[0] "%1$s, &ldquo;%2$s&rdquo; üzerinde düşündü"
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "Yorumlar kapalıdır."
+msgstr "Yoruma kapalı."
 
-#: footer.php:36
-msgid "email"
-msgstr "e-posta"
+#: footer.php:57
+msgid "E-mail"
+msgstr ""
 
-#: footer.php:40
-msgid "phone"
-msgstr "telefon"
+#: footer.php:61
+msgid "Phone"
+msgstr ""
 
-#: footer.php:70
-msgid "Internal wiki"
-msgstr "İç viki"
-
-#: footer.php:74
+#: footer.php:69
 msgid "Wikipedia"
 msgstr "Vikipedi"
 
-#: footer.php:75
+#: footer.php:70
 msgid "Wikimedia Commons"
 msgstr "Wikimedia Commons"
 
-#: footer.php:76
+#: footer.php:71
 msgid "MediaWiki"
 msgstr "MediaWiki"
 
-#: footer.php:77
+#: footer.php:72
 msgid "Meta-Wiki"
 msgstr "Meta Viki"
 
-#: footer.php:78
+#: footer.php:73
 msgid "Wikispecies"
 msgstr "Vikitür"
 
-#: footer.php:79
+#: footer.php:74
 msgid "Wikibooks"
 msgstr "Vikikitap"
 
-#: footer.php:81
+#: footer.php:76
 msgid "Wikimania"
 msgstr "Wikimania"
 
-#: footer.php:82
+#: footer.php:77
 msgid "Wikinews"
 msgstr "Vikihaber"
 
-#: footer.php:83
+#: footer.php:78
 msgid "Wikiquote"
 msgstr "Vikisöz"
 
-#: footer.php:84
+#: footer.php:79
 msgid "Wikisource"
 msgstr "Vikikaynak"
 
-#: footer.php:85
+#: footer.php:80
 msgid "Wikiversity"
 msgstr "Vikiversite"
 
-#: footer.php:86
+#: footer.php:81
 msgid "Wiktionary"
 msgstr "Vikisözlük"
 
@@ -124,7 +121,7 @@ msgstr "Kenar çubuğu"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "Buraya widget'lar ekleyin."
+msgstr "Buraya küçük araçlar ekleyin."
 
 #: functions.php:180
 #: functions.php:202
@@ -137,7 +134,7 @@ msgstr "Bizi destekleyin"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "İçeriğe atla"
+msgstr "İçeriğe git"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -160,7 +157,7 @@ msgstr ", "
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "%1$s içinde gönderildi"
+msgstr "%1$s içine gönderildi"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -172,18 +169,18 @@ msgstr ", "
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "%1$s etiketlendi"
+msgstr "%1$s olarak etiketlendi"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> başlığında bir yorum bırakın"
+msgstr "<span class=\"screen-reader-text\">%s</span> başlığına bir yorum bırakın"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> sayfasını düzenle"
+msgstr "<span class=\"screen-reader-text\">%s</span> gönderisini düzenleyin"
 
 #: index.php:24
 msgid "Archive"
@@ -196,16 +193,16 @@ msgstr "diğer"
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Şunu için arama sonuçları: %s"
+msgstr "Şunun için arama sonuçları: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Birşey Bulanamadı"
+msgstr "Hiçbir şey bulunamadı"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buraya başlayın</a>."
+msgstr "İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buradan başlayın</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -213,7 +210,7 @@ msgstr "Maalesef arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı 
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz. Belki aramak yardımcı olabilir."
+msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz. Belki arama yapmak size yardımcı olabilir."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
@@ -225,7 +222,7 @@ msgstr "Sayfalar:"
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "<span class=\"screen-reader-text\">\"%s\"</span> sayfasına okumaya devam edin"
+msgstr "<span class=\"screen-reader-text\">\"%s\"</span> gönderisini okumaya devam edin"
 
 #. Template Name of the theme
 msgid "untagged"
