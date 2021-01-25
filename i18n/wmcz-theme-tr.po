@@ -1,12 +1,13 @@
 # Translation of Theme to Turkish (Türkçe)
 # Exported from translatewiki.net
 #
+# Author: Agaafd
 # Author: Hedda
 # Author: MuratTheTurkish
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-18 16:07:40+0000\n"
+"PO-Revision-Date: 2021-01-25 17:25:51+0000\n"
 "X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,11 +54,11 @@ msgstr "Yoruma kapalı."
 
 #: footer.php:57
 msgid "E-mail"
-msgstr ""
+msgstr "E-posta"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: footer.php:69
 msgid "Wikipedia"
