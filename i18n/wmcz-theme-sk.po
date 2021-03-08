@@ -1,0 +1,235 @@
+# Translation of Theme to Slovak (slovenčina)
+# Exported from translatewiki.net
+#
+# Author: Yardom78
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2021-03-08 15:05:25+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"X-Generator: MediaWiki 1.36.0-alpha; Translate 2021-01-21\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMČR stránka (Wikimédia Česká republika)"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "Motív Wikimédia Česká republika použitý na stránkach WMČR"
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Túto stránku sa nepodarilo nájsť."
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Vyzerá to, že sa tu nič nenachádza."
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Jeden názor na &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s názor na &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s názory na &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s názorov &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Komentáre sú zatvorené."
+
+#: footer.php:57
+msgid "E-mail"
+msgstr "Email"
+
+#: footer.php:61
+msgid "Phone"
+msgstr "Telefón"
+
+#: footer.php:69
+msgid "Wikipedia"
+msgstr "Wikipédia"
+
+#: footer.php:70
+msgid "Wikimedia Commons"
+msgstr "Wikimédia Commons"
+
+#: footer.php:71
+msgid "MediaWiki"
+msgstr "MédiaWiki"
+
+#: footer.php:72
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:73
+msgid "Wikispecies"
+msgstr "Wikidruhy"
+
+#: footer.php:74
+msgid "Wikibooks"
+msgstr "Wikiknihy"
+
+#: footer.php:76
+msgid "Wikimania"
+msgstr "Wikimánia"
+
+#: footer.php:77
+msgid "Wikinews"
+msgstr "Wikisprávy"
+
+#: footer.php:78
+msgid "Wikiquote"
+msgstr "Wikicitáty"
+
+#: footer.php:79
+msgid "Wikisource"
+msgstr "Wikizdroje"
+
+#: footer.php:80
+msgid "Wikiversity"
+msgstr "Wikiverzita"
+
+#: footer.php:81
+msgid "Wiktionary"
+msgstr "Wikislovník"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primárny"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Päta"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Bočný panel"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Pridať widgety sem."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autor"
+
+#: header.php:28
+msgid "Support us"
+msgstr "Podporte nás"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Preskočiť na obsah"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Zverejnené %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "užívateľom %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "Zverejnené v %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr "Označené %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Zanechajte komentár <span class=\"screen-reader-text\"> k %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Upraviť <span class=\"screen-reader-text\">%s</span>"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Archivovať"
+
+#: index.php:36
+msgid "other"
+msgstr "iné"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Výsledky hľadania pre: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nič nájdené"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pripravený/á publikovať svoj prvý príspevok? <a href=\"%1$s\">Začnite tu</a>."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ospravedlňujeme sa, ale vášmu vyhľadávaniu nič neodpovedá. Prosím skúste znovu inými slovami."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Zdá sa že, nevieme nájsť to čo hľadáte."
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Stránky:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Pokračovať v čítaní <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "neoznačené"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Ostatné novinky"
+
