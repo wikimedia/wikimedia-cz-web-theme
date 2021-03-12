@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2021-01-28 18:05:51+0000\n"
+"PO-Revision-Date: 2021-03-12 06:15:03+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -65,11 +65,11 @@ msgstr "Komentáře jsou uzavřeny."
 
 #: footer.php:57
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: footer.php:69
 msgid "Wikipedia"
