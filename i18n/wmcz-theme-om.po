@@ -1,175 +1,162 @@
-# Translation of Theme to Czech (čeština)
+# Translation of Theme to Oromo (Oromoo)
 # Exported from translatewiki.net
 #
-# Author: Jan Myšák
-# Author: Janbery
-# Author: Kareyac
-# Author: Martin Urbanec
-# Author: YjM
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: WMCZ 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
-"POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2021-04-19 11:02:56+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: cs_cz\n"
-"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2021-04-19 11:02:57+0000\n"
+"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: om\n"
 "X-Generator: MediaWiki 1.37.0-alpha; Translate 2021-01-21\n"
-"X-Domain: wmcz\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr "WMCZ web"
+msgstr ""
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr "Motiv Wikimedia Česká republika, použitý na stránkách WMČR."
+msgstr ""
 
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr "Martin Urbanec"
+msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
+msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "Vypadá to, že se zde nic nenachází."
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Jedna myšlenka na «%1$s»"
+msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Jedna myšlenka na «%1$s»"
-msgstr[1] "%1$s myšlenky na «%1$s»"
-msgstr[2] "%1$s myšlenek na «%1$s»"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "Komentáře jsou uzavřeny."
+msgstr ""
 
 #: footer.php:57
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "Imeelii"
 
 #: footer.php:61
 msgid "Phone"
-msgstr "Telefon"
+msgstr ""
 
 #: footer.php:69
 msgid "Wikipedia"
-msgstr "Wikipedie"
+msgstr "Wiikippiidiyaa"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
+msgstr "Gamtaan Wikimiidiyaa"
 
 #: footer.php:71
 msgid "MediaWiki"
-msgstr "MediaWiki"
+msgstr "MiidiyaaWiki"
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
+msgstr ""
 
 #: footer.php:73
 msgid "Wikispecies"
-msgstr "Wikidruhy"
+msgstr "Wikispeeshis"
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr "Wikiknihy"
+msgstr "Kitaabotawiki"
 
 #: footer.php:76
 msgid "Wikimania"
-msgstr "Wikimania"
+msgstr ""
 
 #: footer.php:77
 msgid "Wikinews"
-msgstr "Wikizprávy"
+msgstr "Wikioduuu"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr "Wikicitáty"
+msgstr "Wikikiwoot"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr "Wikizdroje"
+msgstr "Maddawiki"
 
 #: footer.php:80
 msgid "Wikiversity"
-msgstr "Wikiverzita"
+msgstr "Wikiversity"
 
 #: footer.php:81
 msgid "Wiktionary"
-msgstr "Wikislovník"
+msgstr "Wiikshinerii"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "Primární"
+msgstr ""
 
 #: functions.php:49
 msgid "Footer"
-msgstr "Patička"
+msgstr ""
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Axarroona"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "Přidejte widgety"
+msgstr ""
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "Autor"
+msgstr "Barreessaa"
 
 #: header.php:28
 msgid "Support us"
-msgstr "Podpořte nás"
+msgstr "Nu gargaari"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Přeskočit na obsah"
+msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Zveřejněno dne %s"
+msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "uživatelem %s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
 #, optional
 msgid ", "
-msgstr ","
+msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Zveřejněno v kategorii %1$s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -181,66 +168,66 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "otagováno %1$s"
+msgstr ""
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Přidejte komentář<span class=\"screen-reader-text\">k %s</span>"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Upravit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
 
 #: index.php:24
 msgid "Archive"
-msgstr "Archiv"
+msgstr ""
 
 #: index.php:36
 msgid "other"
-msgstr "ostatní"
+msgstr "kan biraa"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Výsledky vyhledávání pro: %s"
+msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Nic nenalezeno"
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Připraveni přidat svůj první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
+msgstr ""
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Omlouváme se, ale nic neodpovídá vašim hledaným výrazům. Prosíme, zkuste to znovu s jinými klíčovými slovy."
+msgstr ""
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Perhaps searching can help."
+msgstr ""
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Stránky:"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Pokračujte ve čtení<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "neoštítkované"
+msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "Ostatní novinky"
+msgstr ""
 
