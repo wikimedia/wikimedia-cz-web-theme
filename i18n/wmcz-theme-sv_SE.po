@@ -1,12 +1,13 @@
 # Translation of Theme to Swedish (svenska)
 # Exported from translatewiki.net
 #
+# Author: Jopparn
 # Author: Sabelöga
 # Author: WikiPhoenix
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-05-07 09:14:20+0000\n"
+"PO-Revision-Date: 2021-05-17 11:28:06+0000\n"
 "X-POT-Import-Date: 2021-01-18 15:38:35+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,11 +55,11 @@ msgstr "Kommentarer har stängts."
 
 #: footer.php:57
 msgid "E-mail"
-msgstr ""
+msgstr "E-post"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: footer.php:69
 msgid "Wikipedia"
@@ -227,7 +228,7 @@ msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "otaggad"
 
 #: untagged.php:19
 msgid "Other news"
