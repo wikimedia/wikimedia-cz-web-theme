@@ -1,9 +1,7 @@
-# Translation of Theme to Kannada (ಕನ್ನಡ)
+# Translation of Theme to Gujarati (ગુજરાતી)
 # Exported from translatewiki.net
 #
-# Author: AVSmalnad77
-# Author: Mahadevaiah Siddaiah
-# Author: ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ
+# Author: CptViraj
 msgid ""
 msgstr ""
 ""
@@ -11,13 +9,13 @@ msgstr ""
 "X-POT-Import-Date: 2021-05-26 12:33:56+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
+"Language: gu\n"
 "X-Generator: MediaWiki 1.36.0; Translate 2021-04-28\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
+msgstr "WMCZ વેબસાઇટ"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
@@ -34,7 +32,7 @@ msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "ಈ ಸ್ಥಳದಲ್ಲಿ ಏನೂ ಕಂಡುಬಂದಿಲ್ಲ ಎಂದು ತೋರುತ್ತಿದೆ"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -55,63 +53,63 @@ msgstr ""
 
 #: footer.php:57
 msgid "E-mail"
-msgstr "ಇ-ಅಂಚೆ"
+msgstr "ઇ-મેઇલ"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "ફોન"
 
 #: footer.php:69
 msgid "Wikipedia"
-msgstr "ವಿಕಿಪೀಡಿಯ"
+msgstr "વિકિપીડિયા"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr "ವಿಕಿಮೀಡಿಯ ಕಾಮನ್ಸ್"
+msgstr "વિકિમીડિયા કૉમન્સ"
 
 #: footer.php:71
 msgid "MediaWiki"
-msgstr "ಮೀಡಿಯಾವಿಕಿ"
+msgstr "મીડિયાવિકિ"
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr "ಮೆಟಾ-ವಿಕಿ"
+msgstr "મેટા-વિકિ"
 
 #: footer.php:73
 msgid "Wikispecies"
-msgstr "ವಿಕಿಸ್ಪೀಷೀಸ್"
+msgstr ""
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr "ವಿಕಿಬುಕ್ಸ್"
+msgstr "વિકિપુસ્તક"
 
 #: footer.php:76
 msgid "Wikimania"
-msgstr "ವಿಕಿಮೇನಿಯ"
+msgstr "વિકિસંમેલન"
 
 #: footer.php:77
 msgid "Wikinews"
-msgstr "ವಿಕಿನ್ಯೂಸ್"
+msgstr "વિકિસમાચાર"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr "ವಿಕಿಕೋಟ್"
+msgstr "વિકિસૂક્તિ"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr "ವಿಕಿಸೋರ್ಸ್"
+msgstr "વિકિસ્રોત"
 
 #: footer.php:80
 msgid "Wikiversity"
-msgstr "ವಿಕಿವರ್ಸಿಟಿ"
+msgstr "વિકિવિદ્યાલય"
 
 #: footer.php:81
 msgid "Wiktionary"
-msgstr "ವಿಕ್ಷನರಿ"
+msgstr "વિકિકોશ"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "ಪ್ರಾಥಮಿಕ"
+msgstr ""
 
 #: functions.php:49
 msgid "Footer"
@@ -128,11 +126,11 @@ msgstr ""
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "ಕರ್ತೃ"
+msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr "ನಮ್ಮನ್ನು ಬೆಂಬಲಿಸಿ"
+msgstr ""
 
 #: header.php:30
 msgid "Skip to content"
@@ -148,7 +146,7 @@ msgstr ""
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "%s ಇಂದ"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -190,7 +188,7 @@ msgstr ""
 
 #: index.php:36
 msgid "other"
-msgstr "ಇತರ"
+msgstr ""
 
 #. translators: %s: search query.
 #: search.php:22
@@ -199,7 +197,7 @@ msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "ಏನೂ ಸಿಗಲಿಲ್ಲ"
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -218,7 +216,7 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "ಪುಟಗಳು:"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
@@ -232,5 +230,5 @@ msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "બીજા સમાચાર"
 
