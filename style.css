@@ -1442,7 +1442,7 @@ a.tag-wikidata, .wmcz-tag-wikidata {
 	color: white;
 }
 
-a.tag-other, .wmcz-tag-other {
+a.tag-other, a.tag-ostatní, .wmcz-tag-other {
 	background-color: --wiki-grey;
 	color: white;
 }
