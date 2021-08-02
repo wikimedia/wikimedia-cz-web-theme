@@ -133,17 +133,32 @@ if ( ! function_exists( 'wmcz_post_thumbnail' ) ) :
 endif;
 
 
+/**
+ * Code helper to reduce code duplication
+ *
+ * See wmcz_tags_classed for details
+ *
+ * @param string $name Tag's name
+ * @param string $link
+ * @return string
+ */
+function wmcz_output_tag($name, $link) {
+	printf(
+		'<a href="%s" rel="tag" class="tag-%s">%s</a>',
+		$link,
+		esc_html( str_replace( ' ', '-', $name ) ),
+		esc_html( $name )
+	);
+}
+
 function wmcz_tags_classed() {
 	$tags = get_the_tags();
-	if ( !is_array( $tags ) ) {
+	if ( !is_array( $tags ) || $tags === [] ) {
+		wmcz_output_tag( __('other', 'wmcz-theme'), 'untagged' );
 		return;
 	}
+
 	foreach ( $tags as $tag ) {
-		printf(
-			'<a href="%s" rel="tag" class="tag-%s">%s</a>',
-			get_tag_link($tag->term_id),
-			esc_html( str_replace( ' ', '-', $tag->name ) ),
-			esc_html( $tag->name )
-		);
+		wmcz_output_tag( $tag->name, get_tag_link( $tag->term_id ) );
 	}
 }
