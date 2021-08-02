@@ -1451,7 +1451,7 @@ a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-wikidata:hover, a.tag-
 	filter: brightness(80%);
 }
 
-a.wmcz-post-topic.tag-edu, a.wmcz-post-topic.tag-wikidata, a.wmcz-post-topic.tag-komunita-a-multimedia, a.wmcz-post-topic.tag-other {
+.wmcz-posts-topics > a.wmcz-post-topic {
 	min-width: 100pt;
 	display: inline-block;
 	margin: 0 10pt 20pt 0;
