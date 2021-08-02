@@ -135,12 +135,11 @@ endif;
 
 function wmcz_tags_classed() {
 	$tags = get_the_tags();
-	$htmls = [];
 	if ( !is_array( $tags ) ) {
 		return;
 	}
 	foreach ( $tags as $tag ) {
-		$htmls[] = printf(
+		printf(
 			'<a href="%s" rel="tag" class="tag-%s">%s</a>',
 			get_tag_link($tag->term_id),
 			esc_html( str_replace( ' ', '-', $tag->name ) ),
