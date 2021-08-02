@@ -54,6 +54,11 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<p class="wmcz-post-linkback">
+			<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">
+				<?php _e('Go to all news', 'wmcz-theme') ?>
+			</a>
+		</p>
 		<!-- TODO: Actually include and properly format the footer here -->
 		<?php //wmcz_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
