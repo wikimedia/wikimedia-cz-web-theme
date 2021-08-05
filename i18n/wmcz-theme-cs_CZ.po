@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2021-07-29 11:17:43+0000\n"
+"PO-Revision-Date: 2021-08-05 11:15:20+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: MediaWiki 1.36.1; Translate 2021-07-26\n"
 "X-Domain: wmcz\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2021-05-26 12:33:56+0000\n"
+"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
@@ -194,13 +194,14 @@ msgstr "Přidejte komentář<span class=\"screen-reader-text\">k %s</span>"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Upravit <span class=\"screen-reader-text\">%s</span>"
 
-#: index.php:24
-msgid "Archive"
-msgstr "Archiv"
-
+#: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
 msgstr "ostatní"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Archiv"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -235,6 +236,10 @@ msgstr "Stránky:"
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Pokračujte ve čtení<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content.php:59
+msgid "Go to all news"
+msgstr "Zobrazit všechny novinky"
 
 #. Template Name of the theme
 msgid "untagged"

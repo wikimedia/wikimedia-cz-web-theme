@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-07-29 11:17:43+0000\n"
-"X-POT-Import-Date: 2021-05-26 12:33:56+0000\n"
+"PO-Revision-Date: 2021-08-05 11:15:21+0000\n"
+"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_fr\n"
@@ -185,13 +185,14 @@ msgstr "Laisser un commentaire <span class=\"screen-reader-text\">sur %s</span>"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Modifier <span class=\"screen-reader-text\">%s</span>"
 
-#: index.php:24
-msgid "Archive"
-msgstr "Archiver"
-
+#: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
 msgstr "autre"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Archiver"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -226,6 +227,10 @@ msgstr "Pages :"
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continuer à lire <span class=\"screen-reader-text\">« %s »</span>"
+
+#: template-parts/content.php:59
+msgid "Go to all news"
+msgstr "Aller à toutes les nouvelles"
 
 #. Template Name of the theme
 msgid "untagged"

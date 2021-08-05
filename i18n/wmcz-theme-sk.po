@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-07-29 11:17:44+0000\n"
-"X-POT-Import-Date: 2021-05-26 12:33:56+0000\n"
+"PO-Revision-Date: 2021-08-05 11:15:21+0000\n"
+"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
@@ -183,13 +183,14 @@ msgstr "Zanechajte komentár <span class=\"screen-reader-text\"> k %s</span>"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Upraviť <span class=\"screen-reader-text\">%s</span>"
 
-#: index.php:24
-msgid "Archive"
-msgstr "Archivovať"
-
+#: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
 msgstr "iné"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Archivovať"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -224,6 +225,10 @@ msgstr "Stránky:"
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Pokračovať v čítaní <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content.php:59
+msgid "Go to all news"
+msgstr "Zobraziť všetky novinky"
 
 #. Template Name of the theme
 msgid "untagged"
