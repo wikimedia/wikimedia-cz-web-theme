@@ -1,7 +1,7 @@
-# Translation of Theme to Luxembourgish (Lëtzebuergesch)
+# Translation of Theme to Sicilian (sicilianu)
 # Exported from translatewiki.net
 #
-# Author: Robby
+# Author: Ajeje Brazorf
 msgid ""
 msgstr ""
 ""
@@ -9,7 +9,7 @@ msgstr ""
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lb\n"
+"Language: scn\n"
 "X-Generator: MediaWiki 1.36.1; Translate 2021-07-26\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -53,11 +53,11 @@ msgstr ""
 
 #: footer.php:57
 msgid "E-mail"
-msgstr "E-Mail"
+msgstr "Email"
 
 #: footer.php:61
 msgid "Phone"
-msgstr "Telefon"
+msgstr "Telèfunu"
 
 #: footer.php:69
 msgid "Wikipedia"
@@ -65,7 +65,7 @@ msgstr "Wikipedia"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wikimedia Commons"
 
 #: footer.php:71
 msgid "MediaWiki"
@@ -73,7 +73,7 @@ msgstr "MediaWiki"
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta-Wiki"
 
 #: footer.php:73
 msgid "Wikispecies"
@@ -81,7 +81,7 @@ msgstr "Wikispecies"
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr ""
+msgstr "Wikibooks"
 
 #: footer.php:76
 msgid "Wikimania"
@@ -89,27 +89,27 @@ msgstr "Wikimania"
 
 #: footer.php:77
 msgid "Wikinews"
-msgstr "Wikinews"
+msgstr "Wikinutizzi"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr ""
+msgstr "Wikiquote"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr ""
+msgstr "Wikisource"
 
 #: footer.php:80
 msgid "Wikiversity"
-msgstr "Wikiversity"
+msgstr "Wikiversità"
 
 #: footer.php:81
 msgid "Wiktionary"
-msgstr "Wiktionnaire"
+msgstr "Wikizziunariu"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "Primär"
+msgstr ""
 
 #: functions.php:49
 msgid "Footer"
@@ -126,11 +126,11 @@ msgstr ""
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "Auteur"
+msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr "Ënnerstëtzt eis"
+msgstr ""
 
 #: header.php:30
 msgid "Skip to content"
@@ -185,11 +185,11 @@ msgstr ""
 #: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
-msgstr "anerer"
+msgstr "àutru"
 
 #: index.php:24
 msgid "Archive"
-msgstr "Archivéieren"
+msgstr ""
 
 #. translators: %s: search query.
 #: search.php:22
@@ -198,7 +198,7 @@ msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Näischt fonnt"
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -217,7 +217,7 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Säiten:"
+msgstr "Pàggini"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
@@ -227,7 +227,7 @@ msgstr ""
 
 #: template-parts/content.php:59
 msgid "Go to all news"
-msgstr "Op all Neiegkeete goen"
+msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
@@ -235,5 +235,5 @@ msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "Aner Neiegkeeten"
+msgstr ""
 
