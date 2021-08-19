@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-08-05 11:15:21+0000\n"
+"PO-Revision-Date: 2021-08-19 11:16:57+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,36 +28,36 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Oh! Ta pagino ne povis trovesar."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "Semblas ke nulo trovesis hike."
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "Ula pensado pri &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s pensado pri &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensadi pri &ldquo;%2$s&rdquo;"
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr ""
+msgstr "Ne esas posibla komentar pluse."
 
 #: footer.php:57
 msgid "E-mail"
-msgstr ""
+msgstr "E-posto"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telefono-nombro"
 
 #: footer.php:69
 msgid "Wikipedia"
@@ -169,71 +169,71 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Etiketizita %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Livez komento<span class=\"screen-reader-text\"> che %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "Redaktez <span class=\"screen-reader-text\">%s</span>"
 
 #: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
-msgstr ""
+msgstr "altra"
 
 #: index.php:24
 msgid "Archive"
-msgstr ""
+msgstr "Arkivo"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Serchez rezulti por: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nulo trovita"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Ka vu deziras publikigar lua unesma redakto? <a href=\"%1$s\">Komencez hike</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "Regretinde, via inquesti rezultis nulo. Probez itere uzanta diferanta vorti."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Semblas ke ni ne povas trovar quon vu serchas. Posible modifikur l'inquesto helpos."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Pagini:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Durez lektar<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/content.php:59
 msgid "Go to all news"
-msgstr ""
+msgstr "Videz omna novaji"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "sen etiketo"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Altra novaji"
 
