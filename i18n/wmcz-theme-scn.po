@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-12-06 12:18:44+0000\n"
+"PO-Revision-Date: 2022-01-17 12:18:32+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,7 +189,7 @@ msgstr "àutru"
 
 #: index.php:24
 msgid "Archive"
-msgstr ""
+msgstr "Archivia"
 
 #. translators: %s: search query.
 #: search.php:22
