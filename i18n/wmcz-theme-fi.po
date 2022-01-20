@@ -1,8 +1,8 @@
-# Translation of Theme to Danish (dansk)
+# Translation of Theme to Finnish (suomi)
 # Exported from translatewiki.net
 #
-# Author: IBDJ
-# Author: Saederup92
+# Author: Joquliina
+# Author: Moj
 msgid ""
 msgstr ""
 ""
@@ -10,7 +10,7 @@ msgstr ""
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
+"Language: fi\n"
 "X-Generator: MediaWiki 1.38.0-alpha; Translate 2022-01-19\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -66,7 +66,7 @@ msgstr ""
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
+msgstr ""
 
 #: footer.php:71
 msgid "MediaWiki"
@@ -74,43 +74,43 @@ msgstr ""
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
+msgstr ""
 
 #: footer.php:73
 msgid "Wikispecies"
-msgstr ""
+msgstr "Wikispecies"
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr ""
+msgstr "Wikikirjasto"
 
 #: footer.php:76
 msgid "Wikimania"
-msgstr ""
+msgstr "Wikimania"
 
 #: footer.php:77
 msgid "Wikinews"
-msgstr ""
+msgstr "Wikiuutiset"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr ""
+msgstr "Wikisitaatit"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr ""
+msgstr "Wikiaineisto"
 
 #: footer.php:80
 msgid "Wikiversity"
-msgstr "Wikiversity"
+msgstr "Wikiopisto"
 
 #: footer.php:81
 msgid "Wiktionary"
-msgstr ""
+msgstr "Wikisanakirja"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "Primær"
+msgstr ""
 
 #: functions.php:49
 msgid "Footer"
@@ -131,11 +131,11 @@ msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr "Støt os"
+msgstr ""
 
 #: header.php:30
 msgid "Skip to content"
-msgstr "Spring til indhold"
+msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -147,7 +147,7 @@ msgstr ""
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "af %s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -186,11 +186,11 @@ msgstr ""
 #: inc/template-tags.php:157
 #: index.php:36
 msgid "other"
-msgstr "andet"
+msgstr "muu"
 
 #: index.php:24
 msgid "Archive"
-msgstr "Arkiv"
+msgstr "Arkisto"
 
 #. translators: %s: search query.
 #: search.php:22
@@ -199,7 +199,7 @@ msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Mitään ei löytynyt"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -218,7 +218,7 @@ msgstr ""
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Sider:"
+msgstr "Sivut:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
@@ -232,9 +232,9 @@ msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "Uden label"
+msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "Andre nyheder"
+msgstr ""
 
