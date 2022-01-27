@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2022-01-20 12:19:14+0000\n"
+"PO-Revision-Date: 2022-01-27 12:18:11+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,11 +130,11 @@ msgstr ""
 
 #: header.php:28
 msgid "Support us"
-msgstr ""
+msgstr "અમારું સમર્થન કરો"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr ""
+msgstr "લખાણ પર જાઓ"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -146,7 +146,7 @@ msgstr ""
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "%s દ્વારા"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
