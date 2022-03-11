@@ -1656,3 +1656,8 @@ article > .entry-header {
 .wmcz-page-header > figure {
 	padding-right: 20px;
 }
+
+.wmcz-mainpage-about-us {
+	padding-left: 20px;
+	padding-right: 60px;
+}
