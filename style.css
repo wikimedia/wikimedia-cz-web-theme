@@ -1363,12 +1363,16 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	margin: auto 0 auto auto;
 }
 
+.wmcz-posts-container {
+	margin-bottom: 70px;
+}
+
 .wmcz-posts {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-column-gap: 40px;
 	grid-row-gap: 40px;
-	margin-bottom: 50pt;
+	margin-bottom: 25pt;
 }
 
 .wmcz-posts div.entry-content {
