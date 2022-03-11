@@ -1635,6 +1635,10 @@ article > .entry-header {
 	background-color: var(--wiki-lightgrey);
 }
 
+.wmcz-background-lightgrey .wp-block-column:first-child {
+	padding: 10px;
+}
+
 .wmcz-background-lightgrey .wp-block-column:not(:first-child) {
 	padding: 40px;
 }
