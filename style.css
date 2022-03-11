@@ -1639,6 +1639,12 @@ article > .entry-header {
 	padding: 40px;
 }
 
+.wmcz-background-lightgrey .wp-block-image {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .wmcz-center {
 	margin: auto;
 }
