@@ -1432,12 +1432,12 @@ a.tag-edu, .wmcz-tag-edu {
 	color: white;
 }
 
-a.tag-komunita-a-multimedia, .wmcz-tag-multimedia {
+a.tag-komunita-a-multimedia, .wmcz-tag-multimedia, a.tag-komunita, .wmcz-tag-komunita {
 	background-color: #990000;
 	color: white;
 }
 
-a.tag-wikidata, .wmcz-tag-wikidata {
+a.tag-wikidata, .wmcz-tag-wikidata, a.tag-partnerstvi, a.tag-partnerství, .wmcz-tag-partnerstvi {
 	background-color: #339966;
 	color: white;
 }
