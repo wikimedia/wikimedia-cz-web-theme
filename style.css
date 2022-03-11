@@ -1432,7 +1432,7 @@ a.tag-edu, .wmcz-tag-edu {
 	color: white;
 }
 
-a.tag-komunita-a-multimedia, .wmcz-tag-multimedia, a.tag-komunita, .wmcz-tag-komunita {
+a.tag-komunita-a-multimedia, a.tag-community-and-multimedia, .wmcz-tag-multimedia, a.tag-komunita, .wmcz-tag-komunita {
 	background-color: #990000;
 	color: white;
 }
@@ -1447,7 +1447,7 @@ a.tag-other, a.tag-ostatní, .wmcz-tag-other {
 	color: white;
 }
 
-a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-wikidata:hover, a.tag-other:hover {
+a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-community-and-multimedia:hover, a.tag-komunita, a.tag-wikidata:hover, a.tag-other:hover {
 	filter: brightness(80%);
 }
 
