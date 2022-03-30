@@ -1447,7 +1447,7 @@ a.tag-other, a.tag-ostatní, .wmcz-tag-other {
 	color: white;
 }
 
-a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-community-and-multimedia:hover, a.tag-komunita, a.tag-wikidata:hover, a.tag-other:hover {
+a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-community-and-multimedia:hover, a.tag-komunita:hover, a.tag-wikidata:hover, a.tag-other:hover {
 	filter: brightness(80%);
 }
 
