@@ -1,6 +1,7 @@
 # Translation of Theme to Simplified Chinese (中文（简体）)
 # Exported from translatewiki.net
 #
+# Author: StarrySky
 # Author: TsuyaMarisa
 # Author: Wuqianye
 # Author: Yfdyh000
@@ -8,7 +9,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2022-03-17 12:21:04+0000\n"
+"PO-Revision-Date: 2022-04-04 11:19:03+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,59 +64,59 @@ msgstr "手机"
 
 #: footer.php:69
 msgid "Wikipedia"
-msgstr ""
+msgstr "维基百科"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "维基共享资源"
 
 #: footer.php:71
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "元维基"
 
 #: footer.php:73
 msgid "Wikispecies"
-msgstr ""
+msgstr "维基物种"
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr ""
+msgstr "维基教科书"
 
 #: footer.php:76
 msgid "Wikimania"
-msgstr ""
+msgstr "维基媒体国际会议"
 
 #: footer.php:77
 msgid "Wikinews"
-msgstr ""
+msgstr "维基新闻"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr ""
+msgstr "维基语录"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr ""
+msgstr "维基文库"
 
 #: footer.php:80
 msgid "Wikiversity"
-msgstr ""
+msgstr "维基学院"
 
 #: footer.php:81
 msgid "Wiktionary"
-msgstr ""
+msgstr "维基词典"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "首选"
 
 #: functions.php:49
 msgid "Footer"
-msgstr ""
+msgstr "页脚"
 
 #: functions.php:110
 msgid "Sidebar"
@@ -219,7 +220,7 @@ msgstr "看起来我们无法判断你正在寻找什么内容，或许搜索功
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "页面："
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
