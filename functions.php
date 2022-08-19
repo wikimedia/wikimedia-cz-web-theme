@@ -203,3 +203,11 @@ function wmcz_image_attributes($attr, $attachment) {
 	return $attr;
 }
 add_filter( 'wp_get_attachment_image_attributes', 'wmcz_image_attributes', 10, 2 );
+
+function wmcz_remove_hellip_from_search( $translation, $text, $context, $domain ) {
+	if ( $text == 'Search &hellip;' ) {
+		return str_replace( ' &hellip;', '', $translation );
+	}
+	return $translation;
+}
+add_filter( 'gettext_with_context', 'wmcz_remove_hellip_from_search', 10, 5 );
