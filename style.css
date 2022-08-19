@@ -1432,12 +1432,12 @@ a.tag-edu, .wmcz-tag-edu {
 	color: white;
 }
 
-a.tag-komunita-a-multimedia, a.tag-community-and-multimedia, .wmcz-tag-multimedia, a.tag-komunita, .wmcz-tag-komunita {
+a.tag-komunita-a-multimedia, a.tag-community-and-multimedia, .wmcz-tag-multimedia, a.tag-komunita, .wmcz-tag-komunita, a.tag-community {
 	background-color: #990000;
 	color: white;
 }
 
-a.tag-wikidata, .wmcz-tag-wikidata, a.tag-partnerstvi, a.tag-partnerství, .wmcz-tag-partnerstvi, .wmcz-tag-partnerství {
+a.tag-wikidata, .wmcz-tag-wikidata, a.tag-partnerstvi, a.tag-partnerství, a.tag-partnership, .wmcz-tag-partnerstvi, .wmcz-tag-partnerství {
 	background-color: #339966;
 	color: white;
 }
@@ -1447,7 +1447,15 @@ a.tag-other, a.tag-ostatní, .wmcz-tag-other {
 	color: white;
 }
 
-a.tag-edu:hover, a.tag-komunita-a-multimedia:hover, a.tag-community-and-multimedia:hover, a.tag-komunita:hover, a.tag-wikidata:hover, a.tag-other:hover {
+a.tag-edu:hover,
+a.tag-komunita-a-multimedia:hover,
+a.tag-community-and-multimedia:hover,
+a.tag-komunita:hover,
+a.tag-community:hover,
+a.tag-wikidata:hover,
+a.tag-partnerství:hover,
+a.tag-partnership:hover,
+a.tag-other:hover {
 	filter: brightness(80%);
 }
 
