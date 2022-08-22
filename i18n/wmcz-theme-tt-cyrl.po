@@ -1,0 +1,239 @@
+# Translation of Theme to Tatar (Cyrillic script) (татарча)
+# Exported from translatewiki.net
+#
+# Author: Ерней
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2022-08-22 11:20:51+0000\n"
+"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tt-Cyrl\n"
+"X-Generator: MediaWiki 1.39.0-alpha; Translate 2022-07-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMCZ сайты"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr ""
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:57
+msgid "E-mail"
+msgstr "Электрон почта"
+
+#: footer.php:61
+msgid "Phone"
+msgstr "Телефон"
+
+#: footer.php:69
+msgid "Wikipedia"
+msgstr "Википедия"
+
+#: footer.php:70
+msgid "Wikimedia Commons"
+msgstr "Викиҗыентык"
+
+#: footer.php:71
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:72
+msgid "Meta-Wiki"
+msgstr "Мета-вики"
+
+#: footer.php:73
+msgid "Wikispecies"
+msgstr "Викитөрләр"
+
+#: footer.php:74
+msgid "Wikibooks"
+msgstr "Викикитап"
+
+#: footer.php:76
+msgid "Wikimania"
+msgstr "Викимания"
+
+#: footer.php:77
+msgid "Wikinews"
+msgstr "Викихәбәрләр"
+
+#: footer.php:78
+msgid "Wikiquote"
+msgstr "Викиөзек"
+
+#: footer.php:79
+msgid "Wikisource"
+msgstr "Викиханә"
+
+#: footer.php:80
+msgid "Wikiversity"
+msgstr "Викиверситет"
+
+#: footer.php:81
+msgid "Wiktionary"
+msgstr "Викисүзлек"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Төп"
+
+#: functions.php:49
+msgid "Footer"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Автор"
+
+#: header.php:28
+msgid "Support us"
+msgstr "Безгә ярдәм итегез"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Эчтәлеккә күчү"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:157
+#: index.php:36
+msgid "other"
+msgstr "башка"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Архив"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Битләр:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:59
+msgid "Go to all news"
+msgstr ""
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "билгеләнмәгән"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Башка яңалыклар"
+
