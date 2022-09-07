@@ -21,8 +21,7 @@ get_header();
 					<h1><?php wp_title('') ?></h1>
 					<?php get_search_form() ?>
 					<div class="wmcz-archive">
-						<h3><?php _e('Archive', 'wmcz-theme'); ?></h3>
-						<?php wp_custom_archive(); ?>
+						<a href="#archive"><?php _e('Archive', 'wmcz-theme'); ?></a>
 					</div>
 				</div>
 				<div class="wmcz-posts-topics">
@@ -61,6 +60,11 @@ get_header();
 				</div>
 
 				<?php the_posts_navigation(); ?>
+				<div class="wmcz-archive">
+					<a name="archive"></a>
+					<h3><?php _e('Archive', 'wmcz-theme'); ?></h3>
+					<?php wp_custom_archive(); ?>
+				</div>
 			</div>
 
 		</main><!-- #main -->
