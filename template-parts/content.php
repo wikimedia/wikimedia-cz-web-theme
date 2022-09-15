@@ -54,6 +54,19 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		<div class="wmcz-donate">
+			<div data-darujme-widget-token="kndwaffrxdz1haue">&nbsp;</div>
+			<script type="text/javascript">
+				+function(w, d, s, u, a, b) {
+					w["DarujmeObject"] = u;
+					w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
+					a = d.createElement(s); b = d.getElementsByTagName(s)[0];
+					a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
+					b.parentNode.insertBefore(a, b);
+				}(window, document, "script", "Darujme");
+				Darujme(1, "kndwaffrxdz1haue", "render", "https:\/\/www.darujme.cz\/widget?token=kndwaffrxdz1haue", "100%");
+			</script>
+		</div>
 		<p class="wmcz-post-linkback">
 			<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">
 				<?php _e('Go to all news', 'wmcz-theme') ?>
