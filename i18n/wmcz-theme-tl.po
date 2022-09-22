@@ -1,0 +1,239 @@
+# Translation of Theme to Tagalog (Tagalog)
+# Exported from translatewiki.net
+#
+# Author: GinawaSaHapon
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2022-09-22 11:23:48+0000\n"
+"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tl\n"
+"X-Generator: MediaWiki 1.40.0-alpha; Translate 2022-07-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMCZ website"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "Tema ng Wikimedia Czech Republic, ginagamit sa website ng WMCZ"
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hala! Hindi mahanap ang pahinang yan."
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Mukhang walang nakita sa lokasyong ito."
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Isang ideya sa &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ideya sa &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s (na) ideya sa &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Sarado na ang mga komento."
+
+#: footer.php:57
+msgid "E-mail"
+msgstr "E-mail"
+
+#: footer.php:61
+msgid "Phone"
+msgstr "Phone"
+
+#: footer.php:69
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: footer.php:70
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:71
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:72
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:73
+msgid "Wikispecies"
+msgstr "Wikispecies"
+
+#: footer.php:74
+msgid "Wikibooks"
+msgstr "Wikibooks"
+
+#: footer.php:76
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:77
+msgid "Wikinews"
+msgstr "Wikinews"
+
+#: footer.php:78
+msgid "Wikiquote"
+msgstr "Wikiquote"
+
+#: footer.php:79
+msgid "Wikisource"
+msgstr "Wikisource"
+
+#: footer.php:80
+msgid "Wikiversity"
+msgstr "Wikiversity"
+
+#: footer.php:81
+msgid "Wiktionary"
+msgstr "Wiktionary"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Pangunahin"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Baba"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Gilid"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Magdagdag ng mga widget rito."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "May-akda"
+
+#: header.php:28
+msgid "Support us"
+msgstr "Suportahan kami"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Pumunta sa nilalaman"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Pinost noong %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "ni %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "Pinost sa %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr "Naka-tag bilang %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Magkomento<span class=\"screen-reader-text\">sa %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "I-edit <span class=\"screen-reader-text\">ang %s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:36
+msgid "other"
+msgstr "iba pa"
+
+#: index.php:24
+msgid "Archive"
+msgstr "Nakaraan"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Mga nahanap para sa: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Walang nakita"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Handa na para ilathala ang unang post mo? <a href=\"%1$s\">Magsimula rito</a>."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pasensiya na, pero walang tumugma sa mga hinahanap mo. Pakisubukan muli gamit ang ibang mga salita."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Mukhang hindi namin makita ang hinahanap mo. Baka makatulong ang paghahanap."
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Mga pahina:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Ituloy basahin ang <span class=\"screen-reader-text\">ang \"%s\"</span>"
+
+#: template-parts/content.php:59
+msgid "Go to all news"
+msgstr "Pumunta sa lahat ng balita"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "hindi naka-tag"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Ibang mga balita"
+
