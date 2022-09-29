@@ -2,10 +2,11 @@
 # Exported from translatewiki.net
 #
 # Author: GinawaSaHapon
+# Author: Jojit fb
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2022-09-22 11:23:48+0000\n"
+"PO-Revision-Date: 2022-09-29 11:22:30+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,7 +181,7 @@ msgstr "Magkomento<span class=\"screen-reader-text\">sa %s</span>"
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "I-edit <span class=\"screen-reader-text\">ang %s</span>"
+msgstr "Baguhin <span class=\"screen-reader-text\">ang %s</span>"
 
 #: inc/template-tags.php:157
 #: index.php:36
