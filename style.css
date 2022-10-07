@@ -1427,7 +1427,7 @@ Maybe we don't want this? --Urbanecm, 2019-10-17
 	font-size: 1.1rem;
 }
 
-a.tag-edu, .wmcz-tag-edu, a.tag-vzdělávání, .wmcz-tag-vzdělávání {
+a.tag-edu, .wmcz-tag-edu, a.tag-vzdělávání, .wmcz-tag-vzdělávání, a.tag-education, .wmcz-tag-education {
 	background-color: #006699;
 	color: white;
 }
@@ -1438,7 +1438,8 @@ a.tag-komunita-a-multimedia, a.tag-community-and-multimedia, .wmcz-tag-multimedi
 }
 
 a.tag-wikidata, .wmcz-tag-wikidata, a.tag-partnerstvi, a.tag-partnerství, a.tag-partnership,
-.wmcz-tag-partnerstvi, .wmcz-tag-partnerství, a.tag-partnerství\/wikidata, .wmcz-tag-partnerství\/wikidata {
+.wmcz-tag-partnerstvi, .wmcz-tag-partnerství, a.tag-partnerství\/wikidata, .wmcz-tag-partnerství\/wikidata,
+a.tag-partnership/wikidata, .wmcz-tag-partnership/wikidata {
 	background-color: #339966;
 	color: white;
 }
