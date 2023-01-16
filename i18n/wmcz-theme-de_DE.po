@@ -2,12 +2,13 @@
 # Exported from translatewiki.net
 #
 # Author: DraconicDark
+# Author: Justman10000
 # Author: Umlaut
 # Author: Zabe
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2022-10-27 11:30:32+0000\n"
+"PO-Revision-Date: 2023-01-16 12:22:18+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,15 +40,15 @@ msgstr "Wie es aussieht, wurde an diesem Ort nichts gefunden."
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "Ein Gedanke zu &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
 
 #: comments.php:69
 msgid "Comments are closed."
@@ -59,7 +60,7 @@ msgstr "E-Mail"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: footer.php:69
 msgid "Wikipedia"
@@ -176,13 +177,13 @@ msgstr "Markiert %1$s"
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Hinterlasse einen Kommentar<span class=\"screen-reader-text\"> zu %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "<span class=\"screen-reader-text\">%s</span> bearbeiten"
 
 #: inc/template-tags.php:157
 #: index.php:36
@@ -205,7 +206,7 @@ msgstr "Nichts gefunden"
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Bist du bereit, deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Hier geht's los</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -229,13 +230,13 @@ msgstr "Weiterlesen<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/content.php:59
 msgid "Go to all news"
-msgstr ""
+msgstr "Zu allen Neuigkeiten gehen"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "ungetaggt"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Andere Neuigkeiten"
 
