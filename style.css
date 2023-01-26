@@ -805,11 +805,11 @@ a:hover, a:active {
 	float: right;
 }
 
-#menu-item-4396 {
+#menu-item-4396, #menu-item-4398 {
 	background-color: #990000;
 }
 
-#menu-item-4396 a {
+#menu-item-4396 a, #menu-item-4398 a {
 	color: white;
 	font-weight: bold;
 }
