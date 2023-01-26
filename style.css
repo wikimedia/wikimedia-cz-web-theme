@@ -805,6 +805,15 @@ a:hover, a:active {
 	float: right;
 }
 
+#menu-item-4396 {
+	background-color: #990000;
+}
+
+#menu-item-4396 a {
+	color: white;
+	font-weight: bold;
+}
+
 @media screen and (min-width: 764px) {
 	.site-branding {
 		padding-top: 25px;
@@ -1292,7 +1301,7 @@ button.active {
 } 
 
 .wmcz-support-us, .wmcz-support-us:visited {
-	background-color: #990000;
+	background-color: #808080;
 	position: fixed;
 	transform: rotate(-90deg);
 	transform-origin: right;

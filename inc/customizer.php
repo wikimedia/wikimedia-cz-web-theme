@@ -26,14 +26,22 @@ function wmcz_customize_register( $wp_customize ) {
 		) );
 	}
 
-	$wp_customize->add_setting( 'donate-page', [
+	$wp_customize->add_setting( 'support-page', [
 		'default' => '',
 		'sanitize_callback' => 'absint',
 	] );
-	$wp_customize->add_control( 'donate-page', [
-		'label' => 'Donate page',
+	$wp_customize->add_control( 'support-page', [
+		'label' => 'Support us page',
 		'type' => 'dropdown-pages',
 		'section' => 'title_tagline',
+	] );
+	$wp_customize->add_setting( 'support-text', [
+		'default' => '',
+	] );
+	$wp_customize->add_control( 'support-text', [
+		'label' => 'Support us page description text',
+		'type' => 'text',
+		'section' => 'title_tagline'
 	] );
 
 	$wp_customize->add_setting( 'address', [
