@@ -2,10 +2,11 @@
 # Exported from translatewiki.net
 #
 # Author: Robby
+# Author: Volvox
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-01-26 12:30:40+0000\n"
+"PO-Revision-Date: 2023-02-27 12:21:13+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +16,7 @@ msgstr ""
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
+msgstr "WMCZ-Websäit"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
@@ -28,7 +29,7 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Ups! Déi Säit gouf net fonnt."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -37,15 +38,15 @@ msgstr ""
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "Ee Gedanken zu &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
 
 #: comments.php:69
 msgid "Comments are closed."
@@ -65,7 +66,7 @@ msgstr "Wikipedia"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wikimedia Commons"
 
 #: footer.php:71
 msgid "MediaWiki"
@@ -73,7 +74,7 @@ msgstr "MediaWiki"
 
 #: footer.php:72
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta-Wiki"
 
 #: footer.php:73
 msgid "Wikispecies"
@@ -81,7 +82,7 @@ msgstr "Wikispecies"
 
 #: footer.php:74
 msgid "Wikibooks"
-msgstr ""
+msgstr "Wikibooks"
 
 #: footer.php:76
 msgid "Wikimania"
@@ -93,11 +94,11 @@ msgstr "Wikinews"
 
 #: footer.php:78
 msgid "Wikiquote"
-msgstr ""
+msgstr "Wikiquote"
 
 #: footer.php:79
 msgid "Wikisource"
-msgstr ""
+msgstr "Wikisource"
 
 #: footer.php:80
 msgid "Wikiversity"
@@ -134,7 +135,7 @@ msgstr "Ënnerstëtzt eis"
 
 #: header.php:30
 msgid "Skip to content"
-msgstr ""
+msgstr "Op den Inhalt wiesselen"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -146,7 +147,7 @@ msgstr ""
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "vum %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -211,7 +212,7 @@ msgstr ""
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Et schéngt, wéi wa mer net fanne géingen, wat Dir sicht. Villäicht kann d'Sich hëllefen."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
