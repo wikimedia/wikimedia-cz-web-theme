@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-01-26 12:30:40+0000\n"
+"PO-Revision-Date: 2023-03-02 12:28:12+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,7 +213,7 @@ msgstr "Žal se z vašimi iskalnimi izrazi ne ujema nič. Poskusite znova z neka
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Zdi se, da ne moremo najti, kar iščete. Morda bo pomagalo iskanje."
+msgstr "Zdi se, da ne moremo najti, kar iščete. Mogoče bo pomagalo iskanje."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
