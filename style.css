@@ -1196,6 +1196,11 @@ button.active {
 	}
 }
 
+.wp-block-button > a:hover {
+	color: white;
+	filter: brightness(80%);
+}
+
 /**
 * Mainpage content CSS
 **/
