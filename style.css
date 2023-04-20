@@ -809,6 +809,10 @@ a:hover, a:active {
 	background-color: #990000;
 }
 
+#menu-item-4396:hover, #menu-item-4398:hover {
+	filter: brightness(80%);
+}
+
 #menu-item-4396 a, #menu-item-4398 a {
 	color: white;
 	font-weight: bold;
