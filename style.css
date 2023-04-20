@@ -1684,3 +1684,11 @@ article > .entry-header {
 	padding-left: 20px;
 	padding-right: 60px;
 }
+
+.wmcz-person {
+	transition: ease-out 100ms;
+}
+
+.wmcz-person:hover {
+	transform: scale(1.02);
+}
