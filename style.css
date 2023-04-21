@@ -805,15 +805,15 @@ a:hover, a:active {
 	float: right;
 }
 
-#menu-item-4396, #menu-item-4398 {
+#menu-item-4396, #menu-item-5517 {
 	background-color: #990000;
 }
 
-#menu-item-4396:hover, #menu-item-4398:hover {
+#menu-item-4396:hover, #menu-item-5517:hover {
 	filter: brightness(80%);
 }
 
-#menu-item-4396 a, #menu-item-4398 a {
+#menu-item-4396 a, #menu-item-5517 a {
 	color: white;
 	font-weight: bold;
 }
