@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-04-27 11:26:27+0000\n"
+"PO-Revision-Date: 2023-06-29 11:31:34+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +48,7 @@ msgstr[0] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr ""
+msgstr "Komentar ditutup."
 
 #: footer.php:57
 msgid "E-mail"
@@ -56,7 +56,7 @@ msgstr "Surel"
 
 #: footer.php:61
 msgid "Phone"
-msgstr ""
+msgstr "Telepon"
 
 #: footer.php:69
 msgid "Wikipedia"
@@ -64,7 +64,7 @@ msgstr "Wikipedia"
 
 #: footer.php:70
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Wikimedia Commons"
 
 #: footer.php:71
 msgid "MediaWiki"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr ""
+msgstr "Tambahkan gawai di sini."
 
 #: functions.php:180
 #: functions.php:202
@@ -234,5 +234,5 @@ msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Berita lainnya"
 

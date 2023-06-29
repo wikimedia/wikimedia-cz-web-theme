@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-04-27 11:26:27+0000\n"
+"PO-Revision-Date: 2023-06-29 11:31:34+0000\n"
 "X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -77,7 +77,7 @@ msgstr "મેટા-વિકિ"
 
 #: footer.php:73
 msgid "Wikispecies"
-msgstr ""
+msgstr "વિકિજાતિ"
 
 #: footer.php:74
 msgid "Wikibooks"
@@ -109,7 +109,7 @@ msgstr "વિકિકોશ"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "પ્રાથમિક"
 
 #: functions.php:49
 msgid "Footer"
@@ -126,7 +126,7 @@ msgstr ""
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr ""
+msgstr "લેખક"
 
 #: header.php:28
 msgid "Support us"
