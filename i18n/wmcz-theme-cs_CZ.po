@@ -249,3 +249,6 @@ msgstr "neoštítkované"
 msgid "Other news"
 msgstr "Ostatní novinky"
 
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Odebírejte newsletter"

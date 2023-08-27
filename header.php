@@ -29,7 +29,7 @@
 		class="wmcz-support-us"
 		href="<?php echo get_page_link(function_exists( 'pll_get_post' ) ? pll_get_post( get_theme_mod( 'support-page' ) ) : get_theme_mod( 'support-page' ) ); ?>"
 	>
-		<?php _e('Subscribe newsletter', 'wmcz-theme'); ?>
+		<?php _e('Subscribe to the newsletter', 'wmcz-theme'); ?>
 	</a>
 	<?php endif; ?>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wmcz-theme' ); ?></a>
