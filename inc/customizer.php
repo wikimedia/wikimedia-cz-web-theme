@@ -35,14 +35,6 @@ function wmcz_customize_register( $wp_customize ) {
 		'type' => 'dropdown-pages',
 		'section' => 'title_tagline',
 	] );
-	$wp_customize->add_setting( 'support-text', [
-		'default' => '',
-	] );
-	$wp_customize->add_control( 'support-text', [
-		'label' => 'Support us page description text',
-		'type' => 'text',
-		'section' => 'title_tagline'
-	] );
 
 	$wp_customize->add_setting( 'address', [
 		'default' => '',
