@@ -159,6 +159,7 @@ msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:69
 msgid "Comments are closed."
