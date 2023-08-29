@@ -184,7 +184,7 @@ function wmcz_modify_post_thumbnail_html($html, $post_id, $post_thumbnail_id, $s
 	$data = wp_get_attachment_image_src($post_thumbnail_id, $size);
 	return '<div class="wmcz-post-thumbnail" style="width: ' . $data[1] . 'px">' . wp_get_attachment_image( $post_thumbnail_id, $size, false, $attr ) . '<center class="wmcz-image-attribution">' .$attribution_line . '</center></div>';
 }
-add_filter( 'post_thumbnail_html', 'wmcz_modify_post_thumbnail_html', 10, 5 );
+// add_filter( 'post_thumbnail_html', 'wmcz_modify_post_thumbnail_html', 10, 5 );
 
 function wmcz_image_attributes($attr, $attachment) {
 	if ( !function_exists( 'get_field' ) ) {
