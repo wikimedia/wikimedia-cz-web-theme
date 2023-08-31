@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:01+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
@@ -28,32 +28,6 @@ msgstr "Тема Викимедиа Чешская Республика, исп�
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ой! Эта страница не может быть найдена."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Похоже, в этом месте ничего не было найдено."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Одна мысль на «1$s»;"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s подумал &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s подумали &ldquo;%2$s&rdquo;"
-msgstr[2] ""
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "Комментарии закрыты."
 
 #: footer.php:57
 msgid "E-mail"
@@ -111,34 +85,80 @@ msgstr "Викиверситет"
 msgid "Wiktionary"
 msgstr "Викисловарь"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Основной"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\">«%s»</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Нижний колонтитул"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Страницы:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Боковая панель"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Перейти ко всем новостям"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Добавьте сюда виджеты."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Править <span class=\"screen-reader-text\">%s</span>"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Автор"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено."
 
-#: header.php:28
-msgid "Support us"
-msgstr "Поддержите нас"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первое сообщение? <a href=\"%1$s\">Начните тут</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "Перейти к содержанию"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не соответствовало вашим поисковым запросам. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск поможет."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Архив"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr "другие"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "не отмечено"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Другие новости"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Одна мысль на «1$s»;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s подумал &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s подумали &ldquo;%2$s&rdquo;"
+msgstr[2] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -180,64 +200,45 @@ msgstr "Отметил %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Оставить комментарий<span class=\"screen-reader-text\">к %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Править <span class=\"screen-reader-text\">%s</span>"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr "другие"
-
-#: index.php:24
-msgid "Archive"
-msgstr "Архив"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Результаты поиска для: %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Ничего не найдено."
+#: functions.php:48
+msgid "Primary"
+msgstr "Основной"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Готовы опубликовать свой первое сообщение? <a href=\"%1$s\">Начните тут</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "Нижний колонтитул"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Извините, но ничего не соответствовало вашим поисковым запросам. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Боковая панель"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск поможет."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Добавьте сюда виджеты."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Страницы:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Автор"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Читать далее<span class=\"screen-reader-text\">«%s»</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Эта страница не может быть найдена."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
-msgstr "Перейти ко всем новостям"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Похоже, в этом месте ничего не было найдено."
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr "не отмечено"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "Другие новости"
+#: header.php:35
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
 

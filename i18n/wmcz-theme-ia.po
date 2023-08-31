@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:00+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ia\n"
@@ -25,31 +25,6 @@ msgstr "Thema de Wikimedia del Republica tchec, usate sur le sito web WMCZ"
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Pagina non trovate."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Pare que nihil ha essite trovate a iste loco."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Un pensata sur &ldquo;%1$s&rdquo;"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s pensata sur &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s pensatas sur &ldquo;%2$s&rdquo;"
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "Commentos claudite."
 
 #: footer.php:57
 msgid "E-mail"
@@ -107,34 +82,79 @@ msgstr "Wikiversitate"
 msgid "Wiktionary"
 msgstr "Wiktionario"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Principal"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar a leger<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Pede de pagina"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Paginas:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Barra lateral"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Ir a tote le novas"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Adde widgets hic."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modificar <span class=\"screen-reader-text\">%s</span>"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Autor"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nihil trovate"
 
-#: header.php:28
-msgid "Support us"
-msgstr "Sustene nos"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Preste a publicar tu prime articulo? <a href=\"%1$s\">Comencia hic</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "Saltar al contento"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nihil corresponde a tu terminos de recerca. Per favor tenta lo de novo con altere parolas clave."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Pare que nos non pote trovar lo que tu cerca. Forsan le function de recerca pote adjutar."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Archivo"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr "altere"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "sin etiquetta"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Altere novas"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un pensata sur &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s pensata sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensatas sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Commentos claudite."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -176,64 +196,45 @@ msgstr "Etiquettate %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Lassar un commento<span class=\"screen-reader-text\"> sur %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Modificar <span class=\"screen-reader-text\">%s</span>"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr "altere"
-
-#: index.php:24
-msgid "Archive"
-msgstr "Archivo"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Resultatos de recerca pro: %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Nihil trovate"
+#: functions.php:48
+msgid "Primary"
+msgstr "Principal"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Preste a publicar tu prime articulo? <a href=\"%1$s\">Comencia hic</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "Pede de pagina"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Nihil corresponde a tu terminos de recerca. Per favor tenta lo de novo con altere parolas clave."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Barra lateral"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Pare que nos non pote trovar lo que tu cerca. Forsan le function de recerca pote adjutar."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Adde widgets hic."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Paginas:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autor"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuar a leger<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Pagina non trovate."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
-msgstr "Ir a tote le novas"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Pare que nihil ha essite trovate a iste loco."
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr "sin etiquetta"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Abonar me al bulletin de novas"
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "Altere novas"
+#: header.php:35
+msgid "Skip to content"
+msgstr "Saltar al contento"
 

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:01+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:24+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tl\n"
@@ -26,31 +26,6 @@ msgstr "Tema ng Wikimedia Czech Republic, ginagamit sa website ng WMCZ"
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Hala! Hindi mahanap ang pahinang yan."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Mukhang walang nakita sa lokasyong ito."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Isang ideya sa &ldquo;%1$s&rdquo;"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s ideya sa &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s (na) ideya sa &ldquo;%2$s&rdquo;"
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "Sarado na ang mga komento."
 
 #: footer.php:57
 msgid "E-mail"
@@ -108,34 +83,79 @@ msgstr "Wikiversity"
 msgid "Wiktionary"
 msgstr "Wiktionary"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Pangunahin"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Ituloy basahin ang <span class=\"screen-reader-text\">ang \"%s\"</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Baba"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Mga pahina:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Gilid"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Pumunta sa lahat ng balita"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Magdagdag ng mga widget rito."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Baguhin <span class=\"screen-reader-text\">ang %s</span>"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "May-akda"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Walang nakita"
 
-#: header.php:28
-msgid "Support us"
-msgstr "Suportahan kami"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Handa na para ilathala ang unang post mo? <a href=\"%1$s\">Magsimula rito</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "Pumunta sa nilalaman"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pasensiya na, pero walang tumugma sa mga hinahanap mo. Pakisubukan muli gamit ang ibang mga salita."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Mukhang hindi namin makita ang hinahanap mo. Baka makatulong ang paghahanap."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Nakaraan"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr "iba pa"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "hindi naka-tag"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Ibang mga balita"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Isang ideya sa &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ideya sa &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s (na) ideya sa &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Sarado na ang mga komento."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -177,64 +197,45 @@ msgstr "Naka-tag bilang %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Magkomento<span class=\"screen-reader-text\">sa %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Baguhin <span class=\"screen-reader-text\">ang %s</span>"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr "iba pa"
-
-#: index.php:24
-msgid "Archive"
-msgstr "Nakaraan"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Mga nahanap para sa: %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Walang nakita"
+#: functions.php:48
+msgid "Primary"
+msgstr "Pangunahin"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Handa na para ilathala ang unang post mo? <a href=\"%1$s\">Magsimula rito</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "Baba"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Pasensiya na, pero walang tumugma sa mga hinahanap mo. Pakisubukan muli gamit ang ibang mga salita."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Gilid"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Mukhang hindi namin makita ang hinahanap mo. Baka makatulong ang paghahanap."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Magdagdag ng mga widget rito."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Mga pahina:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "May-akda"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Ituloy basahin ang <span class=\"screen-reader-text\">ang \"%s\"</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hala! Hindi mahanap ang pahinang yan."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
-msgstr "Pumunta sa lahat ng balita"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Mukhang walang nakita sa lokasyong ito."
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr "hindi naka-tag"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "Ibang mga balita"
+#: header.php:35
+msgid "Skip to content"
+msgstr "Pumunta sa nilalaman"
 

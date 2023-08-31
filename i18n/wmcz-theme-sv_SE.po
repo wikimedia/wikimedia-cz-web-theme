@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:01+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:24+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv_se\n"
@@ -27,31 +27,6 @@ msgstr "Wikimedia Tjeckiens tema, används på WMCZ:s hemsida"
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Hoppsan! Sidan hittades inte."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Det ser inte ut som någonting hittades på denna plats."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "En tanke på &ldquo;%1$s&rdquo;"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s tanke på &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s tankar på &ldquo;%2$s&rdquo;"
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "Kommentarer har stängts."
 
 #: footer.php:57
 msgid "E-mail"
@@ -109,34 +84,79 @@ msgstr "Wikiversity"
 msgid "Wiktionary"
 msgstr "Wiktionary"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Primär"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Sidfot"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Sidor:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Sidofält"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Gå till alla nyheter"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Lägg till finesser här."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Författare"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Hittade ingenting"
 
-#: header.php:28
-msgid "Support us"
-msgstr "Stöd oss"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "Hoppa till innehållet"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr, ingenting matchar dina söktermer. Försök igen med andra sökord."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ut som att vi inte kan hitta det du letar efter. En sökning kanske kan hjälpa."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arkiv"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr "övrigt"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "otaggad"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Andra nyheter"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "En tanke på &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s tanke på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tankar på &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Kommentarer har stängts."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -178,64 +198,45 @@ msgstr "Taggades med %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> på %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr "övrigt"
-
-#: index.php:24
-msgid "Archive"
-msgstr "Arkiv"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Sökresultat för: %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Hittade ingenting"
+#: functions.php:48
+msgid "Primary"
+msgstr "Primär"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "Sidfot"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Tyvärr, ingenting matchar dina söktermer. Försök igen med andra sökord."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Sidofält"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Det ser ut som att vi inte kan hitta det du letar efter. En sökning kanske kan hjälpa."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Lägg till finesser här."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Sidor:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Författare"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Sidan hittades inte."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
-msgstr "Gå till alla nyheter"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Det ser inte ut som någonting hittades på denna plats."
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr "otaggad"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "Andra nyheter"
+#: header.php:35
+msgid "Skip to content"
+msgstr "Hoppa till innehållet"
 

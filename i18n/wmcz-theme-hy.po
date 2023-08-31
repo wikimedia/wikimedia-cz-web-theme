@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:00+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hy\n"
@@ -24,31 +24,6 @@ msgstr ""
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr ""
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: comments.php:69
-msgid "Comments are closed."
 msgstr ""
 
 #: footer.php:57
@@ -107,33 +82,78 @@ msgstr ""
 msgid "Wiktionary"
 msgstr "Վիքիբառարան"
 
-#: functions.php:48
-msgid "Primary"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: functions.php:49
-msgid "Footer"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Էջեր."
+
+#: template-parts/content.php:72
+msgid "Go to all news"
 msgstr ""
 
-#: functions.php:110
-msgid "Sidebar"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: functions.php:112
-msgid "Add widgets here."
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ոչինչ չի գտնվել"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Հեղինակ"
-
-#: header.php:28
-msgid "Support us"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: header.php:30
-msgid "Skip to content"
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Արխիվ"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr ""
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr ""
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Այլ նորություններ"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: post date.
@@ -176,64 +196,45 @@ msgstr ""
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr ""
-
-#: index.php:24
-msgid "Archive"
-msgstr "Արխիվ"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Ոչինչ չի գտնվել"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#: functions.php:48
+msgid "Primary"
 msgstr ""
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+#: functions.php:49
+msgid "Footer"
 msgstr ""
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+#: functions.php:110
+msgid "Sidebar"
 msgstr ""
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Էջեր."
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: functions.php:112
+msgid "Add widgets here."
 msgstr ""
 
-#: template-parts/content.php:59
-msgid "Go to all news"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Հեղինակ"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#. Template Name of the theme
-msgid "untagged"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
 msgstr ""
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "Այլ նորություններ"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr ""
 

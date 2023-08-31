@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:00+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ku-Latn\n"
@@ -26,31 +26,6 @@ msgstr "temaya Wîkîmedya Komara Çekê, ku li malpera WMCZê hatiye bikaranîn
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ha hoo! Ev rûpel peyda nebû."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Wisa dixuye ku li vê derê ti tişt nehate dîtin."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Fikrekê li ser &ldquo;%1$s&rdquo;"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
-msgstr[1] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "Şîrove hatine girtin."
 
 #: footer.php:57
 msgid "E-mail"
@@ -108,34 +83,79 @@ msgstr "Wîkîzanîngeh"
 msgid "Wiktionary"
 msgstr "Wîkîferheng"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Sereke"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Dewam bike xwendinê<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Binagahî"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "Rûpel:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Kêlekbend"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr ""
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Widgetan tevlî vir bike."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> biguherîne"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Xwedî"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Tişt Nehat Dîtin"
 
-#: header.php:28
-msgid "Support us"
-msgstr "Piştgiriyê bide me"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Hazir î ku şandiya xwe ya yekem biweşînî? <a href=\"%1$s\">Ji vir dest pê bike</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "Derbasî naverokê bibe"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bibore, lê ti tişt peyda nebû bi peyvên te yên lêgerînê. Ji kerema xwe bi peyvên cuda cardin biceribîne."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Wisa dixuye ku em nikarin tiştê tu lê dinêrî peyda bikin. Dibe ku lêgerîn alî te bike."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr ""
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr ""
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr ""
+
+#: untagged.php:19
+msgid "Other news"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Fikrekê li ser &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
+msgstr[1] "%1$s li ser &ldquo;%2$s&rdquo; fikirî"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Şîrove hatine girtin."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -177,64 +197,45 @@ msgstr "%1$s hate etîketkirin"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Şîroveyekê berde<span class=\"screen-reader-text\"> li ser %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> biguherîne"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr ""
-
-#: index.php:24
-msgid "Archive"
-msgstr ""
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Li encaman bigere ji bo %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Tişt Nehat Dîtin"
+#: functions.php:48
+msgid "Primary"
+msgstr "Sereke"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Hazir î ku şandiya xwe ya yekem biweşînî? <a href=\"%1$s\">Ji vir dest pê bike</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "Binagahî"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Bibore, lê ti tişt peyda nebû bi peyvên te yên lêgerînê. Ji kerema xwe bi peyvên cuda cardin biceribîne."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Kêlekbend"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Wisa dixuye ku em nikarin tiştê tu lê dinêrî peyda bikin. Dibe ku lêgerîn alî te bike."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Widgetan tevlî vir bike."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "Rûpel:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Xwedî"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Dewam bike xwendinê<span class=\"screen-reader-text\"> \"%s\"</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ha hoo! Ev rûpel peyda nebû."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Wisa dixuye ku li vê derê ti tişt nehate dîtin."
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
 msgstr ""
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr ""
-
-#: untagged.php:19
-msgid "Other news"
-msgstr ""
+#: header.php:35
+msgid "Skip to content"
+msgstr "Derbasî naverokê bibe"
 

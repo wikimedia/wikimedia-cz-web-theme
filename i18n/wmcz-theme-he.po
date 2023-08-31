@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: YaronSh
+# Author: נדב ס
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-07-06 11:35:00+0000\n"
-"X-POT-Import-Date: 2021-08-02 16:30:36+0000\n"
+"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
+"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
@@ -25,31 +26,6 @@ msgstr "ערכת העיצוב של ויקימדיה צ׳כיה, משמש את ה
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "אופס! לא ניתן למצוא את העמוד הזה."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
-
-#. translators: 1: title.
-#: comments.php:38
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "מחשבה אחת על „%1$s”"
-
-#. translators: 1: comment count number, 2: title.
-#: comments.php:44
-msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
-
-#: comments.php:69
-msgid "Comments are closed."
-msgstr "ההערות סגורות."
 
 #: footer.php:57
 msgid "E-mail"
@@ -107,34 +83,79 @@ msgstr "ויקיברסיטה"
 msgid "Wiktionary"
 msgstr "ויקימילון"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "ראשית"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#: template-parts/content-snip.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "כותרת תחתונה"
+#: template-parts/content.php:50
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+msgid "Pages:"
+msgstr "דפים:"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "סרגל צד"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "מעבר לכל החדשות"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "הוספת וידג׳ט לכאן."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:43
+#: inc/template-tags.php:99
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "מחבר או מחברת"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "לא נמצא דבר"
 
-#: header.php:28
-msgid "Support us"
-msgstr "לתמוך בנו"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
 
-#: header.php:30
-msgid "Skip to content"
-msgstr "דילוג לתוכן"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "שום דבר לא תאם לביטויי החיפוש שלך. נא לנסות שוב עם מילות מפתח אחרות, עמך הסליחה."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא הצלחנו למצוא את מבוקשך. חיפוש יוכל לסייע לך."
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "ארכיון"
+
+#: index.php:35
+#: inc/template-tags.php:157
+msgid "other"
+msgstr "אחר"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "לא מתויג"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "חדשות אחרות"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "מחשבה אחת על „%1$s”"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "ההערות סגורות."
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -176,64 +197,45 @@ msgstr "נוסף התיוג %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "לכתוב תגובה<span class=\"screen-reader-text\"> על %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:99
-#: template-parts/content-page.php:43
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
-
-#: inc/template-tags.php:157
-#: index.php:36
-msgid "other"
-msgstr "אחר"
-
-#: index.php:24
-msgid "Archive"
-msgstr "ארכיון"
-
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "תוצאות לחיפוש אחר: %s"
 
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "לא נמצא דבר"
+#: functions.php:48
+msgid "Primary"
+msgstr "ראשית"
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
+#: functions.php:49
+msgid "Footer"
+msgstr "כותרת תחתונה"
 
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "שום דבר לא תאם לביטויי החיפוש שלך. נא לנסות שוב עם מילות מפתח אחרות, עמך הסליחה."
+#: functions.php:110
+msgid "Sidebar"
+msgstr "סרגל צד"
 
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "נראה כי לא הצלחנו למצוא את מבוקשך. חיפוש יוכל לסייע לך."
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "הוספת וידג׳ט לכאן."
 
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-#: template-parts/content.php:50
-msgid "Pages:"
-msgstr "דפים:"
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "מחבר או מחברת"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-snip.php:32
-#: template-parts/content.php:39
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס! לא ניתן למצוא את העמוד הזה."
 
-#: template-parts/content.php:59
-msgid "Go to all news"
-msgstr "מעבר לכל החדשות"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
 
-#. Template Name of the theme
-msgid "untagged"
-msgstr "לא מתויג"
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "מינוי לידיעון"
 
-#: untagged.php:19
-msgid "Other news"
-msgstr "חדשות אחרות"
+#: header.php:35
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
 
