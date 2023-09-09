@@ -19,17 +19,10 @@
 <footer id="colophon" class="site-footer">
 	<div class="site-footer-column">
 		<a href="<?php echo esc_url(home_url('/')); ?>" class="custom-logo-link" rel="home">
-			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_white_logo_245.png" class="custom-footer-logo" alt="Wikimedia ČR">
+			<img width="1000" height="245" src="https://www.wikimedia.cz/static/images/wmcz_logo_white_1024.png" class="custom-footer-logo" alt="Wikimedia ČR">
 		</a>
-
-		<?php
-		wp_nav_menu(array(
-			'theme_location' => 'footer-menu',
-			'menu_id'        => 'footer-menu',
-			'fallback_cb'    => false,
-		));
-		?>
-
+	</div>
+	<div class="site-footer-column contact">
 		<div id="footer-description">
 			<p class="footer-socials">
 				<?php if (get_theme_mod('facebook') != ''): ?>
@@ -46,9 +39,7 @@
 				<?php endif; ?>
 			</p>
 		</div>
-	</div>
-	<div class="site-footer-column contact">
-		<p>
+		<p class="site-owner-contact">
 			Wikimedia Česká Republika<br />
 			<?php echo esc_html(get_theme_mod('address')); ?>
 		</p>
@@ -80,6 +71,16 @@
 			<li><a href="https://cs.wikiversity.org/wiki/Wikiverzita:Hlavn%C3%AD_strana" hreflang="cs"><?php _e('Wikiversity', 'wmcz-theme'); ?></a></li>
 			<li><a href="https://cs.wiktionary.org/wiki/Wikislovn%C3%ADk:Hlavn%C3%AD_strana" hreflang="cs"><?php _e('Wiktionary', 'wmcz-theme'); ?></a></li>
 		</ul>
+
+		<div class="footer-menu">
+			<?php
+			wp_nav_menu(array(
+				'theme_location' => 'footer-menu',
+				'menu_id'        => 'footer-menu',
+				'fallback_cb'    => false,
+			));
+			?>
+		</div>
 	</div>
 </footer><!-- #colophon -->
 

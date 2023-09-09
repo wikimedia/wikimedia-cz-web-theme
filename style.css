@@ -1152,6 +1152,10 @@ button.active {
 	padding-right: 1rem;
 }
 
+.site-footer .site-owner-contact {
+	padding-top: 20px;
+}
+
 .site-footer .wikiprojects {
 	background-color: #339966;
 	padding: 40px;
@@ -1180,6 +1184,10 @@ button.active {
 
 .site-footer .wikiprojects a:hover {
 	color: #2e2e2e;
+}
+
+.site-footer .wikiprojects .footer-menu {
+	padding-top: 60px;
 }
 
 @media (min-width: 600px) {
