@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:24+0000\n"
+"PO-Revision-Date: 2023-09-14 11:37:33+0000\n"
 "X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -233,7 +233,7 @@ msgstr "Görünüşe göre bu konumda hiçbir şey bulunamadı."
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Bültene abone olun"
 
 #: header.php:35
 msgid "Skip to content"
