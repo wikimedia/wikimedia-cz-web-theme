@@ -250,3 +250,6 @@ msgstr "Odebírejte newsletter"
 msgid "Skip to content"
 msgstr "Přeskočit na obsah"
 
+#: archive.php:56
+msgid "Return to all news"
+msgstr "Vrátit se na všechny novinky"

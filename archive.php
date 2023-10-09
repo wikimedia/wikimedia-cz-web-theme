@@ -51,6 +51,11 @@ get_header();
 		?>
 
 		</main><!-- #main -->
+        <p>
+            <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">
+                <?php _e('Return to all news', 'wmcz-theme') ?>
+            </a>
+        </p>
 	</div><!-- #primary -->
 
 <?php
