@@ -5,12 +5,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: io\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
@@ -26,118 +26,17 @@ msgstr "Temo di Cheka Wikipedio, uzita en la retopagino di WMCZ"
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-posto"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oh! Ta pagino ne povis trovesar."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefono-nombro"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Semblas ke nulo trovesis hike."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Wikipedio"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Wikispeci"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Wikilibri"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Wikinews"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Wikicitajo"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Wikifonto"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Wikiversitato"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Wikivortaro"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Durez lektar<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Pagini:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Videz omna novaji"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Redaktez <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Nulo trovita"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Ka vu deziras publikigar lua unesma redakto? <a href=\"%1$s\">Komencez hike</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Regretinde, via inquesti rezultis nulo. Probez itere uzanta diferanta vorti."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Semblas ke ni ne povas trovar quon vu serchas. Posible modifikur l'inquesto helpos."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Arkivo"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "altra"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "sen etiketo"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Altra novaji"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -155,6 +54,91 @@ msgstr[1] "%1$s pensadi pri &ldquo;%2$s&rdquo;"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Ne esas posibla komentar pluse."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-posto"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefono-nombro"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Wikipedio"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Wikispeci"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Wikilibri"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Wikinews"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Wikicitajo"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Wikifonto"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Wikiversitato"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Wikivortaro"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primara"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Pagino-noto"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Latera stango"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Adjuntez ''widget''-i hike."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autoro"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Saltez a la kontenajo"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -196,45 +180,65 @@ msgstr "Etiketizita %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Livez komento<span class=\"screen-reader-text\"> che %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redaktez <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "altra"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arkivo"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Serchez rezulti por: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Primara"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nulo trovita"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Pagino-noto"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ka vu deziras publikigar lua unesma redakto? <a href=\"%1$s\">Komencez hike</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Latera stango"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Regretinde, via inquesti rezultis nulo. Probez itere uzanta diferanta vorti."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Adjuntez ''widget''-i hike."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Semblas ke ni ne povas trovar quon vu serchas. Posible modifikur l'inquesto helpos."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Autoro"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Pagini:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oh! Ta pagino ne povis trovesar."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Durez lektar<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Semblas ke nulo trovesis hike."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Videz omna novaji"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr ""
+#. Template Name of the theme
+msgid "untagged"
+msgstr "sen etiketo"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Saltez a la kontenajo"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Altra novaji"
 

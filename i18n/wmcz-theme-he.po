@@ -6,12 +6,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
@@ -27,118 +27,17 @@ msgstr "ערכת העיצוב של ויקימדיה צ׳כיה, משמש את ה
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "דוא״ל"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס! לא ניתן למצוא את העמוד הזה."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "טלפון"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "ויקיפדיה"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "ויקישיתוף"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "מדיה־ויקי"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "מטא־ויקי"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "ויקימינים"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "ויקיספר"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "ויקימניה"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "ויקיחדשות"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "ויקיציטוט"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "ויקיטקסט"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "ויקיברסיטה"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "ויקימילון"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "דפים:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "מעבר לכל החדשות"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "לא נמצא דבר"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "שום דבר לא תאם לביטויי החיפוש שלך. נא לנסות שוב עם מילות מפתח אחרות, עמך הסליחה."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "נראה כי לא הצלחנו למצוא את מבוקשך. חיפוש יוכל לסייע לך."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "ארכיון"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "אחר"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "לא מתויג"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "חדשות אחרות"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -156,6 +55,91 @@ msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "ההערות סגורות."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "דוא״ל"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "טלפון"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "ויקיפדיה"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "ויקישיתוף"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "מדיה־ויקי"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "מטא־ויקי"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "ויקימינים"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "ויקיספר"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "ויקימניה"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "ויקיחדשות"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "ויקיציטוט"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "ויקיטקסט"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "ויקיברסיטה"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "ויקימילון"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "ראשית"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "הוספת וידג׳ט לכאן."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "מחבר או מחברת"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "מינוי לידיעון"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -197,45 +181,65 @@ msgstr "נוסף התיוג %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "לכתוב תגובה<span class=\"screen-reader-text\"> על %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "אחר"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "ארכיון"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "תוצאות לחיפוש אחר: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "ראשית"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "לא נמצא דבר"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "כותרת תחתונה"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "סרגל צד"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "שום דבר לא תאם לביטויי החיפוש שלך. נא לנסות שוב עם מילות מפתח אחרות, עמך הסליחה."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "הוספת וידג׳ט לכאן."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא הצלחנו למצוא את מבוקשך. חיפוש יוכל לסייע לך."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "מחבר או מחברת"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "דפים:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "אופס! לא ניתן למצוא את העמוד הזה."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "מעבר לכל החדשות"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "מינוי לידיעון"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "לא מתויג"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "דילוג לתוכן"
+#: untagged.php:19
+msgid "Other news"
+msgstr "חדשות אחרות"
 

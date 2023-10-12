@@ -12,17 +12,17 @@ msgstr ""
 "Project-Id-Version: WMCZ 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/web-theme\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2023-08-31 11:33:22+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "X-Domain: wmcz\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
@@ -37,118 +37,17 @@ msgstr "Motiv Wikimedia Česká republika, použitý na stránkách WMČR."
 msgid "Martin Urbanec"
 msgstr "Martin Urbanec"
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-mail"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefon"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Vypadá to, že se zde nic nenachází."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Wikipedie"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Wikidruhy"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Wikiknihy"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Wikizprávy"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Wikicitáty"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Wikizdroje"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Wikiverzita"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Wikislovník"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Pokračujte ve čtení<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Stránky:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Zobrazit všechny novinky"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Upravit <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Nic nenalezeno"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Připraveni přidat svůj první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Omlouváme se, ale nic neodpovídá vašim hledaným výrazům. Prosíme, zkuste to znovu s jinými klíčovými slovy."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Perhaps searching can help."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Archiv"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "ostatní"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "neoštítkované"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Ostatní novinky"
+#: archive.php:56
+msgid "Return to all news"
+msgstr "Vrátit se na všechny novinky"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -167,6 +66,91 @@ msgstr[2] "%1$s myšlenek na «%1$s»"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Komentáře jsou uzavřeny."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-mail"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Wikipedie"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Wikidruhy"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Wikiknihy"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Wikizprávy"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Wikicitáty"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Wikizdroje"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Wikiverzita"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Wikislovník"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primární"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Patička"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Přidejte widgety"
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autor"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Odebírejte newsletter"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Přeskočit na obsah"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -208,48 +192,65 @@ msgstr "otagováno %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Přidejte komentář<span class=\"screen-reader-text\">k %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Upravit <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "ostatní"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Archiv"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Výsledky vyhledávání pro: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Primární"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nic nenalezeno"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Patička"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Připraveni přidat svůj první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Sidebar"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Omlouváme se, ale nic neodpovídá vašim hledaným výrazům. Prosíme, zkuste to znovu s jinými klíčovými slovy."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Přidejte widgety"
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Perhaps searching can help."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Autor"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Stránky:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bohužel, tuto stránku se nepodařilo nalézt."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Pokračujte ve čtení<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Vypadá to, že se zde nic nenachází."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Zobrazit všechny novinky"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "Odebírejte newsletter"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "neoštítkované"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Přeskočit na obsah"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Ostatní novinky"
 
-#: archive.php:56
-msgid "Return to all news"
-msgstr "Vrátit se na všechny novinky"

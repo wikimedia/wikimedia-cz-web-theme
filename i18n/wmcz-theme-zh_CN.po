@@ -9,12 +9,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:24+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_cn\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Theme Name of the theme
@@ -30,118 +30,17 @@ msgstr ""
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "电子邮箱"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "抱歉，未能找到该页面。"
 
-#: footer.php:61
-msgid "Phone"
-msgstr "手机"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "似乎此位置没有任何可用的内容。"
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "维基百科"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "维基共享资源"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "元维基"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "维基物种"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "维基教科书"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "维基媒体国际会议"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "维基新闻"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "维基语录"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "维基文库"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "维基学院"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "维基词典"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "上次进度：<span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "页面："
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "转到所有新闻"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "编辑 <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "没有可用的结果。"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "准备好发布你的首条帖子了吗？<a href=\"%1$s\">点此开始</a>。"
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "抱歉，没有与该关键词相关的搜索结果。请尝试使用另一关键词再次搜索。"
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "看起来我们无法判断你正在寻找什么内容，或许搜索功能可用帮助您？"
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "归档"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "其他"
-
-#. Template Name of the theme
-msgid "untagged"
+#: archive.php:56
+msgid "Return to all news"
 msgstr ""
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "其他新闻"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -158,6 +57,91 @@ msgstr[0] ""
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "评论功能已关闭。"
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "电子邮箱"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "手机"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "维基共享资源"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "元维基"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "维基物种"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "维基教科书"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "维基媒体国际会议"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "维基新闻"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "维基语录"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "维基文库"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "维基学院"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "维基词典"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "首选"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "页脚"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "在此添加组件。"
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "作者"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "跳转到正文"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -199,45 +183,65 @@ msgstr "标签： %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "编辑 <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "其他"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "归档"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "针对以下内容的搜索结果： %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "首选"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "没有可用的结果。"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "页脚"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布你的首条帖子了吗？<a href=\"%1$s\">点此开始</a>。"
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "侧边栏"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有与该关键词相关的搜索结果。请尝试使用另一关键词再次搜索。"
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "在此添加组件。"
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "看起来我们无法判断你正在寻找什么内容，或许搜索功能可用帮助您？"
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "作者"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "页面："
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "抱歉，未能找到该页面。"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "上次进度：<span class=\"screen-reader-text\">%s</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "似乎此位置没有任何可用的内容。"
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "转到所有新闻"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
+#. Template Name of the theme
+msgid "untagged"
 msgstr ""
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "跳转到正文"
+#: untagged.php:19
+msgid "Other news"
+msgstr "其他新闻"
 

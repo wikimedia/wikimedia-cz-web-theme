@@ -7,12 +7,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:24+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv_se\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
@@ -28,118 +28,17 @@ msgstr "Wikimedia Tjeckiens tema, används på WMCZ:s hemsida"
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-post"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Sidan hittades inte."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefon"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Det ser inte ut som någonting hittades på denna plats."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Wikipedia"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Wikispecies"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Wikibooks"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Wikinews"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Wikiquote"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Wikisource"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Wikiversity"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Wiktionary"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Sidor:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Gå till alla nyheter"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Hittade ingenting"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Tyvärr, ingenting matchar dina söktermer. Försök igen med andra sökord."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Det ser ut som att vi inte kan hitta det du letar efter. En sökning kanske kan hjälpa."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Arkiv"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "övrigt"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "otaggad"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Andra nyheter"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -157,6 +56,91 @@ msgstr[1] "%1$s tankar på &ldquo;%2$s&rdquo;"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Kommentarer har stängts."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-post"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Wikispecies"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Wikibooks"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Wikinews"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Wikiquote"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Wikisource"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Wikiversity"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Wiktionary"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primär"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Sidfot"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Sidofält"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Lägg till finesser här."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Författare"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Hoppa till innehållet"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -198,45 +182,65 @@ msgstr "Taggades med %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> på %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "övrigt"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arkiv"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Sökresultat för: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Primär"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Hittade ingenting"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Sidfot"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Sidofält"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr, ingenting matchar dina söktermer. Försök igen med andra sökord."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Lägg till finesser här."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ut som att vi inte kan hitta det du letar efter. En sökning kanske kan hjälpa."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Författare"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Sidor:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Hoppsan! Sidan hittades inte."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Det ser inte ut som någonting hittades på denna plats."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Gå till alla nyheter"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr ""
+#. Template Name of the theme
+msgid "untagged"
+msgstr "otaggad"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Hoppa till innehållet"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Andra nyheter"
 

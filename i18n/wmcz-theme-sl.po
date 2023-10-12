@@ -5,12 +5,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=4; plural=(n%100 == 1) ? 0 : ( (n%100 == 2) ? 1 : ( (n%100 == 3 || n%100 == 4) ? 2 : 3 ) );\n"
 
 #. Theme Name of the theme
@@ -26,118 +26,17 @@ msgstr "Tema Wikimedia Češke republike, uporabljena na spletnem mestu WMCZ"
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-pošta"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Te strani ni mogoče najti."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefon"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Videti je, da na tej strani ni bilo najdeno nič."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Wikipedija"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedijina zbirka"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Wikivrste"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Wikiknjige"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Wikinovice"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Wikinavedek"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Wikivir"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Wikiverza"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Wikislovar"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Nadaljuj z branjem <span class=\"screen-reader-text\">»%s«</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Strani:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Pojdi na vse novice"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Uredi <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Ni najdenega"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Ste pripravljeni objaviti svojo prvo objavo? <a href=\"%1$s\">Začnite tukaj</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Žal se z vašimi iskalnimi izrazi ne ujema nič. Poskusite znova z nekaj drugimi ključnimi besedami."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Zdi se, da ne moremo najti, kar iščete. Mogoče bo pomagalo iskanje."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Arhiv"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "drugo"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "neoznačeno"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Druge novice"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -157,6 +56,91 @@ msgstr[3] "%1$s misli o »%2$s«"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Komentiranje je zaprto."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-pošta"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Wikipedija"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedijina zbirka"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Wikivrste"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Wikiknjige"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Wikinovice"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Wikinavedek"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Wikivir"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Wikiverza"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Wikislovar"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Glavno"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Noga"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Stranska letvica"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Tu dodajte gradnike."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Avtor"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Naročilo na novičnik"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Pojdi na vsebino"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -198,45 +182,65 @@ msgstr "Označeno %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Pusti komentar <span class=\"screen-reader-text\"> na %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Uredi <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "drugo"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arhiv"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Iskalni zadetki za: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Glavno"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ni najdenega"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Noga"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ste pripravljeni objaviti svojo prvo objavo? <a href=\"%1$s\">Začnite tukaj</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Stranska letvica"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Žal se z vašimi iskalnimi izrazi ne ujema nič. Poskusite znova z nekaj drugimi ključnimi besedami."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Tu dodajte gradnike."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Zdi se, da ne moremo najti, kar iščete. Mogoče bo pomagalo iskanje."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Avtor"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Strani:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ups! Te strani ni mogoče najti."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Nadaljuj z branjem <span class=\"screen-reader-text\">»%s«</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Videti je, da na tej strani ni bilo najdeno nič."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Pojdi na vse novice"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "Naročilo na novičnik"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "neoznačeno"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Pojdi na vsebino"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Druge novice"
 

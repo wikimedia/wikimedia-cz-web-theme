@@ -7,12 +7,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-09-14 11:37:33+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Theme Name of the theme
@@ -28,118 +28,17 @@ msgstr "WMCZ'nin web sitesinde kullanılan Wikimedia Çek Cumhuriyeti teması"
 msgid "Martin Urbanec"
 msgstr "Martin Urbanec"
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-posta"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoop! Bu sayfa bulunamıyor."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefon"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Görünüşe göre bu konumda hiçbir şey bulunamadı."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Vikipedi"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta Viki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Vikitür"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Vikikitap"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Vikihaber"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Vikisöz"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Vikikaynak"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Vikiversite"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Vikisözlük"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "<span class=\"screen-reader-text\">\"%s\"</span> gönderisini okumaya devam edin"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Sayfalar:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Tüm haberlere git"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> gönderisini düzenleyin"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Hiçbir şey bulunamadı"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buradan başlayın</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Maalesef arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı anahtar kelimelerle tekrar deneyin."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz. Belki arama yapmak size yardımcı olabilir."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Arşiv"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "diğer"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "etiketsiz"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Diğer haberler"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -156,6 +55,91 @@ msgstr[0] "%1$s, &ldquo;%2$s&rdquo; üzerinde düşündü"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Yoruma kapalı."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-posta"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Vikipedi"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta Viki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Vikitür"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Vikikitap"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Vikihaber"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Vikisöz"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Vikikaynak"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Vikiversite"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Vikisözlük"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Birincil"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Alt bilgi"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Kenar çubuğu"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Buraya küçük araçlar ekleyin."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Yazar"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Bültene abone olun"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "İçeriğe git"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -197,45 +181,65 @@ msgstr "%1$s olarak etiketlendi"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "<span class=\"screen-reader-text\">%s</span> başlığına bir yorum bırakın"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> gönderisini düzenleyin"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "diğer"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arşiv"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Şunun için arama sonuçları: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Birincil"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Hiçbir şey bulunamadı"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Alt bilgi"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk paylaşımını yapmak için hazır mısın? <a href=\"%1$s\">Buradan başlayın</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Kenar çubuğu"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maalesef arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı anahtar kelimelerle tekrar deneyin."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Buraya küçük araçlar ekleyin."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz. Belki arama yapmak size yardımcı olabilir."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Yazar"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Sayfalar:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Hoop! Bu sayfa bulunamıyor."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\"</span> gönderisini okumaya devam edin"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Görünüşe göre bu konumda hiçbir şey bulunamadı."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Tüm haberlere git"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "Bültene abone olun"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "etiketsiz"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "İçeriğe git"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Diğer haberler"
 

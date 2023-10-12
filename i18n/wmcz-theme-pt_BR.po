@@ -9,12 +9,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-09-18 11:30:33+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_br\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Theme Name of the theme
@@ -30,118 +30,17 @@ msgstr "Tema da Wikimedia da República Tcheca, usado no site da WMCZ"
 msgid "Martin Urbanec"
 msgstr "Martin Urbanec"
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "E-Mail"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Essa página não pode ser encontrada."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Telefone"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Parece que nada foi encontrado neste local."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Wikipédia"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "MediaWiki"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Meta-Wiki"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Wikispecies"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Wikilivros"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Wikimania"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Wikinotícias"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Wikiquote"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Wikisource"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Wikiversidade"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Wikcionário"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Páginas:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Ir para todas as notícias"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Nada foi encontrado"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "pronto para publicar sua primeira postagem? <a href=\"%1$s\">Começar aqui</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Desculpe, mas nada corresponde aos seus termos de pesquisa. Por favor, tente novamente com algumas palavras-chave diferentes."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Parece que não podemos encontrar o que você está procurando. Talvez pesquisar possa ajudar."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Arquivo"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "outros"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "sem etiqueta"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Outras notícias"
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -159,6 +58,91 @@ msgstr[1] "pensamentos de %1$s sobre &ldquo;%2$s&rdquo;"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Comentários estão fechados."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telefone"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Wikipédia"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Wikispecies"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Wikilivros"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Wikinotícias"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Wikiquote"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Wikisource"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Wikiversidade"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Wikcionário"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Principal"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Rodapé"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Adicione widgets aqui."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autor"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Assinar o boletim informativo"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -200,45 +184,65 @@ msgstr "Marcado com %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Deixar um comentário<span class=\"screen-reader-text\"> em %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "outros"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arquivo"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Resultados da busca por: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Principal"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada foi encontrado"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Rodapé"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "pronto para publicar sua primeira postagem? <a href=\"%1$s\">Começar aqui</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Barra lateral"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Desculpe, mas nada corresponde aos seus termos de pesquisa. Por favor, tente novamente com algumas palavras-chave diferentes."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Adicione widgets aqui."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não podemos encontrar o que você está procurando. Talvez pesquisar possa ajudar."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Autor"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Páginas:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ops! Essa página não pode ser encontrada."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Parece que nada foi encontrado neste local."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Ir para todas as notícias"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "Assinar o boletim informativo"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "sem etiqueta"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Pular para o conteúdo"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Outras notícias"
 

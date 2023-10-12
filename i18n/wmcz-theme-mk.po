@@ -5,12 +5,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-08-31 11:33:23+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: mk\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n == 1 || n%10 == 1) ? 0 : 1;\n"
 
 #. Theme Name of the theme
@@ -26,118 +26,17 @@ msgstr "Изгледот на Викимедија Чешка (WMCZ) за неј
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "Е-пошта"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Не ја најдов таа страница."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Телефон"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Не најдов ништо на ова место."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Википедија"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Ризница"
-
-#: footer.php:71
-msgid "MediaWiki"
-msgstr "МедијаВики"
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Мета"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Викивидови"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "Викикниги"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Викиманија"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Викивести"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Викицитат"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Викиизвор"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Викиуниверзитет"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Викиречник"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Продолжете со читање на<span class=\"screen-reader-text\"> „%s“</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "Страници:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Појди на сите вести"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Уреди <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "Не пронајдов ништо"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Спремни сте да за вашата прва објава? <a href=\"%1$s\">Почнете тука</a>."
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "За жал, ништо не се совпадна со бараното. Обидете се со поинакви клучни зборови."
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Не можеме да го најдеме она што го барате. Можеби пребарувањето ќе ви биде од помош."
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Архива"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "друго"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "неозначено"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Други новости"
+#: archive.php:56
+msgid "Return to all news"
+msgstr "Назад на сите вести"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -155,6 +54,91 @@ msgstr[1] "%1$s мисли за %2$s"
 #: comments.php:69
 msgid "Comments are closed."
 msgstr "Коментарите се затворени."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "Е-пошта"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Телефон"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Википедија"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Ризница"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "МедијаВики"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Мета"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Викивидови"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Викикниги"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Викиманија"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Викивести"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Викицитат"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Викиизвор"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Викиуниверзитет"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Викиречник"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Главно"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Подножје"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Страничник"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Тука додадете елементи."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Автор"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Претплати се на билтенот"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Прејди на содржината"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -196,45 +180,65 @@ msgstr "Означено %1$s"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Напишете коментар<span class=\"screen-reader-text\"> за %s</span>"
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Уреди <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "друго"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Архива"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr "Исход од пребарувањето: %s"
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Главно"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Не пронајдов ништо"
 
-#: functions.php:49
-msgid "Footer"
-msgstr "Подножје"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни сте да за вашата прва објава? <a href=\"%1$s\">Почнете тука</a>."
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "Страничник"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "За жал, ништо не се совпадна со бараното. Обидете се со поинакви клучни зборови."
 
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "Тука додадете елементи."
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Не можеме да го најдеме она што го барате. Можеби пребарувањето ќе ви биде од помош."
 
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Автор"
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Страници:"
 
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Упс! Не ја најдов таа страница."
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Продолжете со читање на<span class=\"screen-reader-text\"> „%s“</span>"
 
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Не најдов ништо на ова место."
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Појди на сите вести"
 
-#: header.php:32
-msgid "Subscribe to the newsletter"
-msgstr "Претплати се на билтенот"
+#. Template Name of the theme
+msgid "untagged"
+msgstr "неозначено"
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Прејди на содржината"
+#: untagged.php:19
+msgid "Other news"
+msgstr "Други новости"
 

@@ -5,12 +5,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-10-09 11:39:03+0000\n"
-"X-POT-Import-Date: 2023-08-28 15:27:41+0000\n"
+"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ce\n"
-"X-Generator: MediaWiki 1.41.0-alpha; Translate 2023-07-10\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-07-10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
@@ -26,118 +26,17 @@ msgstr "Викимедиан тема йу Чехийн Республика, л
 msgid "Martin Urbanec"
 msgstr ""
 
-#: footer.php:57
-msgid "E-mail"
-msgstr "Email"
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Иштта агӀо карон йиш йац."
 
-#: footer.php:61
-msgid "Phone"
-msgstr "Phone"
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Тера ду, оцу меттигехь хӀума ца-карийначух."
 
-#: footer.php:69
-msgid "Wikipedia"
-msgstr "Википеди"
-
-#: footer.php:70
-msgid "Wikimedia Commons"
-msgstr "Викиларма"
-
-#: footer.php:71
-msgid "MediaWiki"
+#: archive.php:56
+msgid "Return to all news"
 msgstr ""
-
-#: footer.php:72
-msgid "Meta-Wiki"
-msgstr "Мета-вики"
-
-#: footer.php:73
-msgid "Wikispecies"
-msgstr "Викиаматаш"
-
-#: footer.php:74
-msgid "Wikibooks"
-msgstr "ВикиӀаматаш"
-
-#: footer.php:76
-msgid "Wikimania"
-msgstr "Викимани"
-
-#: footer.php:77
-msgid "Wikinews"
-msgstr "Викикерланаш"
-
-#: footer.php:78
-msgid "Wikiquote"
-msgstr "Викицитаташ"
-
-#: footer.php:79
-msgid "Wikisource"
-msgstr "Викидуьххьарайоза"
-
-#: footer.php:80
-msgid "Wikiversity"
-msgstr "Викиверситет"
-
-#: footer.php:81
-msgid "Wiktionary"
-msgstr "Викидошам"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
-#: template-parts/content-snip.php:32
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Йеша кхин дӀа<span class=\"screen-reader-text\">«%s»</span>"
-
-#: template-parts/content.php:50
-#: template-parts/content-page.php:30
-#: template-parts/content-snip.php:43
-msgid "Pages:"
-msgstr "АгӀонаш:"
-
-#: template-parts/content.php:72
-msgid "Go to all news"
-msgstr "Массо керланашна тӀегӀо"
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:43
-#: inc/template-tags.php:99
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Нисйе <span class=\"screen-reader-text\">%s</span>"
-
-#: template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr "ХӀума а цакарий."
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:24
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: template-parts/content-none.php:37
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
-
-#: template-parts/content-none.php:44
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
-
-#: index.php:24
-#: index.php:65
-msgid "Archive"
-msgstr "Архив"
-
-#: index.php:35
-#: inc/template-tags.php:157
-msgid "other"
-msgstr "кхийерш"
-
-#. Template Name of the theme
-msgid "untagged"
-msgstr "билгалйанза"
-
-#: untagged.php:19
-msgid "Other news"
-msgstr "Кхидолу керланаш"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -155,6 +54,91 @@ msgstr[1] ""
 #: comments.php:69
 msgid "Comments are closed."
 msgstr ""
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "Email"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Phone"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Википеди"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Викиларма"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr ""
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Мета-вики"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Викиаматаш"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "ВикиӀаматаш"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Викимани"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Викикерланаш"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Викицитаташ"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Викидуьххьарайоза"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Викиверситет"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Викидошам"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Коьрта"
+
+#: functions.php:49
+msgid "Footer"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "АгӀонгара панель"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "ТӀетоха кхуза виджеташ."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Автор"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Чулацаман тӀегӀо"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
@@ -196,45 +180,65 @@ msgstr ""
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Нисйе <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "кхийерш"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Архив"
+
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
 msgstr ""
 
-#: functions.php:48
-msgid "Primary"
-msgstr "Коьрта"
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "ХӀума а цакарий."
 
-#: functions.php:49
-msgid "Footer"
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: functions.php:110
-msgid "Sidebar"
-msgstr "АгӀонгара панель"
-
-#: functions.php:112
-msgid "Add widgets here."
-msgstr "ТӀетоха кхуза виджеташ."
-
-#: functions.php:180
-#: functions.php:202
-msgid "Author"
-msgstr "Автор"
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Упс! Иштта агӀо карон йиш йац."
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location."
-msgstr "Тера ду, оцу меттигехь хӀума ца-карийначух."
-
-#: header.php:32
-msgid "Subscribe to the newsletter"
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: header.php:35
-msgid "Skip to content"
-msgstr "Чулацаман тӀегӀо"
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "АгӀонаш:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Йеша кхин дӀа<span class=\"screen-reader-text\">«%s»</span>"
+
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Массо керланашна тӀегӀо"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "билгалйанза"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Кхидолу керланаш"
 
