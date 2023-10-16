@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-10-12 11:34:55+0000\n"
+"PO-Revision-Date: 2023-10-16 11:32:58+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,7 +37,7 @@ msgstr "נראה כי לא נמצא שום דבר במיקום הזה."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "חזרה לכל החדשות"
 
 #. translators: 1: title.
 #: comments.php:38
