@@ -1,12 +1,13 @@
-# Translation of Theme to српски (ћирилица) (српски (ћирилица))
+# Translation of Theme to Serbian (Cyrillic script) (српски (ћирилица))
 # Exported from translatewiki.net
 #
 # Author: Kareyac
+# Author: Kizule
 # Author: Milicevic01
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-10-12 11:34:56+0000\n"
+"PO-Revision-Date: 2023-10-26 11:33:46+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,15 +56,15 @@ msgstr[2] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr ""
+msgstr "Коментари су онемогућени."
 
 #: footer.php:48
 msgid "E-mail"
-msgstr ""
+msgstr "Имејл"
 
 #: footer.php:52
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: footer.php:60
 msgid "Wikipedia"
@@ -115,7 +116,7 @@ msgstr "Викиречник"
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "Главни"
 
 #: functions.php:49
 msgid "Footer"
@@ -196,16 +197,16 @@ msgstr ""
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr ""
+msgstr "Архива"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Резултати претраге за: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ништа није пронађено"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
@@ -242,5 +243,5 @@ msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Остале вести"
 
