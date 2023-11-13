@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-11-09 12:36:20+0000\n"
+"PO-Revision-Date: 2023-11-13 12:33:29+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,7 +189,7 @@ msgstr "Тӱзедер <span class=\"screen-reader-text\">%s</span>"
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr ""
+msgstr "Ӧскӧ"
 
 #: index.php:24
 #: index.php:65
