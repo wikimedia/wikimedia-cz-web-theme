@@ -1,6 +1,7 @@
 # Translation of Theme to Simplified Chinese (中文（简体）)
 # Exported from translatewiki.net
 #
+# Author: GuoPC
 # Author: StarrySky
 # Author: TsuyaMarisa
 # Author: Wuqianye
@@ -9,7 +10,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-12-07 12:53:22+0000\n"
+"PO-Revision-Date: 2023-12-25 12:34:19+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr ""
+msgstr "WMCZ网站"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr ""
+msgstr "捷克维基媒体主题，在WMCZ网站使用"
 
 #. Author of the theme
 #, optional
@@ -40,19 +41,19 @@ msgstr "似乎此位置没有任何可用的内容。"
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "返回所有新闻"
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "关于&ldquo;%1$s&rdquo;的一个想法"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "关于&ldquo;%2$s&rdquo;的%1$s个想法"
 
 #: comments.php:69
 msgid "Comments are closed."
@@ -60,11 +61,11 @@ msgstr "评论功能已关闭。"
 
 #: footer.php:48
 msgid "E-mail"
-msgstr "电子邮箱"
+msgstr "电子邮件"
 
 #: footer.php:52
 msgid "Phone"
-msgstr "手机"
+msgstr "电话"
 
 #: footer.php:60
 msgid "Wikipedia"
@@ -137,7 +138,7 @@ msgstr "作者"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "订阅电子报"
 
 #: header.php:35
 msgid "Skip to content"
@@ -147,13 +148,13 @@ msgstr "跳转到正文"
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "发布于 %s"
+msgstr "发布于%s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "由： %s"
+msgstr "由%s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -164,7 +165,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "发布于%1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -176,12 +177,12 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "标签： %1$s"
+msgstr "已标记%1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "在<span class=\"screen-reader-text\">%s</span>留下评论"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
@@ -197,29 +198,29 @@ msgstr "其他"
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr "归档"
+msgstr "存档"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "针对以下内容的搜索结果： %s"
+msgstr "搜索结果：%s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "没有可用的结果。"
+msgstr "没有可用的结果"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "准备好发布你的首条帖子了吗？<a href=\"%1$s\">点此开始</a>。"
+msgstr "准备好发布您的第一篇帖子了吗？<a href=\"%1$s\">点此开始</a>。"
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "抱歉，没有与该关键词相关的搜索结果。请尝试使用另一关键词再次搜索。"
+msgstr "抱歉，没有符合您搜索条件的内容。请尝试使用其他关键词重试。"
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "看起来我们无法判断你正在寻找什么内容，或许搜索功能可用帮助您？"
+msgstr "看起来我们找不到您想要的内容。或许您可以使用搜索功能。"
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
@@ -239,7 +240,7 @@ msgstr "转到所有新闻"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "取消标记"
 
 #: untagged.php:19
 msgid "Other news"
