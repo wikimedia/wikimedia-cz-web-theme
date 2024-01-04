@@ -1,9 +1,8 @@
-# Translation of Theme to Arabic (العربية)
+# Translation of Theme to Esperanto (Esperanto)
 # Exported from translatewiki.net
 #
-# Author: Meno25
-# Author: Sandra Hanbo
-# Author: محمد أحمد عبد الفتاح
+# Author: Iketsi
+# Author: Javiero
 msgid ""
 msgstr ""
 ""
@@ -11,17 +10,17 @@ msgstr ""
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
+"Language: eo\n"
 "X-Generator: MediaWiki 1.42.0-alpha; Translate 2023-12-01\n"
-"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == 2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= 99) ? 4 : 5 ) ) ) );\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr "موقع WMCZ"
+msgstr ""
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr "موضوع ويكيميديا جمهورية التشيك ، المستخدم في موقع WMCZ"
+msgstr ""
 
 #. Author of the theme
 #, optional
@@ -30,133 +29,129 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "أُووبس! لا يمكن العثور على هذه الصفحة."
+msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "يبدو أنه لم يتم العثور على شيء في هذا الموقع."
+msgstr ""
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr "العودة إلى جميع الأخبار"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "فكرة واحدة حول “ %1$s ”"
+msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s فكرة في &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s أفكار على &ldquo;%2$s&rdquo;"
-msgstr[2] "%1$s أفكار على &ldquo;%2$s&rdquo;"
-msgstr[3] "%1$s أفكار على &ldquo;%2$s&rdquo;"
-msgstr[4] "%1$s أفكار على &ldquo;%2$s&rdquo;"
-msgstr[5] "%1$s أفكار على &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "التعليقات مغلقة."
+msgstr ""
 
 #: footer.php:48
 msgid "E-mail"
-msgstr "البريد الإلكتروني"
+msgstr "Retadreso"
 
 #: footer.php:52
 msgid "Phone"
-msgstr "هاتف"
+msgstr "Telefono"
 
 #: footer.php:60
 msgid "Wikipedia"
-msgstr "ويكيبيديا"
+msgstr "Vikipedio"
 
 #: footer.php:61
 msgid "Wikimedia Commons"
-msgstr "ويكيميديا كومنز"
+msgstr "Vikimedia Komunejo"
 
 #: footer.php:62
 msgid "MediaWiki"
-msgstr "ميدياويكي"
+msgstr "MediaVikio"
 
 #: footer.php:63
 msgid "Meta-Wiki"
-msgstr "ميتاويكي"
+msgstr "Meta-Vikio"
 
 #: footer.php:64
 msgid "Wikispecies"
-msgstr "ويكي الأنواع"
+msgstr "Vikispecioj"
 
 #: footer.php:65
 msgid "Wikibooks"
-msgstr "ويكي الكتب"
+msgstr "Vikilibroj"
 
 #: footer.php:67
 msgid "Wikimania"
-msgstr "ويكيمانيا"
+msgstr "Vikimanio"
 
 #: footer.php:68
 msgid "Wikinews"
-msgstr "ويكي الأخبار"
+msgstr "Vikinovaĵoj"
 
 #: footer.php:69
 msgid "Wikiquote"
-msgstr "ويكي الاقتباس"
+msgstr "Vikicitaro"
 
 #: footer.php:70
 msgid "Wikisource"
-msgstr "ويكي مصدر"
+msgstr "Vikifontaro"
 
 #: footer.php:71
 msgid "Wikiversity"
-msgstr "ويكي الجامعة"
+msgstr "Vikiversitato"
 
 #: footer.php:72
 msgid "Wiktionary"
-msgstr "ويكاموس"
+msgstr "Vikivortaro"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "أساسي"
+msgstr "Ĉefa"
 
 #: functions.php:49
 msgid "Footer"
-msgstr "التذييل"
+msgstr ""
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr "الشريط الجانبي"
+msgstr ""
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "أضف الحاجيات هنا."
+msgstr ""
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "المؤلف"
+msgstr "Aŭtoro"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr "اشترك في هذه النشرة الإخبارية"
+msgstr ""
 
 #: header.php:35
 msgid "Skip to content"
-msgstr "انتقل إلى المحتوي"
+msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "تم النشر في %s"
+msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "من خلال %s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -167,7 +162,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "تم النشر في %1$s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -179,72 +174,72 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "تم وضع علامة على %1$s"
+msgstr ""
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "اترك تعليقا <span class=\"screen-reader-text\">على %s</span>"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "تحرير <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
 
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr "أخرى"
+msgstr "alia"
 
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr "أرشيف"
+msgstr ""
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "نتائج البحث عن: %s"
+msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "لم يتم العثور على شيء"
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "مستعد لنشر أول منشوراتك؟ <a href=\"%1$s\">ابدأ هنا</a>."
+msgstr ""
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "آسف ، ولكن لا شيء يطابق شروط البحث الخاصة بك. أرجو المحاولة مرة أخرى بإستخدام كلمات أخرى."
+msgstr ""
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يمكن أن يساعد البحث."
+msgstr ""
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "الصفحات:"
+msgstr "Paĝoj:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "متابعة قراءة <span class=\"screen-reader-text\">\" %s \"</span>"
+msgstr ""
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr "اذهب إلى كل الأخبار"
+msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "بدون علامات"
+msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "أخبار أخرى"
+msgstr ""
 
