@@ -2,12 +2,13 @@
 # Exported from translatewiki.net
 #
 # Author: Agaafd
+# Author: GolyatGeri
 # Author: Hedda
 # Author: MuratTheTurkish
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-12-07 12:53:21+0000\n"
+"PO-Revision-Date: 2024-01-22 12:32:52+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +39,7 @@ msgstr "Görünüşe göre bu konumda hiçbir şey bulunamadı."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Tüm haberlere geri dönün"
 
 #. translators: 1: title.
 #: comments.php:38
