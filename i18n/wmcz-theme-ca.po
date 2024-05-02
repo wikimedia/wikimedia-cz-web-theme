@@ -1,0 +1,248 @@
+# Translation of Theme to Catalan (català)
+# Exported from translatewiki.net
+#
+# Author: Mguix
+# Author: VerusPhoebusApollo
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2024-05-02 12:28:42+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Project-Id-Version: Theme\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.43.0-alpha; Translate 2024-04-24\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "Pàgina web de WMCZ"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "Tema Wikimedia de la República Txeca, utilitzat al lloc web de WMCZ"
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Vaja!  No s'ha trobat aquesta pàgina."
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "Sembla que no s'ha trobat res en aquesta ubicació."
+
+#: archive.php:56
+msgid "Return to all news"
+msgstr "Torna a totes les notícies"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Una reflexió sobre \"%1$s\""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Els comentaris estan tancats."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr ""
+
+#: footer.php:52
+msgid "Phone"
+msgstr "Telèfon"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "Viquipèdia"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "Wikimedia Commons"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "MediaWiki"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "Meta-Wiki"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "Viquiespècies"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "Viquillibres"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "Wikimania"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "Viquinotícies"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "Viquidites"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "Viquitexts"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "Viquiversitat"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "Viccionari"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "Primari"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "Afegiu els ginys aquí."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "Autor"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "Subscriu-te al butlletí"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "Vés al contingut"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicat a %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "per %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "Publicat a %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr "%1$s etiquetat"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deixa un comentari <span class=\"screen-reader-text\">a %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Edita <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "altres"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "Arxiu"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca per a: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "No s'ha trobat res"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Estàs a punt per a publicar la teva primera publicació? <a href=\"%1$s \">Get started here</a> ."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ho sento, però no hi ha res que coincideixi amb els termes de cerca. Torna-ho a provar amb algunes paraules clau diferents."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembla que no podem trobar el que estàs cercant. Potser la recerca pot ajudar."
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "Pàgines"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua llegint <span class=\"screen-reader-text\">\" %s \"</span>"
+
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "Vés a totes les notícies"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "sense etiquetar"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "Altres notícies"
+
