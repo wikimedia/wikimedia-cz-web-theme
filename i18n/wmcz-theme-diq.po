@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: 1917 Ekim Devrimi
+# Author: GolyatGeri
 # Author: Mirzali
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-04-25 12:29:24+0000\n"
+"PO-Revision-Date: 2024-05-09 12:25:56+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +41,7 @@ msgstr "Wuni aseno ke eno ca de theba nêvineyêno"
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Peyser so xeveran hemi"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -138,7 +139,7 @@ msgstr "Nuştekar"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Aboney be bulteni be"
 
 #: header.php:35
 msgid "Skip to content"
@@ -236,7 +237,7 @@ msgstr "Pela <span class=\"screen-reader-text\">\"%s\"</span> wanayışi dewam k
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr ""
+msgstr "Ravêr xeveran hemi"
 
 #. Template Name of the theme
 msgid "untagged"
