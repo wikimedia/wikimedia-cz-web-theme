@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-04-25 12:29:25+0000\n"
+"PO-Revision-Date: 2024-05-13 12:27:32+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -233,7 +233,7 @@ msgstr "Strani:"
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Nadaljuj z branjem <span class=\"screen-reader-text\">»%s«</span>"
+msgstr "Nadaljuj branje <span class=\"screen-reader-text\">»%s«</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
