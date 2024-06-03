@@ -1,11 +1,12 @@
 # Translation of Theme to Chechen (нохчийн)
 # Exported from translatewiki.net
 #
+# Author: Исмаил Садуев
 # Author: Умар
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-04-25 12:29:23+0000\n"
+"PO-Revision-Date: 2024-06-03 12:28:42+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -187,7 +188,7 @@ msgstr ""
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Нисйе <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> нисйан"
 
 #: inc/template-tags.php:157
 #: index.php:35
