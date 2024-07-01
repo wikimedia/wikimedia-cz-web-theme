@@ -4,11 +4,12 @@
 # Author: Base
 # Author: DDPAT
 # Author: Ice bulldog
+# Author: Ignatgg
 # Author: Kareyac
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-04-25 12:29:25+0000\n"
+"PO-Revision-Date: 2024-07-01 12:28:55+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,7 +43,7 @@ msgstr "Схоже, на цьому місці нічого не знайшли.
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Повернутися до всіх новин"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -141,7 +142,7 @@ msgstr "Автор"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Підписатися на цю розсилку новин"
 
 #: header.php:35
 msgid "Skip to content"
