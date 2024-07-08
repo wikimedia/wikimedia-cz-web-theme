@@ -1,11 +1,12 @@
 # Translation of Theme to Slovak (slovenčina)
 # Exported from translatewiki.net
 #
+# Author: Ignatgg
 # Author: Yardom78
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-04-25 12:29:25+0000\n"
+"PO-Revision-Date: 2024-07-08 12:27:31+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +40,7 @@ msgstr "Vyzerá to, že sa tu nič nenachádza."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Návrat na všetky novinky"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -138,7 +139,7 @@ msgstr "Autor"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Prihláste sa na odber noviniek"
 
 #: header.php:35
 msgid "Skip to content"
