@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-07-11 12:31:49+0000\n"
+"PO-Revision-Date: 2024-08-19 12:28:41+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgstr "Vyzerá to, že sa tu nič nenachádza."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr "Návrat na všetky novinky"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
@@ -139,7 +139,7 @@ msgstr "Autor"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr "Prihláste sa na odber noviniek"
+msgstr ""
 
 #: header.php:35
 msgid "Skip to content"
