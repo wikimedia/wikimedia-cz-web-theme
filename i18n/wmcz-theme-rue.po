@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-08-29 12:25:27+0000\n"
+"PO-Revision-Date: 2024-10-14 12:27:11+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +35,7 @@ msgstr "Упс! Тота сторінка не была найджена."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "Напевно, же на тім містї ніч не найшли."
 
 #: archive.php:56
 msgid "Return to all news"
