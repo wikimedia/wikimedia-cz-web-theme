@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-10-24 12:29:44+0000\n"
+"PO-Revision-Date: 2024-12-19 12:26:56+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,7 +29,7 @@ msgstr "موضوع ويكيميديا جمهورية التشيك ، المست�
 #. Author of the theme
 #, optional
 msgid "Martin Urbanec"
-msgstr ""
+msgstr "مارتن أوربانيك"
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
