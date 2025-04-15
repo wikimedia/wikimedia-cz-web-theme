@@ -86,6 +86,19 @@
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
+<script>
+  window.sznIVA.IS.updateIdentities({
+    eid: null /* email či zahashovaný email*/
+  });
+
+  var retargetingConf = {
+    rtgId: 1525062,
+    consent: null /* souhlas od návštěvníka na odeslání retargetingového hitu, povolené hodnoty: 0 (není souhlas) nebo 1 (je souhlas) */
+  };
+  window.rc.retargetingHit(retargetingConf);
+</script>
+
 </body>
 
 </html>
