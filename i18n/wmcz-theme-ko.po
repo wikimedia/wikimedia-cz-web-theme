@@ -1,0 +1,248 @@
+# Translation of Theme to Korean (한국어)
+# Exported from translatewiki.net
+#
+# Author: Suleiman the Magnificent Television
+# Author: YeBoy371
+# Author: Ykhwong
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2025-05-01 12:30:09+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Project-Id-Version: Theme\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.44.0-alpha; Translate 2025-03-15\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMCZ 웹사이트"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "위키미디어 체코 공화국 테마, WMCZ의 웹사이트에서 사용"
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: archive.php:56
+msgid "Return to all news"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "이메일"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "전화"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "위키백과"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "위키미디어 공용"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "미디어위키"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "메타위키"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "위키생물종"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "위키책"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "위키마니아"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "위키뉴스"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "위키인용집"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "위키문헌"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "위키배움터"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "위키낱말사전"
+
+#: functions.php:48
+msgid "Primary"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "작성자"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "본문으로 건너뛰기"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> 편집"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "기타"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "보존"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "문서:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr ""
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr ""
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "기타 소식"
+
