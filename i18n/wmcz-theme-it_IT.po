@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-05-26 12:32:26+0000\n"
+"PO-Revision-Date: 2025-06-12 13:11:26+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Oops! Impossibile trovare la pagina."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -213,7 +213,7 @@ msgstr "Nessun risultato"
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Pronto a pubblicare il tuo primo post? <a href=\"%1$s\">Comincia qui</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -221,7 +221,7 @@ msgstr "Spiacenti, ma non è stato trovato nulla corrispondente ai termini di ri
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Sembra che non riusciamo a trovare quello che stai cercando. Forse una ricerca potrebbe aiutarti."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
@@ -233,15 +233,15 @@ msgstr "Pagine:"
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Continua a leggere<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr ""
+msgstr "Vai a tutte le notizie"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "non taggato"
 
 #: untagged.php:19
 msgid "Other news"
