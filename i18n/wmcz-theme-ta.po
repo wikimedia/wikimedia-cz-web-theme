@@ -1,0 +1,247 @@
+# Translation of Theme to Tamil (தமிழ்)
+# Exported from translatewiki.net
+#
+# Author: Siddhan
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2025-08-07 12:31:12+0000\n"
+"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta\n"
+"Project-Id-Version: Theme\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.45.0-alpha; Translate 2025-07-31\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+msgid "WMCZ website"
+msgstr "WMCZ வலைத்தளம்"
+
+#. Description of the theme
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "WMCZ இன் வலைத்தளத்தில் பயன்படுத்தப்படும் விக்கிமீடியா செக் குடியரசு தீம்."
+
+#. Author of the theme
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "அய்யோ! அந்தப் பக்கத்தைக் கண்டுபிடிக்க முடியவில்லை."
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "இந்த இடத்தில் எதுவும் கண்டுபிடிக்கப்படவில்லை என்று தெரிகிறது."
+
+#: archive.php:56
+msgid "Return to all news"
+msgstr "அனைத்து செய்திகளுக்கும் திரும்பவும்"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "கருத்துக்கள் மூடப்பட்டுள்ளன."
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "மின்னஞ்சல்"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "தொலைபேசி"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "விக்கிப்பீடியா"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "விக்கிமீடியா பொதுவகம்"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "மீடியாவிக்கி"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "மெட்டா-விக்கி"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "விக்கியினங்கள்"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "விக்கிநூல்கள்"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "விக்கிமேனியா"
+
+#: footer.php:68
+msgid "Wikinews"
+msgstr "விக்கிசெய்திகள்"
+
+#: footer.php:69
+msgid "Wikiquote"
+msgstr "விக்கிமேற்கோள்"
+
+#: footer.php:70
+msgid "Wikisource"
+msgstr "விக்கிமூலம்"
+
+#: footer.php:71
+msgid "Wikiversity"
+msgstr "விக்கிபல்கலைக்கழகம்"
+
+#: footer.php:72
+msgid "Wiktionary"
+msgstr "விக்சனரி"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "முதன்மை"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "அடிக்குறிப்பு"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "பக்கப்பட்டி"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "விட்ஜெட்களை இங்கே சேர்க்கவும்."
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "ஆசிரியர்"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "செய்திமடலுக்கு குழுசேரவும்"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "உள்ளடக்கத்திற்குச் செல்"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "%s இல் பதிவிடப்பட்டது"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s மூலம்"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+msgid "Posted in %1$s"
+msgstr "%1$s இல் பதிவிடப்பட்டது"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr "குறியிடப்பட்டது %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s இல்</span> ஒரு கருத்தை இடுங்கள்"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> ஐத் திருத்து"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "மற்றவை"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "காப்பகம்"
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "தேடல் முடிவுகள்: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "எதுவும் கிடைக்கவில்லை"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "உங்கள் முதல் பதிவை வெளியிட தயாரா? <a href=\"%1$s\">இங்கே தொடங்கவும்</a>."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "மன்னிக்கவும், உங்கள் தேடல் வார்த்தைகளுடன் எதுவும் பொருந்தவில்லை. வேறு சில முக்கிய வார்த்தைகளுடன் மீண்டும் முயற்சிக்கவும்."
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "பக்கங்கள்:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\" ஐ</span> தொடர்ந்து படியுங்கள்"
+
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "அனைத்து செய்திகளுக்கும் செல்லவும்"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "குறியிடப்படாதது"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "மற்ற செய்திகள்"
+
