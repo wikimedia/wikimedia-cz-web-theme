@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-08-18 12:31:36+0000\n"
+"PO-Revision-Date: 2025-08-21 12:31:54+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -206,42 +206,42 @@ msgstr "Hasèl ka'angghuy: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Taḍâ' sè ètemmo"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Sanat materbi' komèntar sè kapèsan? <a href=\"%1$s\">Molaè è ḍinna'</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "Saporana, tapè taḍâ' sè cocok bi' sarèyanna bâ'na. Jhâjhâl polè ngangghuy oca' sè laèn."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Massè ta' kennèng èyangghâlaghi sarèyanna. Amè' pola sarèyan kennèng abhânto."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Kaca:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Paterros maca <span class=\"screen-reader-text\">%s</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr ""
+msgstr "Nojjhu ka kabbhi berta"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "ta' ètoraè"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Berta laènna"
 
