@@ -806,7 +806,7 @@ a:hover, a:active {
 }
 
 #menu-item-9268 {
-	background-color: --wiki-red;
+	background-color: var(--wiki-red);
 }
 
 #menu-item-9268:hover {
