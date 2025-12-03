@@ -805,19 +805,6 @@ a:hover, a:active {
 	float: right;
 }
 
-#menu-item-9268 {
-	background-color: var(--wiki-red);
-}
-
-#menu-item-9268:hover {
-	filter: brightness(80%);
-}
-
-#menu-item-9268 a {
-	color: white;
-	font-weight: bold;
-}
-
 @media screen and (min-width: 764px) {
 	.site-branding {
 		padding-top: 25px;
