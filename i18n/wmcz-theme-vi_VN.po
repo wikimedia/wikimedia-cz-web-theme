@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-12-11 12:34:52+0000\n"
+"PO-Revision-Date: 2025-12-15 12:36:12+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,7 +180,7 @@ msgstr "Đã gắn thẻ %1$s"
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Hãy để lại bình luận <span class=\"screen-reader-text\">về %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
@@ -224,23 +224,23 @@ msgstr "Có vẻ như chúng tôi không tìm thấy thứ bạn đang tìm ki�
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Trang :"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Tiếp tục đọc <span class=\"screen-reader-text\">\" %s \"</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr ""
+msgstr "Xem tất cả tin tức"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "Chưa được gắn thẻ"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Tin tức khác"
 
