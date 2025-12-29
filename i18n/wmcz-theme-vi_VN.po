@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-12-15 12:36:12+0000\n"
+"PO-Revision-Date: 2025-12-29 12:36:46+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,11 +18,11 @@ msgstr ""
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr "Trang web WMCZ"
+msgstr ""
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr "giao diện Wikimedia Cộng hòa Séc, được sử dụng trên trang web của WMCZ"
+msgstr ""
 
 #. Author of the theme
 #, optional
@@ -31,20 +31,20 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ôi! Không tìm thấy trang đó"
+msgstr ""
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "Có vẻ như không tìm thấy gì ở địa điểm này"
+msgstr ""
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr "Trở lại trang tin tức"
+msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Một ý kiến về \"%1$s\""
+msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
@@ -55,104 +55,104 @@ msgstr[0] ""
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "Chức năng bình luận đã bị tắt"
+msgstr ""
 
 #: footer.php:48
 msgid "E-mail"
-msgstr "Thư điện tử"
+msgstr ""
 
 #: footer.php:52
 msgid "Phone"
-msgstr "Điện thoại"
+msgstr ""
 
 #: footer.php:60
 msgid "Wikipedia"
-msgstr "Wikipedia"
+msgstr ""
 
 #: footer.php:61
 msgid "Wikimedia Commons"
-msgstr "Wikimedia Commons"
+msgstr ""
 
 #: footer.php:62
 msgid "MediaWiki"
-msgstr "Mediawiki"
+msgstr ""
 
 #: footer.php:63
 msgid "Meta-Wiki"
-msgstr "Meta- Wiki"
+msgstr ""
 
 #: footer.php:64
 msgid "Wikispecies"
-msgstr "Wikispecies"
+msgstr ""
 
 #: footer.php:65
 msgid "Wikibooks"
-msgstr "Wikibooks"
+msgstr ""
 
 #: footer.php:67
 msgid "Wikimania"
-msgstr "Wikimania"
+msgstr ""
 
 #: footer.php:68
 msgid "Wikinews"
-msgstr "Wikinews"
+msgstr ""
 
 #: footer.php:69
 msgid "Wikiquote"
-msgstr "Wkiquote"
+msgstr ""
 
 #: footer.php:70
 msgid "Wikisource"
-msgstr "Wikisource"
+msgstr ""
 
 #: footer.php:71
 msgid "Wikiversity"
-msgstr "Wikiversity"
+msgstr ""
 
 #: footer.php:72
 msgid "Wiktionary"
-msgstr "Wikitionary"
+msgstr ""
 
 #: functions.php:48
 msgid "Primary"
-msgstr "Primary"
+msgstr ""
 
 #: functions.php:49
 msgid "Footer"
-msgstr "Đường chân"
+msgstr ""
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr "Thanh bên"
+msgstr ""
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "Thêm tiện ích vào đây"
+msgstr ""
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "Tác giả"
+msgstr ""
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr "Theo dõi thư tin này"
+msgstr ""
 
 #: header.php:35
 msgid "Skip to content"
-msgstr "Bước qua nội dung"
+msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "Đăng vào %s"
+msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "Bởi %s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -163,7 +163,7 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "Đăng trong %1$s"
+msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -175,72 +175,72 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "Đã gắn thẻ %1$s"
+msgstr ""
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Hãy để lại bình luận <span class=\"screen-reader-text\">về %s</span>"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Chỉnh sửa <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
 
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr "Khác"
+msgstr ""
 
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr "Lưu trữ"
+msgstr ""
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Kết quả tìm kiếm cho :%s"
+msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "Không có gì."
+msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Sẵn sàng đăng bài viết đầu tiên của bạn chưa? <a href=\"<span class=\"notranslate\" translate=\"no\">%1$s \">Get started here</a> ."
+msgstr ""
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Rất tiếc, không có kết quả nào phù hợp với từ khóa tìm kiếm của bạn . Vui lòng thử lại với các từ khóa khác."
+msgstr ""
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Có vẻ như chúng tôi không tìm thấy thứ bạn đang tìm kiếm. Có lẽ chức năng tìm kiếm sẽ giúp ích cho bạn"
+msgstr ""
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "Trang :"
+msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Tiếp tục đọc <span class=\"screen-reader-text\">\" %s \"</span>"
+msgstr ""
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr "Xem tất cả tin tức"
+msgstr ""
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "Chưa được gắn thẻ"
+msgstr ""
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "Tin tức khác"
+msgstr ""
 
