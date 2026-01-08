@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-10-30 12:49:18+0000\n"
+"PO-Revision-Date: 2026-01-08 12:34:20+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "اووو! دا مخ نشي موندل کېدای"
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
@@ -68,11 +68,11 @@ msgstr "تليفون"
 
 #: footer.php:60
 msgid "Wikipedia"
-msgstr "ويکيپېډيا"
+msgstr "ويکي‌پېډيا"
 
 #: footer.php:61
 msgid "Wikimedia Commons"
-msgstr "ويکيمېډيا ټولواله"
+msgstr "ويکي‌‌رسنۍ خونديځ"
 
 #: footer.php:62
 msgid "MediaWiki"
