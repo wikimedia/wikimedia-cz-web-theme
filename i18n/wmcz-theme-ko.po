@@ -2,12 +2,13 @@
 # Exported from translatewiki.net
 #
 # Author: Suleiman the Magnificent Television
+# Author: Tensama0415
 # Author: YeBoy371
 # Author: Ykhwong
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2025-10-30 12:49:18+0000\n"
+"PO-Revision-Date: 2026-04-30 12:30:04+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,7 +66,7 @@ msgstr "이메일"
 
 #: footer.php:52
 msgid "Phone"
-msgstr "전화"
+msgstr "전화번호"
 
 #: footer.php:60
 msgid "Wikipedia"
