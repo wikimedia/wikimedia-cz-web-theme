@@ -1,31 +1,28 @@
-# Translation of Theme to Korean (한국어)
+# Translation of Theme to Galician (galego)
 # Exported from translatewiki.net
 #
-# Author: Suleiman the Magnificent Television
-# Author: Tensama0415
-# Author: YeBoy371
-# Author: Ykhwong
+# Author: Toliño
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-25 12:28:31+0000\n"
+"PO-Revision-Date: 2026-05-25 12:28:30+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
+"Language: gl\n"
 "Project-Id-Version: Theme\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 "X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Theme Name of the theme
 msgid "WMCZ website"
-msgstr "WMCZ 웹사이트"
+msgstr "Sitio web de WMCZ"
 
 #. Description of the theme
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr "위키미디어 체코 공화국 테마, WMCZ의 웹사이트에서 사용"
+msgstr "Tema da Wikimedia da República Checa, usado no sitio web de WMCZ"
 
 #. Author of the theme
 #, optional
@@ -34,128 +31,129 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "앗! 해당 페이지를 찾을 수 없습니다."
+msgstr "Vaites! Non se atopou a páxina."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr "이곳에서는 아무것도 없는 것 같습니다."
+msgstr "Semella que non se atopou nada nesta localización."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr "모든 뉴스로 돌아가기"
+msgstr "Volver a todas as novas"
 
 #. translators: 1: title.
 #: comments.php:38
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "&ldquo;%1$s&rdquo에 대한 한 생각:"
+msgstr "Unha reflexión sobre «%1$s»"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "&ldquo;%2$s&rdquo에 대한 %1$s개의 생각:"
+msgstr[0] "Unha reflexión sobre «%2$s»"
+msgstr[1] "%1$s reflexións sobre «%2$s»"
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr "댓글이 닫혔습니다."
+msgstr "Os comentarios están pechados."
 
 #: footer.php:48
 msgid "E-mail"
-msgstr "이메일"
+msgstr "Correo electrónico"
 
 #: footer.php:52
 msgid "Phone"
-msgstr "전화번호"
+msgstr "Teléfono"
 
 #: footer.php:60
 msgid "Wikipedia"
-msgstr "위키백과"
+msgstr "Wikipedia"
 
 #: footer.php:61
 msgid "Wikimedia Commons"
-msgstr "위키미디어 공용"
+msgstr "Wikimedia Commons"
 
 #: footer.php:62
 msgid "MediaWiki"
-msgstr "미디어위키"
+msgstr "MediaWiki"
 
 #: footer.php:63
 msgid "Meta-Wiki"
-msgstr "메타위키"
+msgstr "Meta-Wiki"
 
 #: footer.php:64
 msgid "Wikispecies"
-msgstr "위키생물종"
+msgstr "Wikispecies"
 
 #: footer.php:65
 msgid "Wikibooks"
-msgstr "위키책"
+msgstr "Wikilibros"
 
 #: footer.php:67
 msgid "Wikimania"
-msgstr "위키마니아"
+msgstr "Wikimanía"
 
 #: footer.php:68
 msgid "Wikinews"
-msgstr "위키뉴스"
+msgstr "Wikinovas"
 
 #: footer.php:69
 msgid "Wikiquote"
-msgstr "위키인용집"
+msgstr "Wikicitas"
 
 #: footer.php:70
 msgid "Wikisource"
-msgstr "위키문헌"
+msgstr "Wikifontes"
 
 #: footer.php:71
 msgid "Wikiversity"
-msgstr "위키배움터"
+msgstr "Wikiversidade"
 
 #: footer.php:72
 msgid "Wiktionary"
-msgstr "위키낱말사전"
+msgstr "Wikcionario"
 
 #: functions.php:48
 msgid "Primary"
-msgstr "주 언어"
+msgstr "Principal"
 
 #: functions.php:49
 msgid "Footer"
-msgstr "바닥글"
+msgstr "Pé de páxina"
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr "사이드바"
+msgstr "Barra lateral"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr "여기에 위젯을 추가하세요."
+msgstr "Engade complementos aquí."
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr "작성자"
+msgstr "Autor"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr "이 뉴스레터 구독"
+msgstr "Subscríbete ao boletín de novas"
 
 #: header.php:35
 msgid "Skip to content"
-msgstr "본문으로 건너뛰기"
+msgstr "Saltar ao contido"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "%s에 게시됨"
+msgstr "Publicado o %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
 msgctxt "post author"
 msgid "by %s"
-msgstr "작성자 %s"
+msgstr "por %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -166,84 +164,84 @@ msgstr ""
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
 msgid "Posted in %1$s"
-msgstr "%1$s에 게시됨"
+msgstr "Publicado en %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
 #, optional
 msgctxt "list item separator"
 msgid ", "
-msgstr ", "
+msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
 msgid "Tagged %1$s"
-msgstr "태그: %1$s"
+msgstr "Etiquetas: %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\">%s에</span> 댓글을 남겨주세요"
+msgstr "Deixa un comentario<span class=\"screen-reader-text\"> en «%s»</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span> 편집"
+msgstr "Editar <span class=\"screen-reader-text\">«%s»</span>"
 
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr "기타"
+msgstr "outro"
 
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr "보존"
+msgstr "Arquivo"
 
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "다음 검색어에 대한 검색 결과: %s"
+msgstr "Resultados da procura: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr "결과 없음"
+msgstr "Non se atopou nada"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "첫 게시글을 올릴 준비가 되셨나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+msgstr "Queres facer a túa primeira publicación? <a href=\"%1$s\">Comeza aquí</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "죄송합니다. 검색 조건과 일치하는 결과가 없습니다. 다른 키워드를 사용하여 다시 검색해 보세요."
+msgstr "Sentímolo, pero non hai coincidencias cos teus termos de procura. Inténtao de novo con outras palabras clave."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "찾으시는 내용을 찾을 수 없었습니다. 검색 기능을 이용해 보세요."
+msgstr "Semella que non puidemos atopar o que buscabas. Quizais a procura sexa de axuda."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr "문서:"
+msgstr "Páxinas:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "<span class=\"screen-reader-text\">\"%s\"</span> 계속 읽기"
+msgstr "Continuar lendo<span class=\"screen-reader-text\"> «%s»</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr "모든 뉴스로 이동"
+msgstr "Ir a todas as novas"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr "태그되지 않음"
+msgstr "sen etiquetas"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr "기타 소식"
+msgstr "Outras novas"
 
