@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:19+0000\n"
+"PO-Revision-Date: 2026-06-08 12:30:17+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -216,7 +216,7 @@ msgstr "Klaar om uw eerste bericht te publiceren?<a href=\"%1$s\">Begin hier </a
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Er zijn helaas geen resultaten gevonden met je zoekwoorden. Probeer het nog eens met een paar andere zoekwoorden."
+msgstr "Er zijn helaas geen resultaten gevonden met uw zoektermen. Probeer het nog eens met een paar andere zoekwoorden."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."

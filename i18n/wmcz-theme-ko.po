@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-25 12:28:31+0000\n"
+"PO-Revision-Date: 2026-06-08 12:30:17+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,7 +213,7 @@ msgstr "결과 없음"
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "첫 게시글을 올릴 준비가 되셨나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+msgstr "첫 게시물을 올릴 준비가 되셨나요? <a href=\"%1$s\">여기서 시작하세요</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
