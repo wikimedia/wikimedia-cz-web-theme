@@ -1,6 +1,7 @@
 # Translation of Theme to Russian (русский)
 # Exported from translatewiki.net
 #
+# Author: Amire80
 # Author: DDPAT
 # Author: Firapinch
 # Author: Ice bulldog
@@ -10,7 +11,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:20+0000\n"
+"PO-Revision-Date: 2026-06-11 12:30:38+0000\n"
 "X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -208,7 +209,7 @@ msgstr "Архив"
 #. translators: %s: search query.
 #: search.php:22
 msgid "Search Results for: %s"
-msgstr "Результаты поиска для: %s"
+msgstr "Результаты поиска %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
