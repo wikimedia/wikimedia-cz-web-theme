@@ -5,6 +5,7 @@
 # Author: Janbery
 # Author: Kareyac
 # Author: Martin Urbanec
+# Author: WikipedistaOndra
 # Author: YjM
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Theme\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2026-05-18 13:01:18+0000\n"
+"PO-Revision-Date: 2026-08-10 12:43:23+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -229,7 +230,7 @@ msgstr "Omlouváme se, ale nic neodpovídá vašim hledaným výrazům. Prosíme
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Perhaps searching can help."
+msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Možná by pomohlo vyhledávání."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
