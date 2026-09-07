@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:19+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:42+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
@@ -18,14 +18,17 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
 msgstr "האתר של ויקימדיה צ׳כיה (WMCZ)"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
 msgstr "ערכת העיצוב של ויקימדיה צ׳כיה, משמש את האתר של ויקימדיה צ׳כיה (WMCZ)"
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
@@ -44,11 +47,13 @@ msgstr "חזרה לכל החדשות"
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "מחשבה אחת על „%1$s”"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -96,24 +101,24 @@ msgid "Wikimania"
 msgstr "ויקימניה"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr "ויקיחדשות"
-
-#: footer.php:69
 msgid "Wikiquote"
 msgstr "ויקיציטוט"
 
-#: footer.php:70
+#: footer.php:69
 msgid "Wikisource"
 msgstr "ויקיטקסט"
 
-#: footer.php:71
+#: footer.php:70
 msgid "Wikiversity"
 msgstr "ויקיברסיטה"
 
-#: footer.php:72
+#: footer.php:71
 msgid "Wiktionary"
 msgstr "ויקימילון"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr "ויקימסע"
 
 #: functions.php:48
 msgid "Primary"
@@ -146,12 +151,14 @@ msgstr "דילוג לתוכן"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "פורסם ב־%s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "על ידי %s"
@@ -164,6 +171,7 @@ msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
 msgstr "פורסם ב־%1$s"
 
@@ -176,17 +184,20 @@ msgstr ", "
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
 msgstr "נוסף התיוג %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "לכתוב תגובה<span class=\"screen-reader-text\"> על %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "לערוך את <span class=\"screen-reader-text\">%s</span>"
 
@@ -202,6 +213,7 @@ msgstr "ארכיון"
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
 msgstr "תוצאות לחיפוש אחר: %s"
 
@@ -211,6 +223,7 @@ msgstr "לא נמצא דבר"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "נוכל לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">נתחיל מכאן</a>."
 
@@ -231,6 +244,7 @@ msgstr "דפים:"
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> ”%s„</span>"
 

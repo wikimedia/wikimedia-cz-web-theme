@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:19+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:43+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ku-Latn\n"
@@ -18,14 +18,17 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
 msgstr "Malpera WMCZê"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
 msgstr "temaya Wîkîmedya Komara Çekê, ku li malpera WMCZê hatiye bikaranîn"
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
@@ -44,11 +47,13 @@ msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "Fikrekê li ser &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -96,24 +101,24 @@ msgid "Wikimania"
 msgstr "Wikimania"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr "Wîkînûçe"
-
-#: footer.php:69
 msgid "Wikiquote"
 msgstr "Wîkîgotin"
 
-#: footer.php:70
+#: footer.php:69
 msgid "Wikisource"
 msgstr "Wîkîçavkanî"
 
-#: footer.php:71
+#: footer.php:70
 msgid "Wikiversity"
 msgstr "Wîkîzanîngeh"
 
-#: footer.php:72
+#: footer.php:71
 msgid "Wiktionary"
 msgstr "Wîkîferheng"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr ""
 
 #: functions.php:48
 msgid "Primary"
@@ -146,12 +151,14 @@ msgstr "Derbasî naverokê bibe"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Li ser %s hatiye weşandin"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "bi %s"
@@ -164,6 +171,7 @@ msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
 msgstr "Di %1$s de hatiye weşandin"
 
@@ -176,17 +184,20 @@ msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
 msgstr "%1$s hate etîketkirin"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Şîroveyekê berde<span class=\"screen-reader-text\"> li ser %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "<span class=\"screen-reader-text\">%s</span> biguherîne"
 
@@ -202,6 +213,7 @@ msgstr ""
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
 msgstr "Li encaman bigere ji bo %s"
 
@@ -211,6 +223,7 @@ msgstr "Tişt Nehat Dîtin"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Hazir î ku şandiya xwe ya yekem biweşînî? <a href=\"%1$s\">Ji vir dest pê bike</a>."
 
@@ -231,6 +244,7 @@ msgstr "Rûpel:"
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Dewam bike xwendinê<span class=\"screen-reader-text\"> \"%s\"</span>"
 

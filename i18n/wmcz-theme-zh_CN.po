@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:20+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:44+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_cn\n"
@@ -22,14 +22,17 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
 msgstr "WMCZ网站"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
 msgstr "捷克维基媒体主题，在WMCZ网站使用"
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
@@ -48,11 +51,13 @@ msgstr "返回所有新闻"
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "关于&ldquo;%1$s&rdquo;的一个想法"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -99,24 +104,24 @@ msgid "Wikimania"
 msgstr "维基媒体国际会议"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr "维基新闻"
-
-#: footer.php:69
 msgid "Wikiquote"
 msgstr "维基语录"
 
-#: footer.php:70
+#: footer.php:69
 msgid "Wikisource"
 msgstr "维基文库"
 
-#: footer.php:71
+#: footer.php:70
 msgid "Wikiversity"
 msgstr "维基学院"
 
-#: footer.php:72
+#: footer.php:71
 msgid "Wiktionary"
 msgstr "维基词典"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr "维基导游"
 
 #: functions.php:48
 msgid "Primary"
@@ -149,12 +154,14 @@ msgstr "跳转到正文"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "发布于%s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "由%s"
@@ -167,6 +174,7 @@ msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
 msgstr "发布于%1$s"
 
@@ -179,17 +187,20 @@ msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
 msgstr "已标记%1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "在<span class=\"screen-reader-text\">%s</span>留下评论"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "编辑 <span class=\"screen-reader-text\">%s</span>"
 
@@ -205,6 +216,7 @@ msgstr "存档"
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
 msgstr "搜索结果：%s"
 
@@ -214,6 +226,7 @@ msgstr "没有可用的结果"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "准备好发布您的第一篇帖子了吗？<a href=\"%1$s\">点此开始</a>。"
 
@@ -234,6 +247,7 @@ msgstr "页面："
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "上次进度：<span class=\"screen-reader-text\">%s</span>"
 

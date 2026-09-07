@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:20+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:44+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
@@ -21,14 +21,17 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
 msgstr "Веб-сайт WMCZ"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
 msgstr "Тема Вікімедіа Чеська Республіка, використовується на веб-сайті WMCZ"
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
@@ -47,11 +50,13 @@ msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "Одна думка про «1$»;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -100,24 +105,24 @@ msgid "Wikimania"
 msgstr "Вікіманія"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr "Вікіновини"
-
-#: footer.php:69
 msgid "Wikiquote"
 msgstr "Вікіцитати"
 
-#: footer.php:70
+#: footer.php:69
 msgid "Wikisource"
 msgstr "Вікіджерела"
 
-#: footer.php:71
+#: footer.php:70
 msgid "Wikiversity"
 msgstr "Віківерситет"
 
-#: footer.php:72
+#: footer.php:71
 msgid "Wiktionary"
 msgstr "Вікісловник"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr ""
 
 #: functions.php:48
 msgid "Primary"
@@ -150,12 +155,14 @@ msgstr "Перейти до змісту"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Опубліковано в %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "від %s"
@@ -168,6 +175,7 @@ msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
 msgstr "Опубліковано у %1$s"
 
@@ -180,17 +188,20 @@ msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
 msgstr "Теговано %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Залишити коментар<span class=\"screen-reader-text\">на %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Редагувати<span class=\"screen-reader-text\">%s</span>"
 
@@ -206,6 +217,7 @@ msgstr "Архів"
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
 msgstr "Результати пошуку для: %s"
 
@@ -215,6 +227,7 @@ msgstr "Нічого не знайдено"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Готові опублікувати своє перше повідомлення? <a href=\"%1$s\">Почніть тут</a>."
 
@@ -235,6 +248,7 @@ msgstr "Сторінки:"
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Продовжити читання<span class=\"screen-reader-text\"> \"%s\"</span>"
 

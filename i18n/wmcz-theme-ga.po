@@ -1,158 +1,169 @@
-# Translation of Theme to Vietnamese (Tiếng Việt)
+# Translation of Theme to Irish (Gaeilge)
 # Exported from translatewiki.net
 #
-# Author: Duongvu
+# Author: Aindriu80
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:20+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:42+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi_vn\n"
+"Language: ga\n"
 "Project-Id-Version: Theme\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 "X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=5; plural=(n == 1) ? 0 : ( (n == 2) ? 1 : ( (n < 7) ? 2 : ( (n < 11) ? 3 : 4 ) ) );\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
-msgstr ""
+msgstr "Suíomh Gréasáin WMCZ"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
-msgstr ""
+msgstr "Téama Wikimedia Poblacht na Seice, a úsáidtear ar shuíomh gréasáin WMCZ"
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Úps! Ní féidir an leathanach sin a fháil."
 
 #: 404.php:22
 msgid "It looks like nothing was found at this location."
-msgstr ""
+msgstr "Is cosúil nach bhfuarthas aon rud ag an suíomh seo."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Fill ar ais chuig na nuachtáin uile"
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr ""
+msgstr "Smaoineamh amháin ar &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
+msgstr[0] "\n%1$s smaoineamh ar &ldquo;%2$s&rdquo;"
+msgstr[1] "\n%1$s smaoineamh ar &ldquo;%2$s&rdquo;"
+msgstr[2] "\n%1$s smaoineamh ar &ldquo;%2$s&rdquo;"
+msgstr[3] "\n%1$s smaoineamh ar &ldquo;%2$s&rdquo;"
+msgstr[4] "\n%1$s smaoineamh ar &ldquo;%2$s&rdquo;"
 
 #: comments.php:69
 msgid "Comments are closed."
-msgstr ""
+msgstr "Tá na tuairimí dúnta."
 
 #: footer.php:48
 msgid "E-mail"
-msgstr ""
+msgstr "Ríomhphost"
 
 #: footer.php:52
 msgid "Phone"
-msgstr ""
+msgstr "Guthán"
 
 #: footer.php:60
 msgid "Wikipedia"
-msgstr ""
+msgstr "Vicipéid"
 
 #: footer.php:61
 msgid "Wikimedia Commons"
-msgstr ""
+msgstr "Commons Wikimedia"
 
 #: footer.php:62
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: footer.php:63
 msgid "Meta-Wiki"
-msgstr ""
+msgstr "Meta-Vicí"
 
 #: footer.php:64
 msgid "Wikispecies"
-msgstr ""
+msgstr "Vicíspeiceas"
 
 #: footer.php:65
 msgid "Wikibooks"
-msgstr ""
+msgstr "Vicíleabhair"
 
 #: footer.php:67
 msgid "Wikimania"
-msgstr ""
+msgstr "Wikimania"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr ""
+msgid "Wikiquote"
+msgstr "Vicílua"
 
 #: footer.php:69
-msgid "Wikiquote"
-msgstr ""
+msgid "Wikisource"
+msgstr "Vicífhoinse"
 
 #: footer.php:70
-msgid "Wikisource"
-msgstr ""
+msgid "Wikiversity"
+msgstr "Wikiversity"
 
 #: footer.php:71
-msgid "Wikiversity"
-msgstr ""
+msgid "Wiktionary"
+msgstr "Vicífhoclóir"
 
 #: footer.php:72
-msgid "Wiktionary"
+msgid "Wikivoyage"
 msgstr ""
 
 #: functions.php:48
 msgid "Primary"
-msgstr ""
+msgstr "Príomhúil"
 
 #: functions.php:49
 msgid "Footer"
-msgstr ""
+msgstr "Buntásc"
 
 #: functions.php:110
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra taobh"
 
 #: functions.php:112
 msgid "Add widgets here."
-msgstr ""
+msgstr "Cuir giuirléidí leis anseo."
 
 #: functions.php:180
 #: functions.php:202
 msgid "Author"
-msgstr ""
+msgstr "Údar"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Liostáil leis an nuachtlitir"
 
 #: header.php:35
 msgid "Skip to content"
-msgstr ""
+msgstr "Léim go dtí an t-ábhar"
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Postáilte ar %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "faoi ​​%s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:62
@@ -162,8 +173,9 @@ msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Postáilte i %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:69
@@ -174,73 +186,79 @@ msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Clibeáilte %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "Fág Trácht<span class=\"screen-reader-text\"> ar %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "Cuir <span class=\"screen-reader-text\">%s in eagar</span>"
 
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr ""
+msgstr "eile"
 
 #: index.php:24
 #: index.php:65
 msgid "Archive"
-msgstr ""
+msgstr "Cartlann"
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Torthaí Cuardaigh le haghaidh: %s"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Ní bhfuarthas aon rud"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Réidh le do chéad phost a fhoilsiú? <a href=\"%1$s\">Tosaigh anseo</a>."
 
 #: template-parts/content-none.php:37
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
+msgstr "Tá brón orm, ach níor aimsíodh aon rud a chomhlíon do théarmaí cuardaigh. Déan iarracht arís le heochairfhocail dhifriúla."
 
 #: template-parts/content-none.php:44
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
+msgstr "Is cosúil nach féidir linn a bhfuil á lorg agat a fháil. B’fhéidir go mbeadh cuardach ina chuidiú."
 
 #: template-parts/content-page.php:30
 #: template-parts/content-snip.php:43
 #: template-parts/content.php:50
 msgid "Pages:"
-msgstr ""
+msgstr "Leathanaigh:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "Lean ort ag léamh<span class=\"screen-reader-text\"> \"%s\"</span>"
 
 #: template-parts/content.php:72
 msgid "Go to all news"
-msgstr ""
+msgstr "Téigh chuig na nuachtáin uile"
 
 #. Template Name of the theme
 msgid "untagged"
-msgstr ""
+msgstr "gan chlib"
 
 #: untagged.php:19
 msgid "Other news"
-msgstr ""
+msgstr "Nuacht eile"
 

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-05-18 13:01:19+0000\n"
-"X-POT-Import-Date: 2023-10-09 14:30:36+0000\n"
+"PO-Revision-Date: 2026-09-07 12:39:42+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
@@ -17,14 +17,17 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #. Theme Name of the theme
+#: style.css
 msgid "WMCZ website"
 msgstr "Situs web WMCZ"
 
 #. Description of the theme
+#: style.css
 msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
 msgstr ""
 
 #. Author of the theme
+#: style.css
 #, optional
 msgid "Martin Urbanec"
 msgstr ""
@@ -43,11 +46,13 @@ msgstr ""
 
 #. translators: 1: title.
 #: comments.php:38
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:44
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -94,24 +99,24 @@ msgid "Wikimania"
 msgstr "Wikimania"
 
 #: footer.php:68
-msgid "Wikinews"
-msgstr "Wikiberita"
-
-#: footer.php:69
 msgid "Wikiquote"
 msgstr "Wikikutip"
 
-#: footer.php:70
+#: footer.php:69
 msgid "Wikisource"
 msgstr "Wikisumber"
 
-#: footer.php:71
+#: footer.php:70
 msgid "Wikiversity"
 msgstr "Wikiversitas"
 
-#: footer.php:72
+#: footer.php:71
 msgid "Wiktionary"
 msgstr "Wikikamus"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr ""
 
 #: functions.php:48
 msgid "Primary"
@@ -144,12 +149,14 @@ msgstr ""
 
 #. translators: %s: post date.
 #: inc/template-tags.php:29
+#, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
 #. translators: %s: post author.
 #: inc/template-tags.php:45
+#, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "oleh %s"
@@ -162,6 +169,7 @@ msgstr ""
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:65
+#, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
@@ -174,17 +182,20 @@ msgstr ""
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:72
+#, php-format
 msgid "Tagged %1$s"
 msgstr ""
 
 #. translators: %s: post title
 #: inc/template-tags.php:82
+#, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:99
 #: template-parts/content-page.php:43
+#, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
@@ -200,6 +211,7 @@ msgstr "Arsip"
 
 #. translators: %s: search query.
 #: search.php:22
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -209,6 +221,7 @@ msgstr ""
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
@@ -229,6 +242,7 @@ msgstr ""
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-snip.php:32
 #: template-parts/content.php:39
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
