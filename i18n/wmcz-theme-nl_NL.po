@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-09-07 12:39:43+0000\n"
+"PO-Revision-Date: 2026-09-10 12:10:45+0000\n"
 "X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -118,7 +118,7 @@ msgstr "WikiWoordenboek"
 
 #: footer.php:72
 msgid "Wikivoyage"
-msgstr ""
+msgstr "Wikivoyage"
 
 #: functions.php:48
 msgid "Primary"
