@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: Ignatgg
+# Author: KormiSK
 # Author: Yardom78
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-10-15 12:07:13+0000\n"
+"PO-Revision-Date: 2026-10-19 13:51:51+0000\n"
 "X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +44,7 @@ msgstr "Vyzerá to, že sa tu nič nenachádza."
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Späť na všetky novinky"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -119,7 +120,7 @@ msgstr "Wikislovník"
 
 #: footer.php:72
 msgid "Wikivoyage"
-msgstr ""
+msgstr "Wikicesty"
 
 #: functions.php:48
 msgid "Primary"
@@ -144,7 +145,7 @@ msgstr "Autor"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Prihláste sa na odber noviniek"
 
 #: header.php:35
 msgid "Skip to content"

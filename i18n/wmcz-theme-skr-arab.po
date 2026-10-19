@@ -1,0 +1,262 @@
+# Translation of Theme to Saraiki (Arabic script) (سرائیکی)
+# Exported from translatewiki.net
+#
+# Author: Saraiki
+# Author: Tauqeerkhansurani
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2026-10-19 13:51:51+0000\n"
+"X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: skr-Arab\n"
+"Project-Id-Version: Theme\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "WMCZ website"
+msgstr "WMCZ ویب سائٹ"
+
+#. Description of the theme
+#: style.css
+msgid "Wikimedia Czech Republic theme, used at WMCZ's website"
+msgstr "وکیمیڈیا جمہوریہ چیک تھیم، WMCZ دی ویب سائٹ تے ورتیا ویندا ہے"
+
+#. Author of the theme
+#: style.css
+#, optional
+msgid "Martin Urbanec"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوہو! اوہ صفحہ نئیں مل سڳیا۔"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr "اینجھا لڳدا ہے جو ایندا جڳہ تے کجھ نئیں ملیا۔"
+
+#: archive.php:56
+msgid "Return to all news"
+msgstr "تمام خبراں تے واپس جاؤ"
+
+#. translators: 1: title.
+#: comments.php:38
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "&ldquo;%1$s&rdquo; تے ہک خیال"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s خیال &ldquo;%2$s&rdquo; تے"
+msgstr[1] "%1$s خیال &ldquo;%2$s&rdquo; تے"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "تبصرے بند ہن۔"
+
+#: footer.php:48
+msgid "E-mail"
+msgstr "ای میل"
+
+#: footer.php:52
+msgid "Phone"
+msgstr "فون"
+
+#: footer.php:60
+msgid "Wikipedia"
+msgstr "ویکیپیڈیا"
+
+#: footer.php:61
+msgid "Wikimedia Commons"
+msgstr "وکیمیڈیا کامنز"
+
+#: footer.php:62
+msgid "MediaWiki"
+msgstr "میڈیا وکی"
+
+#: footer.php:63
+msgid "Meta-Wiki"
+msgstr "میٹا وکی"
+
+#: footer.php:64
+msgid "Wikispecies"
+msgstr "ویکی اسپیشیز"
+
+#: footer.php:65
+msgid "Wikibooks"
+msgstr "ویکی بکس"
+
+#: footer.php:67
+msgid "Wikimania"
+msgstr "ویکی مانیا"
+
+#: footer.php:68
+msgid "Wikiquote"
+msgstr "ویکی کوٹ"
+
+#: footer.php:69
+msgid "Wikisource"
+msgstr "ویکی سورس"
+
+#: footer.php:70
+msgid "Wikiversity"
+msgstr "ویکی ورسٹی"
+
+#: footer.php:71
+msgid "Wiktionary"
+msgstr "وکشنری"
+
+#: footer.php:72
+msgid "Wikivoyage"
+msgstr "ویکی سفر"
+
+#: functions.php:48
+msgid "Primary"
+msgstr "پرائمری"
+
+#: functions.php:49
+msgid "Footer"
+msgstr "فوٹر"
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr "سائڈ بار"
+
+#: functions.php:112
+msgid "Add widgets here."
+msgstr "ایتھے وجٹس شامل کرو۔"
+
+#: functions.php:180
+#: functions.php:202
+msgid "Author"
+msgstr "مصنف"
+
+#: header.php:32
+msgid "Subscribe to the newsletter"
+msgstr "نیوزلیٹر دی رکنیت گھنو"
+
+#: header.php:35
+msgid "Skip to content"
+msgstr "مواد تے جاؤ"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "%s تے پوسٹ کیتا ڳیا"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "%s ولوں"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+#, optional
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "%1$s وچ پوسٹ کیتا ڳیا"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+#, optional
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "%1$s ٹیگ کیتا ڳیا"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "تبصرہ چھوڑو<span class=\"screen-reader-text\"> %s تے</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#: template-parts/content-page.php:43
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ترمیم کرو<span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:157
+#: index.php:35
+msgid "other"
+msgstr "بیا"
+
+#: index.php:24
+#: index.php:65
+msgid "Archive"
+msgstr "آرکائیو"
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "%s کیتے ڳول دے نتیجے:"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "کجھ نئیں ملیا"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "اپنی پہلی پوسٹ شائع کرݨ کیتے تیار او؟ <a href=\"%1$s\">ایتھے شروع کرو</a>۔"
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "معاف کرو، تہاݙے ڳولݨ آلیاں ڳالھیں نال کجھ نئیں ملیا۔ کجھ بیا لفظ ورت کے ٻیا کوشش کرو۔"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "اینجھا لڳدا ہے جو اساں او نئیں ڳول سڳدے جیندے پچھے تساں او۔ شاید ڳول کرݨ نال مدد مل سڳدی ہے۔"
+
+#: template-parts/content-page.php:30
+#: template-parts/content-snip.php:43
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr "صفحے:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-snip.php:32
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "پڑھݨا جاری رکھو<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content.php:72
+msgid "Go to all news"
+msgstr "تمام خبراں تے جاؤ"
+
+#. Template Name of the theme
+msgid "untagged"
+msgstr "بے ٹیگ"
+
+#: untagged.php:19
+msgid "Other news"
+msgstr "بیا خبراں"
+
