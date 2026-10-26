@@ -5,6 +5,7 @@
 # Author: Janbery
 # Author: Kareyac
 # Author: Martin Urbanec
+# Author: Mormegil
 # Author: WikipedistaOndra
 # Author: YjM
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Theme\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2020-11-03T16:33:27+01:00\n"
-"PO-Revision-Date: 2026-10-15 12:07:12+0000\n"
+"PO-Revision-Date: 2026-10-26 12:06:20+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: cs_cz\n"
@@ -128,7 +129,7 @@ msgstr "Wikislovník"
 
 #: footer.php:72
 msgid "Wikivoyage"
-msgstr ""
+msgstr "Wikicesty"
 
 #: functions.php:48
 msgid "Primary"
