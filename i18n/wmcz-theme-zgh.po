@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-11-12 12:07:36+0000\n"
+"PO-Revision-Date: 2026-11-23 12:07:08+0000\n"
 "X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -203,7 +203,7 @@ msgstr ""
 #: inc/template-tags.php:157
 #: index.php:35
 msgid "other"
-msgstr ""
+msgstr "ⵡⴰⵢⴹ"
 
 #: index.php:24
 #: index.php:65
@@ -218,7 +218,7 @@ msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "ⴰⵎⵢⴰ ⵓⵔ ⵉⵜⵜⵓⵢⴰⴼⴰ"
 
 #. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:24

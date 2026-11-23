@@ -6,10 +6,11 @@
 # Author: Ice bulldog
 # Author: Ignatgg
 # Author: Kareyac
+# Author: Repakr
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2026-10-15 12:07:13+0000\n"
+"PO-Revision-Date: 2026-11-23 12:07:08+0000\n"
 "X-POT-Import-Date: 2026-09-07 04:31:32+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +47,7 @@ msgstr "Схоже, на цьому місці нічого не знайшли.
 
 #: archive.php:56
 msgid "Return to all news"
-msgstr ""
+msgstr "Повернутися до всіх новин"
 
 #. translators: 1: title.
 #: comments.php:38
@@ -122,7 +123,7 @@ msgstr "Вікісловник"
 
 #: footer.php:72
 msgid "Wikivoyage"
-msgstr ""
+msgstr "Вікімандри"
 
 #: functions.php:48
 msgid "Primary"
@@ -147,7 +148,7 @@ msgstr "Автор"
 
 #: header.php:32
 msgid "Subscribe to the newsletter"
-msgstr ""
+msgstr "Підписатися на розсилку новин"
 
 #: header.php:35
 msgid "Skip to content"
